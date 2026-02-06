@@ -107,9 +107,9 @@ class JobFilter:
             if exp_level in text:
                 return True
         
-        # Check for patterns that indicate too much experience (e.g., "5+ years", "senior")
+        # Check for patterns that indicate too much experience (e.g., "4+ years", "senior")
         senior_patterns = [
-            r'\b[5-9]\+\s*(years?|yrs?)\b',
+            r'\b[4-9]\+\s*(years?|yrs?)\b',
             r'\b(1[0-9]|[2-9][0-9])\+\s*(years?|yrs?)\b',
             r'\bsenior\b',
             r'\blead\b',
@@ -123,8 +123,8 @@ class JobFilter:
                 return False
         
         # If experience is mentioned but doesn't match our criteria, check if it's reasonable
-        # Look for "1 year", "2 years", etc. (1-4 years is acceptable)
-        reasonable_exp = re.search(r'\b([1-4])\s*(years?|yrs?)\b', text)
+        # Look for "1 year", "2 years", etc. (1-3 years is acceptable)
+        reasonable_exp = re.search(r'\b([1-3])\s*(years?|yrs?)\b', text)
         if reasonable_exp:
             return True
         

@@ -20,13 +20,13 @@ class NaukriScraper(BaseScraper):
         super().__init__()
         self.base_url = "https://www.naukri.com"
     
-    def scrape(self, keywords: List[str] = None, experience: str = "0-1", max_results: int = 100) -> List[Dict]:
+    def scrape(self, keywords: List[str] = None, experience: str = "0-3", max_results: int = 100) -> List[Dict]:
         """
         Scrape jobs from Naukri.com.
         
         Args:
             keywords: List of search keywords (default: SEARCH_TERMS)
-            experience: Experience range (default: 0-1 for fresher/1+ years)
+            experience: Experience range (default: 0-3 for fresher–3 years)
             max_results: Maximum number of results to fetch
             
         Returns:

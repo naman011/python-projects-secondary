@@ -1,15 +1,42 @@
 """Configuration settings for the job scraper."""
 
-# Search terms for Software Engineer roles
+# Search terms for tech roles (product/startup friendly, 0–3 years)
 SEARCH_TERMS = [
+    # Core SWE
     "software engineer",
-    "sde",
     "software developer",
+    "software development engineer",
+    "sde",
+    "sde 1",
+    "sde i",
+    "junior software engineer",
+    "graduate software engineer",
+    # Backend / frontend / full stack
     "backend engineer",
-    "full stack engineer",
+    "backend developer",
     "frontend engineer",
+    "frontend developer",
+    "full stack engineer",
     "fullstack engineer",
-    "software development engineer"
+    "full stack developer",
+    # Platform / devops / sre
+    "platform engineer",
+    "devops engineer",
+    "site reliability engineer",
+    "sre",
+    # Data / ml
+    "data engineer",
+    "analytics engineer",
+    "machine learning engineer",
+    "ml engineer",
+    "data scientist",
+    # Mobile
+    "android engineer",
+    "android developer",
+    "ios engineer",
+    "ios developer",
+    "mobile engineer",
+    "mobile developer",
 ]
 
 # Location filters - India and Remote
@@ -34,14 +61,20 @@ INDIA_LOCATIONS = [
     "ahmedabad",
 ]
 
-# Experience levels to include
+# Experience levels to include (fresher – 3 years)
 EXPERIENCE_LEVELS = [
     "fresher",
     "0 years",
     "0-1 years",
-    "1+ years",
+    "0-2 years",
+    "0-3 years",
+    "1 year",
+    "1 years",
     "1-2 years",
-    "1-3 years"
+    "1-3 years",
+    "2 years",
+    "2-3 years",
+    "3 years",
 ]
 
 # Roles to exclude (internships)
@@ -69,3 +102,6 @@ CSV_OUTPUT_FILE = "data/jobs.csv"
 CSV_HISTORY_DIR = "data/job_runs"
 
 MAX_DESCRIPTION_LENGTH = 500  # Truncate description if longer
+
+# Extra job boards (some are gated behind login/anti-bot and are disabled by default)
+ENABLE_GATED_SCRAPERS = False

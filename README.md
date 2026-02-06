@@ -64,6 +64,32 @@ Each run produces:
 - An aggregate CSV: `data/jobs.csv`
 - A timestamped snapshot in `data/job_runs/`, for example: `data/job_runs/jobs_20260206_153000.csv`
 
+## Sources
+
+This scraper aggregates jobs from:
+
+- Company career pages (from `data/companies.json`)
+- LinkedIn
+- Naukri
+- Indeed
+- RemoteOK
+- We Work Remotely
+- Remotive
+- Himalayas
+
+### Gated sources (disabled by default)
+
+Some popular job boards are **login / anti-bot gated** and are **disabled by default** to keep runs stable:
+
+- Wellfound (AngelList Talent)
+- Cutshort
+- Instahyre
+- Hirist / iimjobs
+- Arc.dev
+- FlexJobs
+
+To attempt enabling them, set `ENABLE_GATED_SCRAPERS = True` in `utils/config.py` (expect frequent breakage and blocking).
+
 To use this automation:
 
 1. Push the repo (with the workflow file) to GitHub.

@@ -7,9 +7,21 @@ from scrapers.company_careers_scraper import CompanyCareersScraper
 from scrapers.linkedin_scraper import LinkedInScraper
 from scrapers.naukri_scraper import NaukriScraper
 from scrapers.indeed_scraper import IndeedScraper
+from scrapers.remoteok_scraper import RemoteOKScraper
+from scrapers.weworkremotely_scraper import WeWorkRemotelyScraper
+from scrapers.remotive_scraper import RemotiveScraper
+from scrapers.himalayas_scraper import HimalayasScraper
+from scrapers.gated_scrapers import (
+    WellfoundScraper,
+    CutshortScraper,
+    InstahyreScraper,
+    HiristIIMJobsScraper,
+    ArcScraper,
+    FlexJobsScraper,
+)
 from filters.job_filter import JobFilter
 from utils.csv_writer import CSVWriter
-from utils.config import CSV_HISTORY_DIR
+from utils.config import CSV_HISTORY_DIR, ENABLE_GATED_SCRAPERS
 
 logging.basicConfig(
     level=logging.INFO,
@@ -31,6 +43,21 @@ def main():
         linkedin_scraper = LinkedInScraper()
         naukri_scraper = NaukriScraper()
         indeed_scraper = IndeedScraper()
+        remoteok_scraper = RemoteOKScraper()
+        wwr_scraper = WeWorkRemotelyScraper()
+        remotive_scraper = RemotiveScraper()
+        himalayas_scraper = HimalayasScraper()
+
+        gated_scrapers = []
+        if ENABLE_GATED_SCRAPERS:
+            gated_scrapers = [
+                WellfoundScraper(),
+                CutshortScraper(),
+                InstahyreScraper(),
+                HiristIIMJobsScraper(),
+                ArcScraper(),
+                FlexJobsScraper(),
+            ]
         job_filter = JobFilter()
         csv_writer = CSVWriter()
     except Exception as e:
@@ -99,6 +126,68 @@ def main():
         logger.error(f"Error scraping Indeed: {e}")
         print(f"   Error: {e}")
     print()
+
+    # 5. RemoteOK
+    print("5. Scraping RemoteOK...")
+    print("-" * 60)
+    try:
+        remoteok_jobs = remoteok_scraper.scrape(max_results=100)
+        all_jobs.extend(remoteok_jobs)
+        print(f"   Found {len(remoteok_jobs)} jobs from RemoteOK")
+    except Exception as e:
+        logger.error(f"Error scraping RemoteOK: {e}")
+        print(f"   Error: {e}")
+    print()
+
+    # 6. We Work Remotely
+    print("6. Scraping We Work Remotely...")
+    print("-" * 60)
+    try:
+        wwr_jobs = wwr_scraper.scrape(max_results=100)
+        all_jobs.extend(wwr_jobs)
+        print(f"   Found {len(wwr_jobs)} jobs from We Work Remotely")
+    except Exception as e:
+        logger.error(f"Error scraping We Work Remotely: {e}")
+        print(f"   Error: {e}")
+    print()
+
+    # 7. Remotive
+    print("7. Scraping Remotive...")
+    print("-" * 60)
+    try:
+        remotive_jobs = remotive_scraper.scrape(max_results=100)
+        all_jobs.extend(remotive_jobs)
+        print(f"   Found {len(remotive_jobs)} jobs from Remotive")
+    except Exception as e:
+        logger.error(f"Error scraping Remotive: {e}")
+        print(f"   Error: {e}")
+    print()
+
+    # 8. Himalayas
+    print("8. Scraping Himalayas...")
+    print("-" * 60)
+    try:
+        himalayas_jobs = himalayas_scraper.scrape(max_results=100)
+        all_jobs.extend(himalayas_jobs)
+        print(f"   Found {len(himalayas_jobs)} jobs from Himalayas")
+    except Exception as e:
+        logger.error(f"Error scraping Himalayas: {e}")
+        print(f"   Error: {e}")
+    print()
+
+    # 9. Gated sources (disabled by default)
+    if gated_scrapers:
+        print("9. Scraping gated sources (enabled)...")
+        print("-" * 60)
+        for scraper in gated_scrapers:
+            try:
+                jobs = scraper.scrape(max_results=50)
+                all_jobs.extend(jobs)
+                print(f"   Found {len(jobs)} jobs from {scraper.__class__.__name__}")
+            except Exception as e:
+                logger.error(f"Error scraping {scraper.__class__.__name__}: {e}")
+                print(f"   Error: {e}")
+        print()
     
     print("=" * 60)
     print(f"Total jobs scraped from all sources: {len(all_jobs)}")
