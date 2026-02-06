@@ -64,6 +64,11 @@ jobs:
 
           cd /tmp/csv-history
 
+          # Cleanup: keep only last ~15 days of per-run CSVs (by file mtime)
+          if [ -d "data/job_runs" ]; then
+            find data/job_runs -type f -name "jobs_*.csv" -mtime +15 -print -delete || true
+          fi
+
           git add data/job_runs data/jobs.csv || true
           if git diff --cached --quiet; then
             echo "No CSV changes to commit."
