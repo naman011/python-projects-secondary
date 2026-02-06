@@ -1,0 +1,752 @@
+{
+  "Flipkart": {
+    "career_url": "https://www.flipkartcareers.com/#!/joblist",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde", "software developer"]
+  },
+  "Zomato": {
+    "career_url": "https://www.zomato.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde", "developer"]
+  },
+  "Swiggy": {
+    "career_url": "https://careers.swiggy.com/#/",
+    "scraper_type": "greenhouse",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Razorpay": {
+    "career_url": "https://razorpay.com/jobs/",
+    "scraper_type": "greenhouse",
+    "search_terms": ["software engineer", "sde", "developer"]
+  },
+  "Paytm": {
+    "career_url": "https://paytm.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "PhonePe": {
+    "career_url": "https://www.phonepe.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Ola": {
+    "career_url": "https://www.olacabs.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "OYO": {
+    "career_url": "https://www.oyorooms.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "MakeMyTrip": {
+    "career_url": "https://careers.makemytrip.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Myntra": {
+    "career_url": "https://careers.myntra.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Cred": {
+    "career_url": "https://cred.club/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Freshworks": {
+    "career_url": "https://www.freshworks.com/company/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Zoho": {
+    "career_url": "https://www.zoho.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Thoughtworks": {
+    "career_url": "https://www.thoughtworks.com/careers/jobs",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Atlassian": {
+    "career_url": "https://www.atlassian.com/company/careers/all-jobs",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Amazon": {
+    "career_url": "https://www.amazon.jobs/en/",
+    "scraper_type": "custom",
+    "search_terms": ["software development engineer", "sde"]
+  },
+  "Microsoft": {
+    "career_url": "https://careers.microsoft.com/us/en/search-results",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Google": {
+    "career_url": "https://careers.google.com/jobs/results/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer"]
+  },
+  "Uber": {
+    "career_url": "https://www.uber.com/careers/list/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer"]
+  },
+  "Grab": {
+    "career_url": "https://grab.careers/jobs",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer"]
+  },
+  "ShareChat": {
+    "career_url": "https://sharechat.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Dream11": {
+    "career_url": "https://www.dream11.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Rivigo": {
+    "career_url": "https://www.rivigo.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "BigBasket": {
+    "career_url": "https://www.bigbasket.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "PolicyBazaar": {
+    "career_url": "https://www.policybazaar.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "InMobi": {
+    "career_url": "https://www.inmobi.com/company/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Practo": {
+    "career_url": "https://www.practo.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Quikr": {
+    "career_url": "https://www.quikr.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Delhivery": {
+    "career_url": "https://www.delhivery.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Rapido": {
+    "career_url": "https://www.rapido.bike/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Urban Company": {
+    "career_url": "https://www.urbancompany.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Meesho": {
+    "career_url": "https://careers.meesho.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "NoBroker": {
+    "career_url": "https://www.nobroker.in/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Lenskart": {
+    "career_url": "https://www.lenskart.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "FirstCry": {
+    "career_url": "https://www.firstcry.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Byju's": {
+    "career_url": "https://byjus.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Unacademy": {
+    "career_url": "https://unacademy.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Vedantu": {
+    "career_url": "https://www.vedantu.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "InfoEdge": {
+    "career_url": "https://www.infoedge.in/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "BrowserStack": {
+    "career_url": "https://www.browserstack.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Postman": {
+    "career_url": "https://www.postman.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "HackerRank": {
+    "career_url": "https://www.hackerrank.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Walmart Labs": {
+    "career_url": "https://careers.walmart.com/technology",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Goldman Sachs": {
+    "career_url": "https://www.goldmansachs.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "JP Morgan": {
+    "career_url": "https://careers.jpmorgan.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Morgan Stanley": {
+    "career_url": "https://www.morganstanley.com/people-opportunities/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Adobe": {
+    "career_url": "https://careers.adobe.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Oracle": {
+    "career_url": "https://www.oracle.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "VMware": {
+    "career_url": "https://careers.vmware.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Salesforce": {
+    "career_url": "https://www.salesforce.com/company/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Intuit": {
+    "career_url": "https://www.intuit.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "PayPal": {
+    "career_url": "https://www.paypal.com/us/webapps/mpp/jobs",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Visa": {
+    "career_url": "https://www.visa.com.sg/careers.html",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Mastercard": {
+    "career_url": "https://careers.mastercard.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Cisco": {
+    "career_url": "https://www.cisco.com/c/en/us/about/careers.html",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "IBM": {
+    "career_url": "https://www.ibm.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Accenture": {
+    "career_url": "https://www.accenture.com/in-en/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "TCS": {
+    "career_url": "https://www.tcs.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Infosys": {
+    "career_url": "https://www.infosys.com/careers.html",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Wipro": {
+    "career_url": "https://careers.wipro.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "HCL": {
+    "career_url": "https://www.hcltech.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Tech Mahindra": {
+    "career_url": "https://www.techmahindra.com/en-in/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Cognizant": {
+    "career_url": "https://careers.cognizant.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Capgemini": {
+    "career_url": "https://www.capgemini.com/in-en/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Deloitte": {
+    "career_url": "https://www2.deloitte.com/in/en/careers.html",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "EY": {
+    "career_url": "https://www.ey.com/en_in/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "PwC": {
+    "career_url": "https://www.pwc.in/careers.html",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "KPMG": {
+    "career_url": "https://home.kpmg/in/en/home/careers.html",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Groww": {
+    "career_url": "https://groww.in/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Upstox": {
+    "career_url": "https://upstox.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Zerodha": {
+    "career_url": "https://zerodha.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Nykaa": {
+    "career_url": "https://www.nykaa.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Cure.fit": {
+    "career_url": "https://www.cure.fit/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Grofers": {
+    "career_url": "https://grofers.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "BookMyShow": {
+    "career_url": "https://in.bookmyshow.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Hotstar": {
+    "career_url": "https://careers.hotstar.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Jio": {
+    "career_url": "https://careers.jio.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Airtel": {
+    "career_url": "https://www.airtel.in/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Apple": {
+    "career_url": "https://jobs.apple.com/en-in/search",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "software", "sde"]
+  },
+  "Meta": {
+    "career_url": "https://www.metacareers.com/jobs/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "software"]
+  },
+  "Netflix": {
+    "career_url": "https://jobs.netflix.com/jobs",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Stripe": {
+    "career_url": "https://stripe.com/jobs/search",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Databricks": {
+    "career_url": "https://www.databricks.com/company/careers/open-positions",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Snowflake": {
+    "career_url": "https://careers.snowflake.com/us/en/search-results",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "NVIDIA": {
+    "career_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite",
+    "scraper_type": "workday",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Qualcomm": {
+    "career_url": "https://careers.qualcomm.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Intel": {
+    "career_url": "https://jobs.intel.com/en",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Samsung": {
+    "career_url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers",
+    "scraper_type": "workday",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "SAP": {
+    "career_url": "https://jobs.sap.com/search/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "ServiceNow": {
+    "career_url": "https://careers.servicenow.com/careers/jobs",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Twilio": {
+    "career_url": "https://www.twilio.com/en-us/company/jobs",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Cloudflare": {
+    "career_url": "https://www.cloudflare.com/careers/jobs/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "GitHub": {
+    "career_url": "https://www.github.careers/careers-home",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "GitLab": {
+    "career_url": "https://about.gitlab.com/jobs/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Atlassian_India": {
+    "career_url": "https://www.atlassian.com/company/careers/all-jobs",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Intuit_India": {
+    "career_url": "https://www.intuit.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "SAP_Concur": {
+    "career_url": "https://jobs.sap.com/search/?q=concur",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Bloomberg": {
+    "career_url": "https://www.bloomberg.com/company/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Expedia": {
+    "career_url": "https://careers.expediagroup.com/jobs/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Booking": {
+    "career_url": "https://jobs.booking.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Airbnb": {
+    "career_url": "https://careers.airbnb.com/positions/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Riot_Games": {
+    "career_url": "https://www.riotgames.com/en/work-with-us/jobs",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "PayU": {
+    "career_url": "https://corporate.payu.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde", "developer"]
+  },
+  "PineLabs": {
+    "career_url": "https://www.pinelabs.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "BharatPe": {
+    "career_url": "https://bharatpe.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde", "developer"]
+  },
+  "Slice": {
+    "career_url": "https://www.sliceit.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Jupiter": {
+    "career_url": "https://jupiter.money/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Fi": {
+    "career_url": "https://fi.money/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Navi": {
+    "career_url": "https://navi.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "KreditBee": {
+    "career_url": "https://www.kreditbee.in/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "CRED_Club": {
+    "career_url": "https://cred.club/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "MPL": {
+    "career_url": "https://mpl.live/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Zerodha_Tech": {
+    "career_url": "https://zerodha.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Udaan": {
+    "career_url": "https://careers.udaan.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Udaan_LinkedIn": {
+    "career_url": "https://careers.udaan.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer"]
+  },
+  "Udaan_Lever": {
+    "career_url": "https://jobs.lever.co/udaan",
+    "scraper_type": "lever",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Zepto": {
+    "career_url": "https://zepto.bamboohr.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Blinkit": {
+    "career_url": "https://blinkit.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Dunzo": {
+    "career_url": "https://www.dunzo.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Porter": {
+    "career_url": "https://porter.in/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "sde"]
+  },
+  "Ather": {
+    "career_url": "https://www.atherenergy.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Ola_Electric": {
+    "career_url": "https://olaelectric.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Tata_1mg": {
+    "career_url": "https://www.1mg.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "PharmEasy": {
+    "career_url": "https://pharmeasy.in/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Swiggy_Instamart": {
+    "career_url": "https://careers.swiggy.com/#/",
+    "scraper_type": "greenhouse",
+    "search_terms": ["software engineer", "sde", "instamart"]
+  },
+  "Rupeek": {
+    "career_url": "https://rupeek.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Chargebee": {
+    "career_url": "https://www.chargebee.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Druva": {
+    "career_url": "https://www.druva.com/about/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Icertis": {
+    "career_url": "https://www.icertis.com/company/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Hasura": {
+    "career_url": "https://hasura.io/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "MoEngage": {
+    "career_url": "https://www.moengage.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "WebEngage": {
+    "career_url": "https://webengage.com/jobs/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "CleverTap": {
+    "career_url": "https://clevertap.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Whatfix": {
+    "career_url": "https://whatfix.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Mindtickle": {
+    "career_url": "https://mindtickle.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "RazorpayX": {
+    "career_url": "https://razorpay.com/jobs/",
+    "scraper_type": "greenhouse",
+    "search_terms": ["software engineer", "developer", "razorpayx"]
+  },
+  "PhonePe_Switch": {
+    "career_url": "https://www.phonepe.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "eBay": {
+    "career_url": "https://jobs.ebayinc.com/us/en/jobs-in-india",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Veeva": {
+    "career_url": "https://careers.veeva.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Agoda": {
+    "career_url": "https://careersatagoda.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Glean": {
+    "career_url": "https://www.glean.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Akamai": {
+    "career_url": "https://www.akamai.com/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "MongoDB": {
+    "career_url": "https://www.mongodb.com/company/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Confluent": {
+    "career_url": "https://careers.confluent.io/jobs",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "CrowdStrike": {
+    "career_url": "https://www.crowdstrike.com/en-us/careers/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Coinbase": {
+    "career_url": "https://www.coinbase.com/careers/positions",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Indeed": {
+    "career_url": "https://in.linkedin.com/company/indeed-com/jobs",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "LinkedIn_Careers": {
+    "career_url": "https://careers.linkedin.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "Walmart": {
+    "career_url": "https://careers.walmart.com/",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  },
+  "OpenAI": {
+    "career_url": "https://openai.com/careers",
+    "scraper_type": "custom",
+    "search_terms": ["software engineer", "developer"]
+  }
+}
