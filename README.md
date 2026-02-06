@@ -48,6 +48,29 @@ The script will:
 3. Remove duplicates
 4. Save results to `data/jobs.csv`
 
+### Automated hourly runs (GitHub Actions)
+
+This project is set up to run automatically **every hour** using **GitHub Actions**:
+
+- Workflow file: `.github/workflows/job-scraper-hourly.yml`
+- Trigger: `cron: "0 * * * *"` (hourly), plus manual runs from the **Actions** tab
+- On each run it:
+  - Installs dependencies
+  - Runs `python main.py`
+  - Uploads the latest CSVs as an artifact
+
+Each run produces:
+
+- An aggregate CSV: `data/jobs.csv`
+- A timestamped snapshot in `data/job_runs/`, for example: `data/job_runs/jobs_20260206_153000.csv`
+
+To use this automation:
+
+1. Push the repo (with the workflow file) to GitHub.
+2. Open the repository’s **Actions** tab and ensure workflows are enabled.
+3. The workflow named **“Job scraper (hourly)”** will run every hour.
+4. For each run, you can download the CSVs from the run’s **Artifacts** section.
+
 ## Output
 
 The results are saved in `data/jobs.csv` with the following columns:

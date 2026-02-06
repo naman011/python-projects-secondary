@@ -28,3 +28,12 @@ jobs:
       - name: Run job scraper
         run: python main.py
 
+      - name: Upload timestamped CSVs as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jobs-csv-run-${{ github.run_id }}
+          path: |
+            data/job_runs/
+            data/jobs.csv
+
