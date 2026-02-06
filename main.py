@@ -9,6 +9,7 @@ from scrapers.naukri_scraper import NaukriScraper
 from scrapers.indeed_scraper import IndeedScraper
 from filters.job_filter import JobFilter
 from utils.csv_writer import CSVWriter
+from utils.config import CSV_HISTORY_DIR
 
 logging.basicConfig(
     level=logging.INFO,
@@ -149,10 +150,17 @@ def main():
         print("No new jobs found. All jobs are already in the CSV.")
         return
     
-    # Write to CSV
+    # Write to CSV (main aggregate file)
     print(f"Writing {new_jobs_count} jobs to CSV...")
+    timestamped_file = None
     try:
         csv_writer.write_jobs(unique_jobs, mode='a' if existing_urls else 'w')
+
+        # Also write a per-run timestamped CSV snapshot into a history folder
+        try:
+            timestamped_file = csv_writer.write_timestamped_jobs(unique_jobs, CSV_HISTORY_DIR)
+        except Exception as e:
+            logger.warning(f"Error writing timestamped CSV snapshot: {e}")
     except Exception as e:
         logger.error(f"Error writing to CSV: {e}")
         print(f"Error: Failed to write to CSV: {e}")
@@ -163,6 +171,8 @@ def main():
     print("Scraping completed successfully!")
     print(f"Total new jobs added: {new_jobs_count}")
     print(f"CSV file: {csv_writer.output_file}")
+    if timestamped_file:
+        print(f"Timestamped CSV snapshot: {timestamped_file}")
     print("=" * 60)
     print()
     print("Open the CSV file in Excel or Google Sheets to view jobs.")

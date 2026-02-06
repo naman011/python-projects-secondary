@@ -148,6 +148,48 @@ class CSVWriter:
                     'Description': self._truncate_description(job.get('description', '') or '')
                 }
                 writer.writerow(row)
+
+    def write_timestamped_jobs(self, jobs: List[Dict], directory: str) -> str:
+        """
+        Write jobs to a new CSV file whose name includes the current timestamp.
+
+        Args:
+            jobs: List of job dictionaries
+            directory: Directory where timestamped CSV should be created
+
+        Returns:
+            Path to the created CSV file
+        """
+        if not jobs:
+            return ""
+
+        # Ensure directory exists
+        os.makedirs(directory, exist_ok=True)
+
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        output_path = os.path.join(directory, f"jobs_{timestamp}.csv")
+
+        with open(output_path, "w", newline="", encoding="utf-8") as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=self.fieldnames)
+            writer.writeheader()
+
+            for job in jobs:
+                if not job or not isinstance(job, dict):
+                    continue
+
+                row = {
+                    'Job Title': self._sanitize_csv_value(job.get('title', '') or ''),
+                    'Company': self._sanitize_csv_value(job.get('company', '') or ''),
+                    'Location': self._sanitize_csv_value(job.get('location', '') or ''),
+                    'Experience Required': self._sanitize_csv_value(job.get('experience', '') or ''),
+                    'Job URL': self._format_url(job.get('url', '')),
+                    'Posted Date': self._sanitize_csv_value(job.get('posted_date', '') or ''),
+                    'Source': self._sanitize_csv_value(job.get('source', '') or ''),
+                    'Description': self._truncate_description(job.get('description', '') or '')
+                }
+                writer.writerow(row)
+
+        return output_path
     
     def append_jobs(self, jobs: List[Dict]):
         """

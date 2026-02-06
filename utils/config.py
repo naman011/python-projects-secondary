@@ -63,4 +63,9 @@ BROWSER_PAGE_LOAD_TIMEOUT = 40  # Seconds to wait for page load in browser
 
 # CSV output settings
 CSV_OUTPUT_FILE = "data/jobs.csv"
+
+# Directory to store per-run timestamped CSV snapshots
+# Example file name: data/job_runs/jobs_20260206_150000.csv
+CSV_HISTORY_DIR = "data/job_runs"
+
 MAX_DESCRIPTION_LENGTH = 500  # Truncate description if longer
