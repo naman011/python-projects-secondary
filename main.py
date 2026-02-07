@@ -11,6 +11,28 @@ from scrapers.remoteok_scraper import RemoteOKScraper
 from scrapers.weworkremotely_scraper import WeWorkRemotelyScraper
 from scrapers.remotive_scraper import RemotiveScraper
 from scrapers.himalayas_scraper import HimalayasScraper
+from scrapers.additional_remote_scrapers import (
+    OttaScraper,
+    JobspressoScraper,
+    DynamiteJobsScraper,
+    WorkingNomadsScraper,
+    RemoteSourceScraper,
+    NoVisaJobsScraper,
+    WorldTeamsScraper,
+    RemoteRebellionScraper,
+    YCombinatorJobsScraper,
+    FlexaScraper,
+    RemoteCoScraper,
+    DailyRemoteScraper,
+    RemoteIoScraper,
+    RemoteHubScraper,
+    RemotersMeScraper,
+    JustRemoteScraper,
+    SkipTheDriveScraper,
+    GrowmotelyScraper,
+    RemotewxScraper,
+    PangianScraper,
+)
 from scrapers.gated_scrapers import (
     WellfoundScraper,
     CutshortScraper,
@@ -47,6 +69,28 @@ def main():
         wwr_scraper = WeWorkRemotelyScraper()
         remotive_scraper = RemotiveScraper()
         himalayas_scraper = HimalayasScraper()
+        
+        # Additional remote job board scrapers
+        otta_scraper = OttaScraper()
+        jobspresso_scraper = JobspressoScraper()
+        dynamite_jobs_scraper = DynamiteJobsScraper()
+        working_nomads_scraper = WorkingNomadsScraper()
+        remote_source_scraper = RemoteSourceScraper()
+        no_visa_jobs_scraper = NoVisaJobsScraper()
+        world_teams_scraper = WorldTeamsScraper()
+        remote_rebellion_scraper = RemoteRebellionScraper()
+        yc_jobs_scraper = YCombinatorJobsScraper()
+        flexa_scraper = FlexaScraper()
+        remote_co_scraper = RemoteCoScraper()
+        daily_remote_scraper = DailyRemoteScraper()
+        remote_io_scraper = RemoteIoScraper()
+        remote_hub_scraper = RemoteHubScraper()
+        remoters_me_scraper = RemotersMeScraper()
+        just_remote_scraper = JustRemoteScraper()
+        skip_the_drive_scraper = SkipTheDriveScraper()
+        growmotely_scraper = GrowmotelyScraper()
+        remotewx_scraper = RemotewxScraper()
+        pangian_scraper = PangianScraper()
 
         gated_scrapers = []
         if ENABLE_GATED_SCRAPERS:
@@ -218,7 +262,45 @@ def main():
         print(f"   Error: {e}")
     print()
 
-    # 9. Gated sources (disabled by default)
+    # 9. Additional Remote Job Boards
+    additional_remote_scrapers = [
+        ("Otta", otta_scraper),
+        ("Jobspresso", jobspresso_scraper),
+        ("Dynamite Jobs", dynamite_jobs_scraper),
+        ("Working Nomads", working_nomads_scraper),
+        ("RemoteSource", remote_source_scraper),
+        ("No Visa Jobs", no_visa_jobs_scraper),
+        ("World Teams", world_teams_scraper),
+        ("Remote Rebellion", remote_rebellion_scraper),
+        ("Y Combinator Jobs", yc_jobs_scraper),
+        ("Flexa", flexa_scraper),
+        ("Remote.co", remote_co_scraper),
+        ("DailyRemote", daily_remote_scraper),
+        ("remote.io", remote_io_scraper),
+        ("RemoteHub", remote_hub_scraper),
+        ("Remoters.me", remoters_me_scraper),
+        ("JustRemote", just_remote_scraper),
+        ("SkipTheDrive", skip_the_drive_scraper),
+        ("Growmotely", growmotely_scraper),
+        ("Remotewx", remotewx_scraper),
+        ("Pangian", pangian_scraper),
+    ]
+    
+    for idx, (scraper_name, scraper) in enumerate(additional_remote_scrapers, start=1):
+        print(f"9.{idx}. Scraping {scraper_name}...")
+        print("-" * 60)
+        try:
+            jobs = scraper.scrape(max_results=100)
+            all_jobs.extend(jobs)
+            scraper_stats[scraper_name] = len(jobs)
+            print(f"   Found {len(jobs)} jobs from {scraper_name}")
+        except Exception as e:
+            logger.error(f"Error scraping {scraper_name}: {e}")
+            scraper_stats[scraper_name] = 0
+            print(f"   Error: {e}")
+        print()
+
+    # Gated sources (disabled by default)
     if gated_scrapers:
         print("9. Scraping gated sources (enabled)...")
         print("-" * 60)
