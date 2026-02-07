@@ -1,5 +1,8 @@
 name: Job scraper (hourly)
 
+# Note: Auto-apply functionality is in a separate workflow:
+# .github/workflows/auto-apply-jobs.yml (runs on auto-apply-feature branch)
+
 on:
   schedule:
     # Every hour at minute 0

@@ -1,0 +1,96 @@
+{
+  "personal_info": {
+    "full_name": "Your Full Name",
+    "first_name": "First",
+    "last_name": "Last",
+    "email": "your.email@example.com",
+    "phone": "+91-XXXXXXXXXX",
+    "linkedin_url": "https://linkedin.com/in/yourprofile",
+    "github_url": "https://github.com/yourusername",
+    "portfolio_url": "",
+    "location": "City, State, Country",
+    "current_location": "City, State, Country",
+    "willing_to_relocate": true,
+    "preferred_locations": ["City1", "City2", "Remote"]
+  },
+  "education": [
+    {
+      "degree": "B.E. Electronics and Communication Engineering and MSc. Economics",
+      "institution": "Birla Institute of Technology and Science, Pilani",
+      "location": "Pilani, India",
+      "start_date": "2020",
+      "end_date": "2024",
+      "gpa": "7.2/10.0",
+      "field_of_study": "Electronics and Communication Engineering, Economics",
+      "is_current": false
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Company Name",
+      "position": "Job Title",
+      "location": "City, Country",
+      "start_date": "Jan 2025",
+      "end_date": "Present",
+      "is_current": true,
+      "description": "Brief description of your role and achievements",
+      "key_achievements": [
+        "Achievement 1",
+        "Achievement 2"
+      ],
+      "technologies": ["Technology1", "Technology2"]
+    }
+  ],
+  "skills": {
+    "programming_languages": ["Java", "Python", "C++", "SQL"],
+    "frameworks": ["Spring Boot", "Django", "Flask"],
+    "tools": ["Git", "Docker", "AWS", "Kafka"],
+    "databases": ["PostgreSQL", "MySQL"],
+    "other": ["System Design", "REST APIs", "Microservices"]
+  },
+  "projects": [
+    {
+      "name": "Project Name",
+      "description": "Brief project description",
+      "technologies": ["Tech1", "Tech2"],
+      "url": ""
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Fluent"
+    }
+  ],
+  "resume": {
+    "file_path": "path/to/your/resume.pdf",
+    "file_name": "Resume-YourName.pdf"
+  },
+  "cover_letter": {
+    "default_template": "Dear Hiring Manager,\n\nI am writing to express my interest in the [Position] role at [Company]...",
+    "custom_templates": {}
+  },
+  "application_preferences": {
+    "salary_expectations": {
+      "min": 0,
+      "max": 0,
+      "currency": "INR",
+      "negotiable": true
+    },
+    "notice_period_days": 0,
+    "availability": "Immediate",
+    "work_authorization": "Authorized to work in India",
+    "remote_preference": "Open to remote, hybrid, or on-site"
+  },
+  "additional_info": {
+    "achievements": [
+      "Achievement 1",
+      "Achievement 2"
+    ],
+    "publications": [
+      "Publication details"
+    ],
+    "volunteer_work": []
+  }
+}

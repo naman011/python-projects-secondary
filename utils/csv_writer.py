@@ -36,8 +36,11 @@ class CSVWriter:
             'Deadline',
             'Days Until Deadline',
             'Skills Match %',
+            'Ready to Apply',
             'Applied',
             'Applied Date',
+            'Application Method',
+            'Application Error',
             'Status',
             'Notes'
         ]
@@ -233,8 +236,11 @@ class CSVWriter:
                     'Deadline': self._sanitize_csv_value(str(deadline) if deadline else ''),
                     'Days Until Deadline': self._sanitize_csv_value(str(days_until_deadline) if days_until_deadline is not None else ''),
                     'Skills Match %': self._sanitize_csv_value(str(skills_match_pct) if skills_match_pct != '' else ''),
+                    'Ready to Apply': self._sanitize_csv_value(job.get('ready_to_apply', 'No') or 'No'),
                     'Applied': self._sanitize_csv_value(job.get('applied', 'No') or 'No'),
                     'Applied Date': self._sanitize_csv_value(job.get('applied_date', '') or ''),
+                    'Application Method': self._sanitize_csv_value(job.get('application_method', '') or ''),
+                    'Application Error': self._sanitize_csv_value(job.get('application_error', '') or ''),
                     'Status': self._sanitize_csv_value(job.get('status', 'Not Applied') or 'Not Applied'),
                     'Notes': self._sanitize_csv_value(job.get('notes', '') or '')
                 }
@@ -274,3 +280,76 @@ class CSVWriter:
             print(f"Error reading existing CSV: {e}")
         
         return existing_urls
+    
+    def read_jobs(self) -> List[Dict]:
+        """
+        Read all jobs from CSV file.
+        
+        Returns:
+            List of job dictionaries
+        """
+        jobs = []
+        
+        if not os.path.exists(self.output_file):
+            return jobs
+        
+        try:
+            with open(self.output_file, 'r', encoding='utf-8') as csvfile:
+                reader = csv.DictReader(csvfile)
+                for row in reader:
+                    # Convert CSV row back to job dict format
+                    job = {
+                        'title': row.get('Job Title', ''),
+                        'company': row.get('Company', ''),
+                        'location': row.get('Location', ''),
+                        'experience': row.get('Experience Required', ''),
+                        'url': row.get('Job URL', ''),
+                        'posted_date': row.get('Posted Date', ''),
+                        'source': row.get('Source', ''),
+                        'description': row.get('Description', ''),
+                        'priority_score': row.get('Priority Score', ''),
+                        'days_since_posted': row.get('Days Since Posted', ''),
+                        'freshness': row.get('Freshness', ''),
+                        'salary': row.get('Salary', ''),
+                        'deadline': row.get('Deadline', ''),
+                        'days_until_deadline': row.get('Days Until Deadline', ''),
+                        'skills_match_pct': row.get('Skills Match %', ''),
+                        'ready_to_apply': row.get('Ready to Apply', 'No'),
+                        'applied': row.get('Applied', 'No'),
+                        'applied_date': row.get('Applied Date', ''),
+                        'application_method': row.get('Application Method', ''),
+                        'application_error': row.get('Application Error', ''),
+                        'status': row.get('Status', 'Not Applied'),
+                        'notes': row.get('Notes', '')
+                    }
+                    jobs.append(job)
+        except Exception as e:
+            print(f"Error reading CSV: {e}")
+        
+        return jobs
+    
+    def update_job(self, job_url: str, updates: Dict):
+        """
+        Update a specific job in the CSV file.
+        
+        Args:
+            job_url: URL of the job to update
+            updates: Dictionary of fields to update
+        """
+        if not os.path.exists(self.output_file):
+            return
+        
+        # Read all jobs
+        jobs = self.read_jobs()
+        
+        # Find and update the job
+        updated = False
+        for job in jobs:
+            if job.get('url', '').strip() == job_url.strip():
+                job.update(updates)
+                updated = True
+                break
+        
+        if updated:
+            # Write all jobs back
+            self.write_jobs(jobs, mode='w')

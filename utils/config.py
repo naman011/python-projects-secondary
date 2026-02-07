@@ -235,3 +235,35 @@ YOUR_SKILLS = [
     "Algorithmic Trading",
     "Competitive Programming",
 ]
+
+# Auto-apply settings
+AUTO_APPLY_ENABLED = False  # Master switch for auto-apply functionality
+APPLY_DELAY_MIN = 30  # Minimum delay between applications (seconds)
+APPLY_DELAY_MAX = 120  # Maximum delay between applications (seconds)
+MAX_APPLICATIONS_PER_RUN = 10  # Maximum number of applications per run (rate limiting)
+SELENIUM_ENABLED = True  # Enable/disable Selenium fallback for complex forms
+CAPTCHA_SERVICE = None  # Optional CAPTCHA solving service (e.g., "2captcha", "anticaptcha")
+APPLY_ONLY_HIGH_PRIORITY = False  # If True, only apply to jobs above priority threshold
+PRIORITY_THRESHOLD = 50  # Minimum priority score to auto-apply (if APPLY_ONLY_HIGH_PRIORITY is True)
+
+# Application status values
+APPLICATION_STATUS_READY = "Ready to Apply"
+APPLICATION_STATUS_APPLYING = "Applying"
+APPLICATION_STATUS_APPLIED = "Applied"
+APPLICATION_STATUS_FAILED = "Failed"
+APPLICATION_STATUS_NEEDS_MANUAL_CHECK = "Needs Manual Check"
+APPLICATION_STATUS_SKIPPED = "Skipped"
+
+# Application error categories
+ERROR_FORM_NOT_FOUND = "Form Not Found"
+ERROR_LOGIN_REQUIRED = "Login Required"
+ERROR_CAPTCHA = "CAPTCHA"
+ERROR_RATE_LIMITED = "Rate Limited"
+ERROR_NETWORK = "Network Error"
+ERROR_INVALID_DATA = "Invalid Data"
+ERROR_UNKNOWN = "Unknown Error"
+
+# Application method values
+METHOD_API = "API"
+METHOD_SELENIUM = "Selenium"
+METHOD_MANUAL = "Manual"

@@ -36,6 +36,12 @@ ENV/
 # Data files (optional - uncomment if you don't want to track CSV)
 # data/jobs.csv
 
+# User profile (contains sensitive information)
+data/user_profile.json
+
+# Application logs
+data/application_logs/
+
 # Logs
 *.log
 
