@@ -362,31 +362,53 @@ class CompanyCareersScraper(BaseScraper):
         try:
             response = self.get(career_url)
             if not response:
+                diagnostic = f"No response from {career_url}"
+                logger.debug(f"{company_name}: {diagnostic}")
+                self.failures.append({
+                    "company": company_name,
+                    "career_url": career_url,
+                    "scraper_type": "custom",
+                    "stage": "fetch",
+                    "error": "no_response",
+                    "diagnostic": diagnostic,
+                })
                 return jobs
             
             soup = BeautifulSoup(response.text, 'html.parser')
             
-            # Common patterns for job listings
+            # Common patterns for job listings - expanded selectors
             # Look for links, divs, or list items that might contain jobs
             job_selectors = [
                 'a[href*="job"]',
                 'a[href*="career"]',
                 'a[href*="position"]',
+                'a[href*="opening"]',
+                'a[href*="role"]',
                 'div.job',
                 'div.position',
                 'div.opening',
+                'div.role',
                 'li.job',
                 'li.position',
+                'li.opening',
                 'article.job',
+                'article.position',
                 '[class*="job"]',
                 '[class*="position"]',
                 '[class*="opening"]',
+                '[class*="role"]',
+                '[class*="vacancy"]',
+                '[data-job-id]',
+                '[data-position-id]',
             ]
             
             job_elements = []
             for selector in job_selectors:
-                elements = soup.select(selector)
-                job_elements.extend(elements)
+                try:
+                    elements = soup.select(selector)
+                    job_elements.extend(elements)
+                except Exception:
+                    continue
             
             # Remove duplicates
             seen = set()
@@ -396,6 +418,17 @@ class CompanyCareersScraper(BaseScraper):
                 if elem_id not in seen:
                     seen.add(elem_id)
                     unique_elements.append(elem)
+            
+            # Diagnostic: log what we found
+            if len(unique_elements) == 0:
+                diagnostic = f"Found 0 job elements. Response length: {len(response.text)} chars. Title: {soup.title.string if soup.title else 'N/A'}"
+                logger.debug(f"{company_name}: {diagnostic}")
+                # Check if page loaded but has different structure
+                all_links = soup.find_all('a', href=True)
+                diagnostic += f" | Total links: {len(all_links)}"
+                if all_links:
+                    sample_hrefs = [a.get('href', '')[:50] for a in all_links[:5]]
+                    diagnostic += f" | Sample hrefs: {', '.join(sample_hrefs)}"
             
             for element in unique_elements:
                 # Extract title
@@ -410,10 +443,11 @@ class CompanyCareersScraper(BaseScraper):
                 if not title or len(title) < 5:  # Skip very short titles
                     continue
                 
-                # Check if matches search terms
-                title_lower = title.lower()
-                if not any(term.lower() in title_lower for term in search_terms):
-                    continue
+                # Check if matches search terms - but don't filter here, let main filter handle it
+                # This allows more jobs to be captured and filtered by the main JobFilter
+                # title_lower = title.lower()
+                # if not any(term.lower() in title_lower for term in search_terms):
+                #     continue
                 
                 # Extract location
                 location = ''
@@ -452,6 +486,15 @@ class CompanyCareersScraper(BaseScraper):
         
         except Exception as e:
             logger.error(f"Error scraping custom page for {company_name}: {e}")
+            diagnostic = f"Exception: {type(e).__name__}: {str(e)}"
+            self.failures.append({
+                "company": company_name,
+                "career_url": career_url,
+                "scraper_type": "custom",
+                "stage": "scrape",
+                "error": str(e),
+                "diagnostic": diagnostic,
+            })
         
         return jobs
     
@@ -478,6 +521,7 @@ class CompanyCareersScraper(BaseScraper):
         
         if not career_url or not career_url.startswith(('http://', 'https://')):
             logger.warning(f"Invalid career URL for {company_name}: {career_url}")
+            diagnostic = f"Career URL invalid or missing: '{career_url}'"
             self.failures.append(
                 {
                     "company": company_name,
@@ -485,6 +529,7 @@ class CompanyCareersScraper(BaseScraper):
                     "scraper_type": scraper_type,
                     "stage": "validate",
                     "error": "invalid_career_url",
+                    "diagnostic": diagnostic,
                 }
             )
             return []
@@ -585,6 +630,7 @@ class CompanyCareersScraper(BaseScraper):
                 logger.info(f"Found {len(jobs)} jobs at {company_name}")
                 if len(jobs) == 0:
                     # record a soft failure so you can tune URLs/scraper types later
+                    diagnostic = f"Scraper ran successfully but found 0 jobs matching criteria"
                     self.failures.append(
                         {
                             "company": company_name,
@@ -592,10 +638,12 @@ class CompanyCareersScraper(BaseScraper):
                             "scraper_type": str(company_info.get("scraper_type", "")),
                             "stage": "result",
                             "error": "zero_jobs",
+                            "diagnostic": diagnostic,
                         }
                     )
             except Exception as e:
                 logger.error(f"Error scraping {company_name}: {e}")
+                diagnostic = f"Exception in scrape loop: {type(e).__name__}: {str(e)}"
                 self.failures.append(
                     {
                         "company": company_name,
@@ -603,6 +651,7 @@ class CompanyCareersScraper(BaseScraper):
                         "scraper_type": str(company_info.get("scraper_type", "")),
                         "stage": "loop",
                         "error": str(e),
+                        "diagnostic": diagnostic,
                     }
                 )
                 continue

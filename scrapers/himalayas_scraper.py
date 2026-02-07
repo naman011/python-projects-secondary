@@ -44,17 +44,13 @@ class HimalayasScraper(BaseScraper):
             return []
 
         jobs: List[Dict] = []
-        keyword_l = [k.lower() for k in keywords if k]
+        # Removed early keyword filtering - let main JobFilter handle it
 
         for item in items:
             title = (item.findtext("title") or "").strip()
             url = (item.findtext("link") or "").strip()
             description = (item.findtext("description") or "").strip()
             posted = (item.findtext("pubDate") or "").strip()
-
-            haystack = f"{title} {description}".lower()
-            if keyword_l and not any(k in haystack for k in keyword_l):
-                continue
 
             jobs.append(
                 {

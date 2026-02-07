@@ -29,7 +29,7 @@ class WeWorkRemotelyScraper(BaseScraper):
         items = soup.find_all("item")
 
         jobs: List[Dict] = []
-        keyword_l = [k.lower() for k in keywords if k]
+        # Removed early keyword filtering - let main JobFilter handle it
 
         for item in items:
             title = (item.findtext("title") or "").strip()
@@ -44,10 +44,6 @@ class WeWorkRemotelyScraper(BaseScraper):
                 if left and right:
                     company = left.strip()
                     job_title = right.strip()
-
-            haystack = f"{job_title} {description}".lower()
-            if keyword_l and not any(k in haystack for k in keyword_l):
-                continue
 
             jobs.append(
                 {

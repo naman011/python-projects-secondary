@@ -17,6 +17,7 @@ class FailureReporter:
             "Scraper Type",
             "Stage",
             "Error",
+            "Diagnostic Info",
         ]
 
     def write(self, failures: List[Dict]) -> None:
@@ -37,6 +38,7 @@ class FailureReporter:
                         "Scraper Type": item.get("scraper_type", ""),
                         "Stage": item.get("stage", ""),
                         "Error": item.get("error", ""),
+                        "Diagnostic Info": item.get("diagnostic", ""),
                     }
                 )
 

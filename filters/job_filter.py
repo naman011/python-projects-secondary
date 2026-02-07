@@ -1,13 +1,17 @@
 """Job filtering logic for location, role, and experience."""
 
 import re
+import logging
 from typing import Dict, List, Optional
 from utils.config import (
     SEARCH_TERMS,
     INDIA_LOCATIONS,
     EXPERIENCE_LEVELS,
-    EXCLUDE_KEYWORDS
+    EXCLUDE_KEYWORDS,
+    ENABLE_FILTER_LOGGING
 )
+
+logger = logging.getLogger(__name__)
 
 
 class JobFilter:
@@ -142,14 +146,19 @@ class JobFilter:
             True if job passes all filters
         """
         if not job or not isinstance(job, dict):
+            if ENABLE_FILTER_LOGGING:
+                logger.debug(f"Filtered out: Invalid job object")
             return False
         
         job_title = str(job.get('title', '') or '').lower()
         job_location = str(job.get('location', '') or '')
         job_description = str(job.get('description', '') or '').lower()
+        company = job.get('company', 'Unknown')
         
         # Check role match (keep this strict)
         if not self.matches_role(job_title, job_description):
+            if ENABLE_FILTER_LOGGING:
+                logger.debug(f"Filtered out (role): {company} - {job.get('title', 'N/A')}")
             return False
 
         # TEMPORARILY relax location filtering to avoid dropping valid jobs.
@@ -159,11 +168,15 @@ class JobFilter:
         # If you want to re-enable strict location filtering later, uncomment:
         #
         # if not self.matches_location(job_location):
+        #     if ENABLE_FILTER_LOGGING:
+        #         logger.debug(f"Filtered out (location): {company} - {job.get('title', 'N/A')} (location: {job_location})")
         #     return False
 
         # Keep experience-based exclusion (we only drop clear senior roles
         # and internships; everything else is allowed).
         if not self.is_experience_eligible(job_title, job_description):
+            if ENABLE_FILTER_LOGGING:
+                logger.debug(f"Filtered out (experience): {company} - {job.get('title', 'N/A')}")
             return False
 
         return True

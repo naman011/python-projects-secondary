@@ -105,3 +105,6 @@ MAX_DESCRIPTION_LENGTH = 500  # Truncate description if longer
 
 # Extra job boards (some are gated behind login/anti-bot and are disabled by default)
 ENABLE_GATED_SCRAPERS = False
+
+# Filter diagnostics - set to True to log why jobs are filtered out
+ENABLE_FILTER_LOGGING = False

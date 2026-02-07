@@ -64,14 +64,33 @@ class LinkedInScraper(BaseScraper):
         url = f"{self.base_url}?{urlencode(params)}"
         
         try:
-            response = self.get(url)
+            # Use more realistic headers for LinkedIn
+            headers = {
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Referer': 'https://www.linkedin.com/',
+            }
+            response = self.get(url, headers=headers)
             if not response:
+                logger.warning(f"LinkedIn: No response for keyword '{keyword}'")
+                return jobs
+            
+            # Check if we got blocked or redirected to login
+            if 'login' in response.url.lower() or 'authwall' in response.url.lower():
+                logger.warning(f"LinkedIn: Redirected to login/authwall for keyword '{keyword}' - likely requires authentication")
                 return jobs
             
             soup = BeautifulSoup(response.text, 'html.parser')
             
             # LinkedIn uses different structures - try multiple selectors
             job_cards = soup.find_all(['div', 'li'], class_=re.compile(r'job|result|card', re.I))
+            
+            # Diagnostic: log what we found
+            if len(job_cards) == 0:
+                logger.debug(f"LinkedIn: Found 0 job cards for '{keyword}'. Response length: {len(response.text)} chars")
+                # Try to see if there's a different structure
+                all_divs = soup.find_all('div')
+                logger.debug(f"LinkedIn: Total divs in page: {len(all_divs)}")
             
             for card in job_cards:
                 try:
@@ -136,6 +155,7 @@ class LinkedInScraper(BaseScraper):
                     continue
         
         except Exception as e:
-            logger.error(f"Error searching LinkedIn jobs: {e}")
+            logger.error(f"Error searching LinkedIn jobs for '{keyword}': {e}")
+            logger.debug(f"LinkedIn error details: {type(e).__name__}: {str(e)}")
         
         return jobs
