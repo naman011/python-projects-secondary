@@ -78,6 +78,7 @@ def main():
     
     # Scrape jobs from all sources
     all_jobs = []
+    scraper_stats = {}  # Track jobs per scraper before filtering
     
     # 1. Company career pages (primary source)
     print("1. Scraping company career pages...")
@@ -85,9 +86,11 @@ def main():
     try:
         company_jobs = company_scraper.scrape()
         all_jobs.extend(company_jobs)
+        scraper_stats['Company Career Pages'] = len(company_jobs)
         print(f"   Found {len(company_jobs)} jobs from company career pages")
     except Exception as e:
         logger.error(f"Error scraping company career pages: {e}")
+        scraper_stats['Company Career Pages'] = 0
         print(f"   Error: {e}")
     print()
     
@@ -97,9 +100,11 @@ def main():
     try:
         linkedin_jobs = linkedin_scraper.scrape(max_results=50)
         all_jobs.extend(linkedin_jobs)
+        scraper_stats['LinkedIn'] = len(linkedin_jobs)
         print(f"   Found {len(linkedin_jobs)} jobs from LinkedIn")
     except Exception as e:
         logger.error(f"Error scraping LinkedIn: {e}")
+        scraper_stats['LinkedIn'] = 0
         print(f"   Error: {e}")
     print()
     
@@ -109,9 +114,11 @@ def main():
     try:
         naukri_jobs = naukri_scraper.scrape(max_results=50)
         all_jobs.extend(naukri_jobs)
+        scraper_stats['Naukri'] = len(naukri_jobs)
         print(f"   Found {len(naukri_jobs)} jobs from Naukri")
     except Exception as e:
         logger.error(f"Error scraping Naukri: {e}")
+        scraper_stats['Naukri'] = 0
         print(f"   Error: {e}")
     print()
     
@@ -121,9 +128,11 @@ def main():
     try:
         indeed_jobs = indeed_scraper.scrape(max_results=50)
         all_jobs.extend(indeed_jobs)
+        scraper_stats['Indeed'] = len(indeed_jobs)
         print(f"   Found {len(indeed_jobs)} jobs from Indeed")
     except Exception as e:
         logger.error(f"Error scraping Indeed: {e}")
+        scraper_stats['Indeed'] = 0
         print(f"   Error: {e}")
     print()
 
@@ -133,9 +142,11 @@ def main():
     try:
         remoteok_jobs = remoteok_scraper.scrape(max_results=100)
         all_jobs.extend(remoteok_jobs)
+        scraper_stats['RemoteOK'] = len(remoteok_jobs)
         print(f"   Found {len(remoteok_jobs)} jobs from RemoteOK")
     except Exception as e:
         logger.error(f"Error scraping RemoteOK: {e}")
+        scraper_stats['RemoteOK'] = 0
         print(f"   Error: {e}")
     print()
 
@@ -145,9 +156,11 @@ def main():
     try:
         wwr_jobs = wwr_scraper.scrape(max_results=100)
         all_jobs.extend(wwr_jobs)
+        scraper_stats['We Work Remotely'] = len(wwr_jobs)
         print(f"   Found {len(wwr_jobs)} jobs from We Work Remotely")
     except Exception as e:
         logger.error(f"Error scraping We Work Remotely: {e}")
+        scraper_stats['We Work Remotely'] = 0
         print(f"   Error: {e}")
     print()
 
@@ -157,9 +170,11 @@ def main():
     try:
         remotive_jobs = remotive_scraper.scrape(max_results=100)
         all_jobs.extend(remotive_jobs)
+        scraper_stats['Remotive'] = len(remotive_jobs)
         print(f"   Found {len(remotive_jobs)} jobs from Remotive")
     except Exception as e:
         logger.error(f"Error scraping Remotive: {e}")
+        scraper_stats['Remotive'] = 0
         print(f"   Error: {e}")
     print()
 
@@ -169,9 +184,11 @@ def main():
     try:
         himalayas_jobs = himalayas_scraper.scrape(max_results=100)
         all_jobs.extend(himalayas_jobs)
+        scraper_stats['Himalayas'] = len(himalayas_jobs)
         print(f"   Found {len(himalayas_jobs)} jobs from Himalayas")
     except Exception as e:
         logger.error(f"Error scraping Himalayas: {e}")
+        scraper_stats['Himalayas'] = 0
         print(f"   Error: {e}")
     print()
 
@@ -183,15 +200,26 @@ def main():
             try:
                 jobs = scraper.scrape(max_results=50)
                 all_jobs.extend(jobs)
-                print(f"   Found {len(jobs)} jobs from {scraper.__class__.__name__}")
+                scraper_name = scraper.__class__.__name__
+                scraper_stats[scraper_name] = len(jobs)
+                print(f"   Found {len(jobs)} jobs from {scraper_name}")
             except Exception as e:
                 logger.error(f"Error scraping {scraper.__class__.__name__}: {e}")
+                scraper_stats[scraper.__class__.__name__] = 0
                 print(f"   Error: {e}")
         print()
     
     print("=" * 60)
     print(f"Total jobs scraped from all sources: {len(all_jobs)}")
     print("=" * 60)
+    print()
+    
+    # Display diagnostics: jobs per scraper BEFORE filtering
+    print("DIAGNOSTICS - Jobs found per scraper (BEFORE filtering):")
+    print("-" * 60)
+    for scraper_name, count in sorted(scraper_stats.items(), key=lambda x: x[1], reverse=True):
+        print(f"  {scraper_name:30s}: {count:4d} jobs")
+    print("-" * 60)
     print()
     
     if not all_jobs:
@@ -202,7 +230,8 @@ def main():
         return
     
     # Filter jobs
-    print("Filtering jobs (India/Remote, Software Engineer, Fresher/1+ years)...")
+    print("Filtering jobs (India/Remote, Tech roles, 0-3 years experience)...")
+    print("-" * 60)
     try:
         filtered_jobs = job_filter.filter_jobs(all_jobs)
     except Exception as e:
@@ -210,7 +239,25 @@ def main():
         print(f"Error: Filtering failed: {e}")
         return
     
-    print(f"Jobs after filtering: {len(filtered_jobs)}")
+    print(f"Jobs after filtering: {len(filtered_jobs)} (removed {len(all_jobs) - len(filtered_jobs)})")
+    
+    # Track which scrapers' jobs passed filtering
+    filtered_stats = {}
+    for job in filtered_jobs:
+        source = job.get('source', 'Unknown')
+        filtered_stats[source] = filtered_stats.get(source, 0) + 1
+    
+    print()
+    print("DIAGNOSTICS - Jobs per source AFTER filtering:")
+    print("-" * 60)
+    for source, count in sorted(filtered_stats.items(), key=lambda x: x[1], reverse=True):
+        before = scraper_stats.get(source, 0)
+        if before > 0:
+            pct = (count / before) * 100
+            print(f"  {source:30s}: {count:4d} jobs ({pct:5.1f}% of {before} scraped)")
+        else:
+            print(f"  {source:30s}: {count:4d} jobs")
+    print("-" * 60)
     print()
     
     if not filtered_jobs:
