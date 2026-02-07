@@ -2,8 +2,8 @@ name: Auto-Apply to Jobs
 
 on:
   schedule:
-    # Run daily at 9 AM UTC (can be adjusted or disabled)
-    - cron: "0 9 * * *"
+  #every 2 hours
+    - cron: "0 */2 * * *"
   # Allow manual runs from the GitHub UI
   workflow_dispatch:
     inputs:
