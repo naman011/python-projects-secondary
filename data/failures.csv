@@ -1,136 +1,66 @@
-Company,Career URL,Scraper Type,Stage,Error
-Flipkart,https://www.flipkartcareers.com/#!/joblist,custom,result,zero_jobs
-Zomato,https://www.zomato.com/careers,custom,result,zero_jobs
-Swiggy,https://careers.swiggy.com/#/,greenhouse,result,zero_jobs
-Razorpay,https://razorpay.com/jobs/,greenhouse,result,zero_jobs
-Paytm,https://paytm.com/careers/,custom,result,zero_jobs
-PhonePe,https://www.phonepe.com/careers/,custom,result,zero_jobs
-Ola,https://www.olacabs.com/careers,custom,result,zero_jobs
-OYO,https://www.oyorooms.com/careers/,custom,result,zero_jobs
-MakeMyTrip,https://careers.makemytrip.com/,custom,result,zero_jobs
-Myntra,https://careers.myntra.com/,custom,result,zero_jobs
-Cred,https://cred.club/careers,custom,result,zero_jobs
-Freshworks,https://www.freshworks.com/company/careers/,custom,result,zero_jobs
-Zoho,https://www.zoho.com/careers/,custom,result,zero_jobs
-Thoughtworks,https://www.thoughtworks.com/careers/jobs,custom,result,zero_jobs
-Atlassian,https://www.atlassian.com/company/careers/all-jobs,custom,result,zero_jobs
-Amazon,https://www.amazon.jobs/en/,custom,result,zero_jobs
-Microsoft,https://careers.microsoft.com/us/en/search-results,custom,result,zero_jobs
-Google,https://careers.google.com/jobs/results/,custom,result,zero_jobs
-Uber,https://www.uber.com/careers/list/,custom,result,zero_jobs
-ShareChat,https://sharechat.com/careers,custom,result,zero_jobs
-Dream11,https://www.dream11.com/careers,custom,result,zero_jobs
-Rivigo,https://www.rivigo.com/careers,custom,result,zero_jobs
-BigBasket,https://www.bigbasket.com/careers/,custom,result,zero_jobs
-PolicyBazaar,https://www.policybazaar.com/careers/,custom,result,zero_jobs
-InMobi,https://www.inmobi.com/company/careers/,custom,result,zero_jobs
-Practo,https://www.practo.com/careers,custom,result,zero_jobs
-Quikr,https://www.quikr.com/careers,custom,result,zero_jobs
-Delhivery,https://www.delhivery.com/careers/,custom,result,zero_jobs
-Rapido,https://www.rapido.bike/careers,custom,result,zero_jobs
-Urban Company,https://www.urbancompany.com/careers,custom,result,zero_jobs
-Meesho,https://careers.meesho.com/,custom,result,zero_jobs
-NoBroker,https://www.nobroker.in/careers,custom,result,zero_jobs
-Lenskart,https://www.lenskart.com/careers,custom,result,zero_jobs
-FirstCry,https://www.firstcry.com/careers,custom,result,zero_jobs
-Byju's,https://byjus.com/careers/,custom,result,zero_jobs
-Unacademy,https://unacademy.com/careers,custom,result,zero_jobs
-Vedantu,https://www.vedantu.com/careers,custom,result,zero_jobs
-InfoEdge,https://www.infoedge.in/careers,custom,result,zero_jobs
-BrowserStack,https://www.browserstack.com/careers,custom,result,zero_jobs
-Postman,https://www.postman.com/careers/,custom,result,zero_jobs
-HackerRank,https://www.hackerrank.com/careers,custom,result,zero_jobs
-Walmart Labs,https://careers.walmart.com/technology,custom,result,zero_jobs
-Goldman Sachs,https://www.goldmansachs.com/careers/,custom,result,zero_jobs
-JP Morgan,https://careers.jpmorgan.com/,custom,result,zero_jobs
-Morgan Stanley,https://www.morganstanley.com/people-opportunities/,custom,result,zero_jobs
-Adobe,https://careers.adobe.com/,custom,result,zero_jobs
-Oracle,https://www.oracle.com/careers/,custom,result,zero_jobs
-VMware,https://careers.vmware.com/,custom,result,zero_jobs
-Salesforce,https://www.salesforce.com/company/careers/,custom,result,zero_jobs
-PayPal,https://www.paypal.com/us/webapps/mpp/jobs,custom,result,zero_jobs
-Visa,https://www.visa.com.sg/careers.html,custom,result,zero_jobs
-Mastercard,https://careers.mastercard.com/,custom,result,zero_jobs
-Cisco,https://www.cisco.com/c/en/us/about/careers.html,custom,result,zero_jobs
-Accenture,https://www.accenture.com/in-en/careers,custom,result,zero_jobs
-TCS,https://www.tcs.com/careers,custom,result,zero_jobs
-Infosys,https://www.infosys.com/careers.html,custom,result,zero_jobs
-Wipro,https://careers.wipro.com/,custom,result,zero_jobs
-HCL,https://www.hcltech.com/careers,custom,result,zero_jobs
-Tech Mahindra,https://www.techmahindra.com/en-in/careers/,custom,result,zero_jobs
-Capgemini,https://www.capgemini.com/in-en/careers/,custom,result,zero_jobs
-Deloitte,https://www2.deloitte.com/in/en/careers.html,custom,result,zero_jobs
-EY,https://www.ey.com/en_in/careers,custom,result,zero_jobs
-PwC,https://www.pwc.in/careers.html,custom,result,zero_jobs
-KPMG,https://home.kpmg/in/en/home/careers.html,custom,result,zero_jobs
-Groww,https://groww.in/careers,custom,result,zero_jobs
-Upstox,https://upstox.com/careers/,custom,result,zero_jobs
-Zerodha,https://zerodha.com/careers,custom,result,zero_jobs
-Nykaa,https://www.nykaa.com/careers,custom,result,zero_jobs
-Cure.fit,https://www.cure.fit/careers,custom,result,zero_jobs
-Grofers,https://grofers.com/careers,custom,result,zero_jobs
-BookMyShow,https://in.bookmyshow.com/careers,custom,result,zero_jobs
-Hotstar,https://careers.hotstar.com/,custom,result,zero_jobs
-Jio,https://careers.jio.com/,custom,result,zero_jobs
-Airtel,https://www.airtel.in/careers/,custom,result,zero_jobs
-Meta,https://www.metacareers.com/jobs/,custom,result,zero_jobs
-Netflix,https://jobs.netflix.com/jobs,custom,result,zero_jobs
-Stripe,https://stripe.com/jobs/search,custom,result,zero_jobs
-Databricks,https://www.databricks.com/company/careers/open-positions,custom,result,zero_jobs
-Snowflake,https://careers.snowflake.com/us/en/search-results,custom,result,zero_jobs
-NVIDIA,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite,workday,result,zero_jobs
-Qualcomm,https://careers.qualcomm.com/careers,custom,result,zero_jobs
-Intel,https://jobs.intel.com/en,custom,result,zero_jobs
-Samsung,https://sec.wd3.myworkdayjobs.com/Samsung_Careers,workday,result,zero_jobs
-Twilio,https://www.twilio.com/en-us/company/jobs,custom,result,zero_jobs
-Cloudflare,https://www.cloudflare.com/careers/jobs/,custom,result,zero_jobs
-GitHub,https://www.github.careers/careers-home,custom,result,zero_jobs
-GitLab,https://about.gitlab.com/jobs/,custom,result,zero_jobs
-Atlassian_India,https://www.atlassian.com/company/careers/all-jobs,custom,result,zero_jobs
-Bloomberg,https://www.bloomberg.com/company/careers/,custom,result,zero_jobs
-Expedia,https://careers.expediagroup.com/jobs/,custom,result,zero_jobs
-Booking,https://jobs.booking.com/careers,custom,result,zero_jobs
-PayU,https://corporate.payu.com/careers/,custom,result,zero_jobs
-PineLabs,https://www.pinelabs.com/careers/,custom,result,zero_jobs
-BharatPe,https://bharatpe.com/careers,custom,result,zero_jobs
-Slice,https://www.sliceit.com/careers,custom,result,zero_jobs
-Jupiter,https://jupiter.money/careers,custom,result,zero_jobs
-Fi,https://fi.money/careers,custom,result,zero_jobs
-Navi,https://navi.com/careers,custom,result,zero_jobs
-KreditBee,https://www.kreditbee.in/careers,custom,result,zero_jobs
-CRED_Club,https://cred.club/careers,custom,result,zero_jobs
-MPL,https://mpl.live/careers,custom,result,zero_jobs
-Zerodha_Tech,https://zerodha.com/careers,custom,result,zero_jobs
-Udaan,https://careers.udaan.com/,custom,result,zero_jobs
-Udaan_LinkedIn,https://careers.udaan.com/,custom,result,zero_jobs
-Udaan_Lever,https://jobs.lever.co/udaan,lever,result,zero_jobs
-Zepto,https://zepto.bamboohr.com/careers,custom,result,zero_jobs
-Blinkit,https://blinkit.com/careers,custom,result,zero_jobs
-Dunzo,https://www.dunzo.com/careers,custom,result,zero_jobs
-Porter,https://porter.in/careers,custom,result,zero_jobs
-Ather,https://www.atherenergy.com/careers,custom,result,zero_jobs
-Ola_Electric,https://olaelectric.com/careers,custom,result,zero_jobs
-Tata_1mg,https://www.1mg.com/careers,custom,result,zero_jobs
-PharmEasy,https://pharmeasy.in/careers,custom,result,zero_jobs
-Swiggy_Instamart,https://careers.swiggy.com/#/,greenhouse,result,zero_jobs
-Rupeek,https://rupeek.com/careers/,custom,result,zero_jobs
-Chargebee,https://www.chargebee.com/careers/,custom,result,zero_jobs
-Druva,https://www.druva.com/about/careers,custom,result,zero_jobs
-Icertis,https://www.icertis.com/company/careers/,custom,result,zero_jobs
-Hasura,https://hasura.io/careers/,custom,result,zero_jobs
-MoEngage,https://www.moengage.com/careers/,custom,result,zero_jobs
-WebEngage,https://webengage.com/jobs/,custom,result,zero_jobs
-CleverTap,https://clevertap.com/careers/,custom,result,zero_jobs
-Whatfix,https://whatfix.com/careers/,custom,result,zero_jobs
-Mindtickle,https://mindtickle.com/careers/,custom,result,zero_jobs
-RazorpayX,https://razorpay.com/jobs/,greenhouse,result,zero_jobs
-PhonePe_Switch,https://www.phonepe.com/careers/,custom,result,zero_jobs
-eBay,https://jobs.ebayinc.com/us/en/jobs-in-india,custom,result,zero_jobs
-Veeva,https://careers.veeva.com/,custom,result,zero_jobs
-Glean,https://www.glean.com/careers/,custom,result,zero_jobs
-Akamai,https://www.akamai.com/careers/,custom,result,zero_jobs
-MongoDB,https://www.mongodb.com/company/careers/,custom,result,zero_jobs
-CrowdStrike,https://www.crowdstrike.com/en-us/careers/,custom,result,zero_jobs
-LinkedIn_Careers,https://careers.linkedin.com/,custom,result,zero_jobs
-Walmart,https://careers.walmart.com/,custom,result,zero_jobs
-OpenAI,https://openai.com/careers,custom,result,zero_jobs
+Company,Career URL,Scraper Type,Stage,Error,Diagnostic Info
+Flipkart,https://www.flipkartcareers.com/#!/joblist,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Swiggy,https://careers.swiggy.com/#/,greenhouse,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Razorpay,https://razorpay.com/jobs/,greenhouse,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+OYO,https://www.oyorooms.com/careers/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+MakeMyTrip,https://careers.makemytrip.com/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Cred,https://cred.club/careers,custom,fetch,no_response,No response from https://cred.club/careers
+Cred,https://cred.club/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Rivigo,https://www.rivigo.com/careers,custom,fetch,no_response,No response from https://www.rivigo.com/careers
+Rivigo,https://www.rivigo.com/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+BigBasket,https://www.bigbasket.com/careers/,custom,fetch,no_response,No response from https://www.bigbasket.com/careers/
+BigBasket,https://www.bigbasket.com/careers/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Practo,https://www.practo.com/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Quikr,https://www.quikr.com/careers,custom,fetch,no_response,No response from https://www.quikr.com/careers
+Quikr,https://www.quikr.com/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Delhivery,https://www.delhivery.com/careers/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Rapido,https://www.rapido.bike/careers,custom,fetch,no_response,No response from https://www.rapido.bike/careers
+Rapido,https://www.rapido.bike/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Urban Company,https://www.urbancompany.com/careers,custom,fetch,no_response,No response from https://www.urbancompany.com/careers
+Urban Company,https://www.urbancompany.com/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Meesho,https://careers.meesho.com/,custom,fetch,no_response,No response from https://careers.meesho.com/
+Meesho,https://careers.meesho.com/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+NoBroker,https://www.nobroker.in/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Lenskart,https://www.lenskart.com/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+InfoEdge,https://www.infoedge.in/careers,custom,fetch,no_response,No response from https://www.infoedge.in/careers
+InfoEdge,https://www.infoedge.in/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Walmart Labs,https://careers.walmart.com/technology,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+VMware,https://careers.vmware.com/,custom,fetch,no_response,No response from https://careers.vmware.com/
+VMware,https://careers.vmware.com/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Mastercard,https://careers.mastercard.com/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Tech Mahindra,https://www.techmahindra.com/en-in/careers/,custom,fetch,no_response,No response from https://www.techmahindra.com/en-in/careers/
+Tech Mahindra,https://www.techmahindra.com/en-in/careers/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Zerodha,https://zerodha.com/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Cure.fit,https://www.cure.fit/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+BookMyShow,https://in.bookmyshow.com/careers,custom,fetch,no_response,No response from https://in.bookmyshow.com/careers
+BookMyShow,https://in.bookmyshow.com/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Airtel,https://www.airtel.in/careers/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Meta,https://www.metacareers.com/jobs/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+NVIDIA,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite,workday,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Intel,https://jobs.intel.com/en,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Samsung,https://sec.wd3.myworkdayjobs.com/Samsung_Careers,workday,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Twilio,https://www.twilio.com/en-us/company/jobs,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Bloomberg,https://www.bloomberg.com/company/careers/,custom,fetch,no_response,No response from https://www.bloomberg.com/company/careers/
+Bloomberg,https://www.bloomberg.com/company/careers/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+PineLabs,https://www.pinelabs.com/careers/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+KreditBee,https://www.kreditbee.in/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+CRED_Club,https://cred.club/careers,custom,fetch,no_response,No response from https://cred.club/careers
+CRED_Club,https://cred.club/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+MPL,https://mpl.live/careers,custom,fetch,no_response,No response from https://mpl.live/careers
+MPL,https://mpl.live/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Zerodha_Tech,https://zerodha.com/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Udaan,https://careers.udaan.com/,custom,fetch,no_response,No response from https://careers.udaan.com/
+Udaan,https://careers.udaan.com/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Udaan_LinkedIn,https://careers.udaan.com/,custom,fetch,no_response,No response from https://careers.udaan.com/
+Udaan_LinkedIn,https://careers.udaan.com/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Udaan_Lever,https://jobs.lever.co/udaan,lever,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Zepto,https://zepto.bamboohr.com/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Dunzo,https://www.dunzo.com/careers,custom,fetch,no_response,No response from https://www.dunzo.com/careers
+Dunzo,https://www.dunzo.com/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Tata_1mg,https://www.1mg.com/careers,custom,fetch,no_response,No response from https://www.1mg.com/careers
+Tata_1mg,https://www.1mg.com/careers,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Swiggy_Instamart,https://careers.swiggy.com/#/,greenhouse,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+WebEngage,https://webengage.com/jobs/,custom,fetch,no_response,No response from https://webengage.com/jobs/
+WebEngage,https://webengage.com/jobs/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+RazorpayX,https://razorpay.com/jobs/,greenhouse,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
+Walmart,https://careers.walmart.com/,custom,result,zero_jobs,Scraper ran successfully but found 0 jobs matching criteria
