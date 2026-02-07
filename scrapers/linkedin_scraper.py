@@ -76,9 +76,10 @@ class LinkedInScraper(BaseScraper):
                 return jobs
             
             # Check if we got blocked or redirected to login
-            if 'login' in response.url.lower() or 'authwall' in response.url.lower():
-                logger.warning(f"LinkedIn: Redirected to login/authwall for keyword '{keyword}' - likely requires authentication")
-                return jobs
+            if hasattr(response, 'url') and response.url:
+                if 'login' in response.url.lower() or 'authwall' in response.url.lower():
+                    logger.warning(f"LinkedIn: Redirected to login/authwall for keyword '{keyword}' - likely requires authentication")
+                    return jobs
             
             soup = BeautifulSoup(response.text, 'html.parser')
             

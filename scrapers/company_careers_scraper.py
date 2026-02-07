@@ -421,7 +421,15 @@ class CompanyCareersScraper(BaseScraper):
             
             # Diagnostic: log what we found
             if len(unique_elements) == 0:
-                diagnostic = f"Found 0 job elements. Response length: {len(response.text)} chars. Title: {soup.title.string if soup.title else 'N/A'}"
+                # Safely get page title
+                page_title = 'N/A'
+                if soup.title:
+                    try:
+                        page_title = soup.title.get_text(strip=True) or 'N/A'
+                    except Exception:
+                        page_title = 'N/A'
+                
+                diagnostic = f"Found 0 job elements. Response length: {len(response.text)} chars. Title: {page_title}"
                 logger.debug(f"{company_name}: {diagnostic}")
                 # Check if page loaded but has different structure
                 all_links = soup.find_all('a', href=True)
@@ -429,6 +437,15 @@ class CompanyCareersScraper(BaseScraper):
                 if all_links:
                     sample_hrefs = [a.get('href', '')[:50] for a in all_links[:5]]
                     diagnostic += f" | Sample hrefs: {', '.join(sample_hrefs)}"
+                # Add to failures for tracking
+                self.failures.append({
+                    "company": company_name,
+                    "career_url": career_url,
+                    "scraper_type": "custom",
+                    "stage": "parse",
+                    "error": "zero_job_elements",
+                    "diagnostic": diagnostic,
+                })
             
             for element in unique_elements:
                 # Extract title

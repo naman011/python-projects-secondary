@@ -20,13 +20,14 @@ class NaukriScraper(BaseScraper):
         super().__init__()
         self.base_url = "https://www.naukri.com"
     
-    def scrape(self, keywords: List[str] = None, experience: str = "0-3", max_results: int = 100) -> List[Dict]:
+    def scrape(self, keywords: List[str] = None, experience: str = "0-3", location: str = "india", max_results: int = 100) -> List[Dict]:
         """
         Scrape jobs from Naukri.com.
         
         Args:
             keywords: List of search keywords (default: SEARCH_TERMS)
             experience: Experience range (default: 0-3 for fresher–3 years)
+            location: Location to search (default: india)
             max_results: Maximum number of results to fetch
             
         Returns:
@@ -39,23 +40,23 @@ class NaukriScraper(BaseScraper):
         
         for keyword in keywords:
             try:
-                jobs = self._search_jobs(keyword, experience, max_results)
+                jobs = self._search_jobs(keyword, experience, location, max_results)
                 all_jobs.extend(jobs)
-                logger.info(f"Found {len(jobs)} jobs for '{keyword}' on Naukri")
+                logger.info(f"Found {len(jobs)} jobs for '{keyword}' in '{location}' on Naukri")
             except Exception as e:
-                logger.error(f"Error scraping Naukri for '{keyword}': {e}")
+                logger.error(f"Error scraping Naukri for '{keyword}' in '{location}': {e}")
                 continue
         
         return all_jobs
     
-    def _search_jobs(self, keyword: str, experience: str, max_results: int) -> List[Dict]:
+    def _search_jobs(self, keyword: str, experience: str, location: str, max_results: int) -> List[Dict]:
         """Search for jobs with a specific keyword."""
         jobs = []
         
         # Naukri job search URL - try multiple URL patterns
         params = {
             'k': keyword,
-            'l': 'india',
+            'l': location.lower(),
             'experience': experience,
             'functionAreaIdGid': '8',  # IT Software
         }
@@ -87,9 +88,10 @@ class NaukriScraper(BaseScraper):
             return jobs
         
         # Check if blocked or redirected
-        if 'login' in response.url.lower() or 'blocked' in response.url.lower():
-            logger.warning(f"Naukri: Redirected to login/blocked for keyword '{keyword}'")
-            return jobs
+        if hasattr(response, 'url') and response.url:
+            if 'login' in response.url.lower() or 'blocked' in response.url.lower():
+                logger.warning(f"Naukri: Redirected to login/blocked for keyword '{keyword}'")
+                return jobs
         
         try:
             soup = BeautifulSoup(response.text, 'html.parser')
