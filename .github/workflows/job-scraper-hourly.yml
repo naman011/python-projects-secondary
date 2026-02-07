@@ -15,6 +15,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Protect from paid runners
+        run: |
+          if [ "${{ runner.os }}" != "Linux" ]; then
+            echo "ERROR: Non-free GitHub Runner detected. Stopping."
+            exit 1
+          fi
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
