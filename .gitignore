@@ -46,3 +46,6 @@ Thumbs.db
 # Auto-apply sensitive files
 data/user_profile.json
 USER_PROFILE_JSON_SECRET.txt
+
+# Generated job run files
+data/job_runs/
