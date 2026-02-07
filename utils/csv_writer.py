@@ -36,8 +36,11 @@ class CSVWriter:
             'Deadline',
             'Days Until Deadline',
             'Skills Match %',
+            'Ready to Apply',
             'Applied',
             'Applied Date',
+            'Application Method',
+            'Application Error',
             'Status',
             'Notes'
         ]
@@ -157,6 +160,14 @@ class CSVWriter:
                 days_until_deadline = job.get('days_until_deadline', '')
                 skills_match_pct = job.get('skills_match_pct', '')
                 
+                # Automatically mark all new jobs as "Ready to Apply = Yes"
+                # Only preserve existing value if job already has it set
+                ready_to_apply = job.get('ready_to_apply', '')
+                if not ready_to_apply or ready_to_apply.strip() == '':
+                    ready_to_apply = 'Yes'  # Auto-mark new jobs
+                else:
+                    ready_to_apply = ready_to_apply.strip()  # Preserve existing value
+                
                 row = {
                     'Job Title': self._sanitize_csv_value(job.get('title', '') or ''),
                     'Company': self._sanitize_csv_value(job.get('company', '') or ''),
@@ -173,8 +184,11 @@ class CSVWriter:
                     'Deadline': self._sanitize_csv_value(str(deadline) if deadline else ''),
                     'Days Until Deadline': self._sanitize_csv_value(str(days_until_deadline) if days_until_deadline is not None else ''),
                     'Skills Match %': self._sanitize_csv_value(str(skills_match_pct) if skills_match_pct != '' else ''),
+                    'Ready to Apply': self._sanitize_csv_value(ready_to_apply),
                     'Applied': self._sanitize_csv_value(job.get('applied', 'No') or 'No'),
                     'Applied Date': self._sanitize_csv_value(job.get('applied_date', '') or ''),
+                    'Application Method': self._sanitize_csv_value(job.get('application_method', '') or ''),
+                    'Application Error': self._sanitize_csv_value(job.get('application_error', '') or ''),
                     'Status': self._sanitize_csv_value(job.get('status', 'Not Applied') or 'Not Applied'),
                     'Notes': self._sanitize_csv_value(job.get('notes', '') or '')
                 }
@@ -216,6 +230,14 @@ class CSVWriter:
                 deadline = job.get('deadline', '')
                 days_until_deadline = job.get('days_until_deadline', '')
                 skills_match_pct = job.get('skills_match_pct', '')
+                
+                # Automatically mark all new jobs as "Ready to Apply = Yes"
+                # Only preserve existing value if job already has it set
+                ready_to_apply = job.get('ready_to_apply', '')
+                if not ready_to_apply or ready_to_apply.strip() == '':
+                    ready_to_apply = 'Yes'  # Auto-mark new jobs
+                else:
+                    ready_to_apply = ready_to_apply.strip()  # Preserve existing value
 
                 row = {
                     'Job Title': self._sanitize_csv_value(job.get('title', '') or ''),
@@ -233,8 +255,11 @@ class CSVWriter:
                     'Deadline': self._sanitize_csv_value(str(deadline) if deadline else ''),
                     'Days Until Deadline': self._sanitize_csv_value(str(days_until_deadline) if days_until_deadline is not None else ''),
                     'Skills Match %': self._sanitize_csv_value(str(skills_match_pct) if skills_match_pct != '' else ''),
+                    'Ready to Apply': self._sanitize_csv_value(ready_to_apply),
                     'Applied': self._sanitize_csv_value(job.get('applied', 'No') or 'No'),
                     'Applied Date': self._sanitize_csv_value(job.get('applied_date', '') or ''),
+                    'Application Method': self._sanitize_csv_value(job.get('application_method', '') or ''),
+                    'Application Error': self._sanitize_csv_value(job.get('application_error', '') or ''),
                     'Status': self._sanitize_csv_value(job.get('status', 'Not Applied') or 'Not Applied'),
                     'Notes': self._sanitize_csv_value(job.get('notes', '') or '')
                 }
