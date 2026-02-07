@@ -21,7 +21,7 @@ from scrapers.gated_scrapers import (
 )
 from filters.job_filter import JobFilter
 from utils.csv_writer import CSVWriter
-from utils.config import CSV_HISTORY_DIR, ENABLE_GATED_SCRAPERS
+from utils.config import CSV_HISTORY_DIR, ENABLE_GATED_SCRAPERS, SEARCH_LOCATIONS
 
 logging.basicConfig(
     level=logging.INFO,
@@ -94,42 +94,68 @@ def main():
         print(f"   Error: {e}")
     print()
     
-    # 2. LinkedIn
+    # 2. LinkedIn (search multiple locations: India + Gulf countries)
     print("2. Scraping LinkedIn...")
     print("-" * 60)
     try:
-        linkedin_jobs = linkedin_scraper.scrape(max_results=50)
+        linkedin_jobs = []
+        for location in SEARCH_LOCATIONS:
+            try:
+                location_jobs = linkedin_scraper.scrape(location=location, max_results=50)
+                linkedin_jobs.extend(location_jobs)
+                logger.info(f"LinkedIn: Found {len(location_jobs)} jobs in {location}")
+            except Exception as e:
+                logger.warning(f"LinkedIn: Error searching {location}: {e}")
+                continue
         all_jobs.extend(linkedin_jobs)
         scraper_stats['LinkedIn'] = len(linkedin_jobs)
-        print(f"   Found {len(linkedin_jobs)} jobs from LinkedIn")
+        print(f"   Found {len(linkedin_jobs)} jobs from LinkedIn (across {len(SEARCH_LOCATIONS)} locations)")
     except Exception as e:
         logger.error(f"Error scraping LinkedIn: {e}")
         scraper_stats['LinkedIn'] = 0
         print(f"   Error: {e}")
     print()
     
-    # 3. Naukri
+    # 3. Naukri (search multiple locations: India + Gulf countries)
     print("3. Scraping Naukri...")
     print("-" * 60)
     try:
-        naukri_jobs = naukri_scraper.scrape(max_results=50)
+        naukri_jobs = []
+        # Naukri primarily serves India, but also search for Gulf countries
+        for location in SEARCH_LOCATIONS:
+            try:
+                # For Naukri, use location name directly
+                location_jobs = naukri_scraper.scrape(location=location.lower(), max_results=50)
+                naukri_jobs.extend(location_jobs)
+                logger.info(f"Naukri: Found {len(location_jobs)} jobs in {location}")
+            except Exception as e:
+                logger.warning(f"Naukri: Error searching {location}: {e}")
+                continue
         all_jobs.extend(naukri_jobs)
         scraper_stats['Naukri'] = len(naukri_jobs)
-        print(f"   Found {len(naukri_jobs)} jobs from Naukri")
+        print(f"   Found {len(naukri_jobs)} jobs from Naukri (across {len(SEARCH_LOCATIONS)} locations)")
     except Exception as e:
         logger.error(f"Error scraping Naukri: {e}")
         scraper_stats['Naukri'] = 0
         print(f"   Error: {e}")
     print()
     
-    # 4. Indeed
+    # 4. Indeed (search multiple locations: India + Gulf countries)
     print("4. Scraping Indeed...")
     print("-" * 60)
     try:
-        indeed_jobs = indeed_scraper.scrape(max_results=50)
+        indeed_jobs = []
+        for location in SEARCH_LOCATIONS:
+            try:
+                location_jobs = indeed_scraper.scrape(location=location, max_results=50)
+                indeed_jobs.extend(location_jobs)
+                logger.info(f"Indeed: Found {len(location_jobs)} jobs in {location}")
+            except Exception as e:
+                logger.warning(f"Indeed: Error searching {location}: {e}")
+                continue
         all_jobs.extend(indeed_jobs)
         scraper_stats['Indeed'] = len(indeed_jobs)
-        print(f"   Found {len(indeed_jobs)} jobs from Indeed")
+        print(f"   Found {len(indeed_jobs)} jobs from Indeed (across {len(SEARCH_LOCATIONS)} locations)")
     except Exception as e:
         logger.error(f"Error scraping Indeed: {e}")
         scraper_stats['Indeed'] = 0

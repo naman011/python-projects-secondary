@@ -39,7 +39,7 @@ SEARCH_TERMS = [
     "mobile developer",
 ]
 
-# Location filters - India and Remote
+# Location filters - India, Remote, and Gulf countries
 # NOTE: filtering by location in code is now OPTIONAL; see JobFilter.filter_job.
 # This list is still useful if you want to re-enable strict location filtering.
 INDIA_LOCATIONS = [
@@ -59,6 +59,33 @@ INDIA_LOCATIONS = [
     "noida",
     "kolkata",
     "ahmedabad",
+    # Gulf countries / UAE
+    "dubai",
+    "uae",
+    "united arab emirates",
+    "abu dhabi",
+    "saudi arabia",
+    "riyadh",
+    "qatar",
+    "doha",
+    "kuwait",
+    "bahrain",
+    "oman",
+    "muscat",
+    "gulf",
+    "middle east",
+]
+
+# Additional locations to search in job boards (LinkedIn, Naukri, Indeed)
+SEARCH_LOCATIONS = [
+    "India",
+    "Dubai, United Arab Emirates",
+    "UAE",
+    "Saudi Arabia",
+    "Qatar",
+    "Kuwait",
+    "Bahrain",
+    "Oman",
 ]
 
 # Experience levels to include (fresher – 3 years)
