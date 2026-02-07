@@ -42,3 +42,7 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+
+# Auto-apply sensitive files
+data/user_profile.json
+USER_PROFILE_JSON_SECRET.txt
