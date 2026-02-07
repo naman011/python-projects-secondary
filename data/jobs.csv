@@ -214,6 +214,10 @@ Software Engineer jobs,Indeed,,,https://www.linkedin.com/jobs/software-engineer-
 Senior Software Engineer jobs,Indeed,,,https://www.linkedin.com/jobs/senior-software-engineer-jobs?trk=organization_guest_linkster_link,,Indeed,
 Senior Data Scientist (GrabMaps),Grab,,,https://grab.careers/en/jobs/744000107446310/senior-data-scientist-grabmaps/,,Grab,
 "MarketingExplore Marketing @FirstCry - a dynamic, creative, fast-paced environment where you'll closely collaborate with other verticalsRead More",FirstCry,,,https://www.firstcry.com/careers/position-closed,,FirstCry,
+<<<<<<< HEAD
+=======
+Software Engineering and Architecture,Walmart Labs,,,https://careers.walmart.com/content/careers/us/en/home/careers-areas/technology/software-engineering-and-architecture?searchQuery=Software Engineering and Architecture&careerareas=Technology,,Walmart Labs,
+>>>>>>> secondary/csv-history
 "Data & Analytics RoleData ScientistWork with open source and visual tools, along with flexible and scalable deployment options.Available jobs",IBM,,,https://www.ibm.com/careers/search?field_keyword_08%5B0%5D=Data%20%26%20Analytics&q=data%20scientist,,IBM,
 "Cloud RoleSite Reliability EngineerWork with the entire Cloud organization and IBM vendors to support, maintain and operationally improve the cloud infrastructure.Available jobs",IBM,,,https://www.ibm.com/careers/search?field_keyword_08%5B0%5D=Cloud&q=site%20reliability%20engineer,,IBM,
 "Cloud RoleCloud Data EngineerWith a team of data engineers, you'll be implementing a production-grade data platform based on IoT, data lakes and machine learning-based analytics.Available jobs",IBM,,,https://www.ibm.com/careers/search?field_keyword_08%5B0%5D=Cloud&q=cloud%20data%20engineer,,IBM,
@@ -223,6 +227,7 @@ Full Stack Developer for Circular Economy Cloud Applications,SAP,,,https://jobs.
 iOS Developer,SAP_Concur,,,https://jobs.sap.com/job/Prague-5-iOS-Developer-158-00/1287967101/,,SAP_Concur,
 Full Stack Developer,SAP_Concur,,,https://jobs.sap.com/job/Prague-5-Full-Stack-Developer-158-00/1288920901/,,SAP_Concur,
 "Data Scientist (Experience 5 to 7 years), SAP Concur",SAP_Concur,,,https://jobs.sap.com/job/Bangalore-Data-Scientist-%28Experience-5-to-7-years%29%2C-SAP-Concur-KA-562149/1289845501/,,SAP_Concur,
+<<<<<<< HEAD
 "Mobile Engineer II, iOS",Expedia,,,https://careers.expediagroup.com/job/mobile-engineer-ii-ios/london-London/R-101646/,,Expedia,
 Senior Software Development Engineer,Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer/seattle-WA/R-101684/,,Expedia,
 Principal iOS Engineer - Search and Recommendations Experience,Expedia,,,https://careers.expediagroup.com/job/principal-ios-engineer-search-and-recommendations-experience/london-London/R-101912/,,Expedia,
@@ -232,6 +237,17 @@ Software Development Engineer III,Expedia,,,https://careers.expediagroup.com/job
 Principal Android Engineer - Search and Recommendations Experience,Expedia,,,https://careers.expediagroup.com/job/principal-android-engineer-search-and-recommendations-experience/london-London/R-101945/,,Expedia,
 "Data Scientist II, Product Analytics",Expedia,,,https://careers.expediagroup.com/job/data-scientist-ii-product-analytics/bangalore-Bangalore/R-100520/,,Expedia,
 Senior Software Development Engineer,Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer/gurgaon-Haryāna/R-100663/,,Expedia,
+=======
+"Data Scientist II, Product Analytics",Expedia,,,https://careers.expediagroup.com/job/data-scientist-ii-product-analytics/bangalore-Bangalore/R-100520/,,Expedia,
+Senior Software Development Engineer (C++ required),Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer-c-required/seattle-WA/R-99770/,,Expedia,
+"Data Engineer III, Marketing Data Engineering",Expedia,,,https://careers.expediagroup.com/job/data-engineer-iii-marketing-data-engineering/bangalore-Bangalore/R-99133/,,Expedia,
+Principal iOS Engineer - Search and Recommendations Experience,Expedia,,,https://careers.expediagroup.com/job/principal-ios-engineer-search-and-recommendations-experience/london-London/R-101912/,,Expedia,
+"Mobile Engineer II, Android",Expedia,,,https://careers.expediagroup.com/job/mobile-engineer-ii-android/london-London/R-101645/,,Expedia,
+"Mobile Engineer II, iOS",Expedia,,,https://careers.expediagroup.com/job/mobile-engineer-ii-ios/london-London/R-101646/,,Expedia,
+Senior Software Development Engineer,Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer/gurgaon-Haryāna/R-100663/,,Expedia,
+Software Development Engineer II,Expedia,,,https://careers.expediagroup.com/job/software-development-engineer-ii/london-London/R-101428/,,Expedia,
+Software Development Engineer III,Expedia,,,https://careers.expediagroup.com/job/software-development-engineer-iii/london-London/R-101427/,,Expedia,
+>>>>>>> secondary/csv-history
 "Android Engineer, Guest & Host",Airbnb,,,https://careers.airbnb.com/positions/7592267/,,Airbnb,
 "Game Designer III - League of Legends, CosmeticsDesignLeague of LegendsLos Angeles, USA",Riot_Games,,,https://www.riotgames.com/en/j/7407381,,Riot_Games,
 "Principal Data Engineer - Central Product InsightsDataRiot Operations & SupportSF Bay Area, USA",Riot_Games,,,https://www.riotgames.com/en/j/6353059,,Riot_Games,
@@ -253,6 +269,7 @@ Senior Data Scientist - Singapore Efficiency TeamDataDevelopment StudiosSingapor
 Backend Developer Jobs,Agoda,,,https://careersatagoda.com/vacancies/?search=back%20end,,Agoda,
 Data Scientist Jobs,Agoda,,,https://careersatagoda.com/vacancies/?search=Data%20Scientist,,Agoda,
 Full Stack Developer Jobs,Agoda,,,https://careersatagoda.com/vacancies/?search=Full%20Stack,,Agoda,
+<<<<<<< HEAD
 Site Reliability Engineer - FedRAMP (Toronto - Canada),Confluent,,,https://careers.confluent.io/jobs/job/8f86c0a0-b41d-43a6-88e9-7866c421cf33,,Confluent,
 Senior Analytics Engineer,Coinbase,,,https://www.coinbase.com/careers/positions/7532597,,Coinbase,
 "Senior Manager, Analytics Engineering",Coinbase,,,https://www.coinbase.com/careers/positions/7551227,,Coinbase,
@@ -281,10 +298,13 @@ Senior Machine Learning Engineering Manager - Risk and Fraud,Coinbase,,,https://
 Senior Machine Learning Platform Engineer,Coinbase,,,https://www.coinbase.com/careers/positions/7527185,,Coinbase,
 "Senior Staff Machine Learning Engineer, Risk AI/ML",Coinbase,,,https://www.coinbase.com/careers/positions/7588661,,Coinbase,
 Staff Machine Learning Engineer (Platform - Risk AI/ML),Coinbase,,,https://www.coinbase.com/careers/positions/7528511,,Coinbase,
+=======
+>>>>>>> secondary/csv-history
 Data Scientist jobs,Indeed,,,https://www.linkedin.com/jobs/data-scientist-jobs?trk=organization_guest_linkster_link,,Indeed,
 Machine Learning Engineer jobs,Indeed,,,https://www.linkedin.com/jobs/machine-learning-engineer-jobs?trk=organization_guest_linkster_link,,Indeed,
 Data Engineer jobs,Indeed,,,https://www.linkedin.com/jobs/data-engineer-jobs?trk=organization_guest_linkster_link,,Indeed,
 Site Reliability Engineer jobs,Indeed,,,https://www.linkedin.com/jobs/site-reliability-engineer-jobs?trk=organization_guest_linkster_link,,Indeed,
+<<<<<<< HEAD
 Web & Software Developer Trainer,"NCSM FoundationAgartala, Tripura","NCSM FoundationAgartala, Tripura",,https://in.indeed.com/viewjob?jk=873a94e8c9c18c5c,,Indeed,
 Senior Software Engineer Java,"OptumHyderabad, Telangana","OptumHyderabad, Telangana",,https://in.indeed.com/viewjob?jk=41654178e47dd3fc,,Indeed,
 Senior Software Engineer Java,"OptumHyderabad, Telangana","OptumHyderabad, Telangana",,https://in.indeed.com/viewjob?jk=aa4abba2d8b9ffe4,,Indeed,
@@ -439,6 +459,8 @@ DevOps Engineer – Cloud Automation & IT Infrastructure (WFH),Outsource Bigdat
 Mobile App Backend Developer,"Prosperlink Global Private LimitedBagalur , Bengaluru, Karnataka","Prosperlink Global Private LimitedBagalur , Bengaluru, Karnataka",,https://in.indeed.com/viewjob?jk=b9e8a1b79f472c41,,Indeed,
 NG - DevOps Engineer,NTT DATAIndia,NTT DATAIndia,,https://in.indeed.com/viewjob?jk=0a16e601c3ad8906,,Indeed,
 Mobile Developer,"QualitestBengaluru, Karnataka","QualitestBengaluru, Karnataka",,https://in.indeed.com/viewjob?jk=39c6d3fbb72b3e24,,Indeed,
+=======
+>>>>>>> secondary/csv-history
 Senior Site Reliability Engineer Senior Manager,Accenture Federal Services,Remote,,https://remoteOK.com/remote-jobs/remote-senior-site-reliability-engineer-senior-manager-accenture-federal-services-1130102,,RemoteOK,"At Accenture Federal Services, nothing matters more than helping the US federal government make the nation stronger and safer and life better for people.â¯Our 13,000+ people are united in a shared purpose to pursue the limitless potential of technology and ingenuity for clients across defense, national security, public safety, civilian, and military health organizations.
 
 Join Accenture Federal Services, a technology company and part of global Accenture, to do work that matters in a collaborati..."
