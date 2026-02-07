@@ -135,3 +135,81 @@ ENABLE_GATED_SCRAPERS = False
 
 # Filter diagnostics - set to True to log why jobs are filtered out
 ENABLE_FILTER_LOGGING = False
+
+# Your technical skills for job matching (used in priority scoring)
+# Extracted from resume - comprehensive list for accurate job matching
+YOUR_SKILLS = [
+    # Programming Languages
+    "C++",
+    "Java",
+    "Python",
+    "SQL",
+    "HTML",
+    "CSS",
+    # Backend Frameworks & APIs
+    "Spring Boot",
+    "Django",
+    "Flask",
+    "REST APIs",
+    "RESTful APIs",
+    # Cloud & AWS Services
+    "AWS",
+    "EC2",
+    "S3",
+    "Aurora",
+    "Aurora MySQL",
+    "AWS Glue",
+    "AWS infrastructure",
+    # DevOps & Infrastructure
+    "Kafka",
+    "Load Balancers",
+    "Auto Scaling",
+    "Auto Scaling Groups",
+    "SFTP",
+    "Chronos",
+    # Databases
+    "PostgreSQL",
+    "MySQL",
+    "Aurora MySQL",
+    # ML/NLP
+    "SpaCy",
+    "NLTK",
+    "Natural Language Toolkit",
+    "NLP",
+    "Natural Language Processing",
+    "Named Entity Recognition",
+    "NER",
+    "Regular Expressions",
+    "Regex",
+    # Frontend/Mobile
+    "Flutter",
+    # Tools & Platforms
+    "Linux",
+    "Linux Kernel",
+    "GitHub",
+    "Git",
+    "Figma",
+    "Google PlayStore",
+    "DialogFlow",
+    # System Design & Architecture
+    "System Design",
+    "API Design",
+    "Data Modeling",
+    "Schema Design",
+    "Backend Development",
+    "High Performance APIs",
+    "Low Latency Systems",
+    # Web & Data
+    "Web Scraping",
+    "BeautifulSoup",
+    "Data Scraping",
+    # Testing & QA
+    "QA Automation",
+    "Load Testing",
+    "Unit Testing",
+    # Other Skills
+    "Chatbot Development",
+    "Quantitative Finance",
+    "Algorithmic Trading",
+    "Competitive Programming",
+]

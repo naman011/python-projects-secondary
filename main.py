@@ -43,6 +43,7 @@ from scrapers.gated_scrapers import (
 )
 from filters.job_filter import JobFilter
 from utils.csv_writer import CSVWriter
+from utils.job_scorer import JobScorer
 from utils.config import CSV_HISTORY_DIR, ENABLE_GATED_SCRAPERS, SEARCH_LOCATIONS
 
 logging.basicConfig(
@@ -104,6 +105,7 @@ def main():
             ]
         job_filter = JobFilter()
         csv_writer = CSVWriter()
+        job_scorer = JobScorer()
     except Exception as e:
         logger.error(f"Error initializing components: {e}")
         print(f"Error: Failed to initialize scraper components: {e}")
@@ -394,15 +396,58 @@ def main():
         print("No new jobs found. All jobs are already in the CSV.")
         return
     
+    # Score and sort jobs by priority
+    print("Scoring and prioritizing jobs...")
+    print("-" * 60)
+    scored_jobs = []
+    for job in unique_jobs:
+        try:
+            score_data = job_scorer.calculate_score(job)
+            job['priority_score'] = score_data['score']
+            job['days_since_posted'] = score_data['days_since_posted']
+            job['freshness'] = score_data['freshness']
+            job['salary'] = score_data['salary']
+            job['deadline'] = score_data['deadline']
+            job['days_until_deadline'] = score_data['days_until_deadline']
+            job['skills_match_pct'] = score_data['skills_match_pct']
+            scored_jobs.append(job)
+        except Exception as e:
+            logger.warning(f"Error scoring job {job.get('title', 'Unknown')}: {e}")
+            # Add job with default scores if scoring fails
+            job['priority_score'] = 0
+            job['days_since_posted'] = None
+            job['freshness'] = 'Unknown'
+            job['salary'] = None
+            job['deadline'] = None
+            job['days_until_deadline'] = None
+            job['skills_match_pct'] = 0
+            scored_jobs.append(job)
+    
+    # Sort by priority score (descending), then days since posted (ascending - fresher first)
+    scored_jobs.sort(key=lambda x: (
+        -x.get('priority_score', 0),  # Higher score first
+        x.get('days_since_posted', 999) if x.get('days_since_posted') is not None else 999  # Fresher first
+    ))
+    
+    # Show top 10 jobs by score
+    print(f"Top 10 highest priority jobs:")
+    for idx, job in enumerate(scored_jobs[:10], 1):
+        score = job.get('priority_score', 0)
+        title = job.get('title', 'Unknown')[:50]
+        company = job.get('company', 'Unknown')[:30]
+        days = job.get('days_since_posted', 'N/A')
+        print(f"  {idx:2d}. Score: {score:3d} | {company:30s} | {title:50s} | Posted: {days} days ago")
+    print()
+    
     # Write to CSV (main aggregate file)
-    print(f"Writing {new_jobs_count} jobs to CSV...")
+    print(f"Writing {new_jobs_count} jobs to CSV (sorted by priority)...")
     timestamped_file = None
     try:
-        csv_writer.write_jobs(unique_jobs, mode='a' if existing_urls else 'w')
+        csv_writer.write_jobs(scored_jobs, mode='a' if existing_urls else 'w')
 
         # Also write a per-run timestamped CSV snapshot into a history folder
         try:
-            timestamped_file = csv_writer.write_timestamped_jobs(unique_jobs, CSV_HISTORY_DIR)
+            timestamped_file = csv_writer.write_timestamped_jobs(scored_jobs, CSV_HISTORY_DIR)
         except Exception as e:
             logger.warning(f"Error writing timestamped CSV snapshot: {e}")
     except Exception as e:
