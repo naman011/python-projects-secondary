@@ -28,7 +28,18 @@ class CSVWriter:
             'Job URL',
             'Posted Date',
             'Source',
-            'Description'
+            'Description',
+            'Priority Score',
+            'Days Since Posted',
+            'Freshness',
+            'Salary',
+            'Deadline',
+            'Days Until Deadline',
+            'Skills Match %',
+            'Applied',
+            'Applied Date',
+            'Status',
+            'Notes'
         ]
     
     def _sanitize_csv_value(self, value: str) -> str:
@@ -137,6 +148,15 @@ class CSVWriter:
                 if not job or not isinstance(job, dict):
                     continue
                 
+                # Handle new columns with defaults for backward compatibility
+                priority_score = job.get('priority_score', '')
+                days_since_posted = job.get('days_since_posted', '')
+                freshness = job.get('freshness', '')
+                salary = job.get('salary', '')
+                deadline = job.get('deadline', '')
+                days_until_deadline = job.get('days_until_deadline', '')
+                skills_match_pct = job.get('skills_match_pct', '')
+                
                 row = {
                     'Job Title': self._sanitize_csv_value(job.get('title', '') or ''),
                     'Company': self._sanitize_csv_value(job.get('company', '') or ''),
@@ -145,7 +165,18 @@ class CSVWriter:
                     'Job URL': self._format_url(job.get('url', '')),
                     'Posted Date': self._sanitize_csv_value(job.get('posted_date', '') or ''),
                     'Source': self._sanitize_csv_value(job.get('source', '') or ''),
-                    'Description': self._truncate_description(job.get('description', '') or '')
+                    'Description': self._truncate_description(job.get('description', '') or ''),
+                    'Priority Score': self._sanitize_csv_value(str(priority_score) if priority_score != '' else ''),
+                    'Days Since Posted': self._sanitize_csv_value(str(days_since_posted) if days_since_posted != '' else ''),
+                    'Freshness': self._sanitize_csv_value(str(freshness) if freshness else ''),
+                    'Salary': self._sanitize_csv_value(str(salary) if salary else ''),
+                    'Deadline': self._sanitize_csv_value(str(deadline) if deadline else ''),
+                    'Days Until Deadline': self._sanitize_csv_value(str(days_until_deadline) if days_until_deadline is not None else ''),
+                    'Skills Match %': self._sanitize_csv_value(str(skills_match_pct) if skills_match_pct != '' else ''),
+                    'Applied': self._sanitize_csv_value(job.get('applied', 'No') or 'No'),
+                    'Applied Date': self._sanitize_csv_value(job.get('applied_date', '') or ''),
+                    'Status': self._sanitize_csv_value(job.get('status', 'Not Applied') or 'Not Applied'),
+                    'Notes': self._sanitize_csv_value(job.get('notes', '') or '')
                 }
                 writer.writerow(row)
 
@@ -177,6 +208,15 @@ class CSVWriter:
                 if not job or not isinstance(job, dict):
                     continue
 
+                # Handle new columns with defaults for backward compatibility
+                priority_score = job.get('priority_score', '')
+                days_since_posted = job.get('days_since_posted', '')
+                freshness = job.get('freshness', '')
+                salary = job.get('salary', '')
+                deadline = job.get('deadline', '')
+                days_until_deadline = job.get('days_until_deadline', '')
+                skills_match_pct = job.get('skills_match_pct', '')
+
                 row = {
                     'Job Title': self._sanitize_csv_value(job.get('title', '') or ''),
                     'Company': self._sanitize_csv_value(job.get('company', '') or ''),
@@ -185,7 +225,18 @@ class CSVWriter:
                     'Job URL': self._format_url(job.get('url', '')),
                     'Posted Date': self._sanitize_csv_value(job.get('posted_date', '') or ''),
                     'Source': self._sanitize_csv_value(job.get('source', '') or ''),
-                    'Description': self._truncate_description(job.get('description', '') or '')
+                    'Description': self._truncate_description(job.get('description', '') or ''),
+                    'Priority Score': self._sanitize_csv_value(str(priority_score) if priority_score != '' else ''),
+                    'Days Since Posted': self._sanitize_csv_value(str(days_since_posted) if days_since_posted != '' else ''),
+                    'Freshness': self._sanitize_csv_value(str(freshness) if freshness else ''),
+                    'Salary': self._sanitize_csv_value(str(salary) if salary else ''),
+                    'Deadline': self._sanitize_csv_value(str(deadline) if deadline else ''),
+                    'Days Until Deadline': self._sanitize_csv_value(str(days_until_deadline) if days_until_deadline is not None else ''),
+                    'Skills Match %': self._sanitize_csv_value(str(skills_match_pct) if skills_match_pct != '' else ''),
+                    'Applied': self._sanitize_csv_value(job.get('applied', 'No') or 'No'),
+                    'Applied Date': self._sanitize_csv_value(job.get('applied_date', '') or ''),
+                    'Status': self._sanitize_csv_value(job.get('status', 'Not Applied') or 'Not Applied'),
+                    'Notes': self._sanitize_csv_value(job.get('notes', '') or '')
                 }
                 writer.writerow(row)
 
