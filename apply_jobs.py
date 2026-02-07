@@ -2,6 +2,7 @@
 """CLI entry point for auto-apply system."""
 
 import sys
+import os
 import argparse
 import logging
 from auto_apply.application_manager import ApplicationManager
@@ -48,17 +49,30 @@ def main():
     if args.verbose:
         logging.getLogger().setLevel(logging.DEBUG)
     
-    # Check if auto-apply is enabled
-    if not AUTO_APPLY_ENABLED:
+    # Check if auto-apply is enabled (environment variable takes precedence for CI)
+    auto_apply_enabled = os.environ.get('AUTO_APPLY_ENABLED', '').lower() == 'true' or AUTO_APPLY_ENABLED
+    
+    if not auto_apply_enabled:
         print("=" * 60)
         print("WARNING: Auto-apply is disabled")
         print("=" * 60)
         print("To enable auto-apply, set AUTO_APPLY_ENABLED = True in utils/config.py")
+        print("Or set AUTO_APPLY_ENABLED=true environment variable")
         print()
-        response = input("Do you want to continue anyway? (yes/no): ")
-        if response.lower() not in ['yes', 'y']:
-            print("Exiting.")
-            sys.exit(0)
+        
+        # Check if running in non-interactive environment (CI/GitHub Actions)
+        if not sys.stdin.isatty():
+            print("Running in non-interactive environment. Exiting.")
+            sys.exit(1)
+        
+        try:
+            response = input("Do you want to continue anyway? (yes/no): ")
+            if response.lower() not in ['yes', 'y']:
+                print("Exiting.")
+                sys.exit(0)
+        except (EOFError, KeyboardInterrupt):
+            print("\nRunning in non-interactive environment. Exiting.")
+            sys.exit(1)
     
     print("=" * 60)
     print("Job Auto-Apply System")

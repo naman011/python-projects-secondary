@@ -237,7 +237,10 @@ YOUR_SKILLS = [
 ]
 
 # Auto-apply settings
-AUTO_APPLY_ENABLED = False  # Master switch for auto-apply functionality
+# Can be overridden by AUTO_APPLY_ENABLED environment variable (for CI/GitHub Actions)
+import os
+_auto_apply_env = os.environ.get('AUTO_APPLY_ENABLED', '').lower()
+AUTO_APPLY_ENABLED = _auto_apply_env == 'true' if _auto_apply_env else False  # Master switch for auto-apply functionality
 APPLY_DELAY_MIN = 30  # Minimum delay between applications (seconds)
 APPLY_DELAY_MAX = 120  # Maximum delay between applications (seconds)
 MAX_APPLICATIONS_PER_RUN = 10  # Maximum number of applications per run (rate limiting)
