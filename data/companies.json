@@ -855,7 +855,7 @@
     "search_terms": ["software engineer", "developer", "sde"]
   },
   "Funded.club": {
-    "career_url": "https://funded.club/careers",
+    "career_url": "https://funded.club/jobs.html",
     "scraper_type": "custom",
     "search_terms": ["software engineer", "developer", "sde"]
   },
@@ -890,7 +890,7 @@
     "search_terms": ["software engineer", "developer", "sde"]
   },
   "Faire": {
-    "career_url": "https://www.faire.com/careers",
+    "career_url": "https://www.faire.com/careers/openings",
     "scraper_type": "custom",
     "search_terms": ["software engineer", "developer", "sde"]
   },
@@ -905,7 +905,7 @@
     "search_terms": ["software engineer", "developer", "sde"]
   },
   "Goinstacare": {
-    "career_url": "https://goinstacare.com/careers",
+    "career_url": "https://www.goinstacare.com/jobs",
     "scraper_type": "custom",
     "search_terms": ["software engineer", "developer", "sde"]
   },

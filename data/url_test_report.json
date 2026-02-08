@@ -1,5 +1,5 @@
 {
-  "total": 190,
+  "total": 195,
   "working": [
     "Flipkart",
     "Zomato",
@@ -18,7 +18,6 @@
     "Amazon",
     "Microsoft",
     "Google",
-    "Uber",
     "Grab",
     "ShareChat",
     "Dream11",
@@ -26,15 +25,12 @@
     "BigBasket",
     "InMobi",
     "Practo",
-    "Quikr",
     "Delhivery",
-    "Rapido",
     "NoBroker",
     "Lenskart",
     "Byju's",
     "Unacademy",
     "Vedantu",
-    "InfoEdge",
     "BrowserStack",
     "Postman",
     "HackerRank",
@@ -44,7 +40,6 @@
     "Morgan Stanley",
     "Adobe",
     "Oracle",
-    "VMware",
     "Salesforce",
     "Intuit",
     "PayPal",
@@ -52,6 +47,9 @@
     "Mastercard",
     "Cisco",
     "IBM",
+    "Accenture",
+    "TCS",
+    "Wipro",
     "HCL",
     "Cognizant",
     "Capgemini",
@@ -76,7 +74,6 @@
     "Snowflake",
     "NVIDIA",
     "Qualcomm",
-    "Intel",
     "Samsung",
     "SAP",
     "ServiceNow",
@@ -87,7 +84,6 @@
     "Atlassian_India",
     "Intuit_India",
     "SAP_Concur",
-    "Bloomberg",
     "Expedia",
     "Booking",
     "Airbnb",
@@ -100,15 +96,12 @@
     "Fi",
     "Navi",
     "KreditBee",
-    "CRED_Club",
     "Zerodha_Tech",
-    "Udaan",
     "Zepto",
     "Blinkit",
     "Porter",
     "Ather",
     "Ola_Electric",
-    "Tata_1mg",
     "PharmEasy",
     "Swiggy_Instamart",
     "Rupeek",
@@ -117,7 +110,6 @@
     "Icertis",
     "Hasura",
     "MoEngage",
-    "WebEngage",
     "CleverTap",
     "Whatfix",
     "Mindtickle",
@@ -127,7 +119,6 @@
     "Veeva",
     "Agoda",
     "Glean",
-    "Akamai",
     "MongoDB",
     "CrowdStrike",
     "Coinbase",
@@ -151,11 +142,8 @@
     "Sorcero",
     "Beekeeper",
     "Uplers",
-    "Bold",
     "DuckDuckGo",
-    "DealHub.io",
     "Kemecon",
-    "Deltek",
     "Rec Room",
     "Patreon",
     "Xapobank",
@@ -166,7 +154,9 @@
     "UserGems",
     "Workiva",
     "Contra",
+    "Awesomemotive",
     "Appcues",
+    "Jenius Bank",
     "DocuSign",
     "Census",
     "AngelOne"
@@ -179,16 +169,34 @@
       "code": 404
     },
     {
+      "company": "Uber",
+      "url": "https://www.uber.com/careers/list/",
+      "status": "HTTP 406",
+      "code": 406
+    },
+    {
       "company": "PolicyBazaar",
       "url": "https://www.policybazaar.com/careers/",
       "status": "Unexpected: The read operation timed out",
       "code": 0
     },
     {
+      "company": "Quikr",
+      "url": "https://www.quikr.com/careers",
+      "status": "Not Found",
+      "code": 404
+    },
+    {
+      "company": "Rapido",
+      "url": "https://www.rapido.bike/careers",
+      "status": "Not Found",
+      "code": 404
+    },
+    {
       "company": "Urban Company",
-      "url": "https://www.meesho.io/jobs?d=engineering",
-      "status": "Forbidden (may require login/bot protection)",
-      "code": 403
+      "url": "https://www.urbancompany.com/careers",
+      "status": "Not Found",
+      "code": 404
     },
     {
       "company": "Meesho",
@@ -203,6 +211,24 @@
       "code": 0
     },
     {
+      "company": "InfoEdge",
+      "url": "https://www.infoedge.in/careers",
+      "status": "Not Found",
+      "code": 404
+    },
+    {
+      "company": "VMware",
+      "url": "https://careers.vmware.com/",
+      "status": "Timeout",
+      "code": 0
+    },
+    {
+      "company": "Infosys",
+      "url": "https://www.infosys.com/careers.html",
+      "status": "Forbidden (may require login/bot protection)",
+      "code": 403
+    },
+    {
       "company": "Tech Mahindra",
       "url": "https://www.techmahindra.com/en-in/careers/",
       "status": "Not Found",
@@ -215,13 +241,31 @@
       "code": 403
     },
     {
+      "company": "Intel",
+      "url": "https://jobs.intel.com/en",
+      "status": "Forbidden (may require login/bot protection)",
+      "code": 403
+    },
+    {
+      "company": "Bloomberg",
+      "url": "https://www.bloomberg.com/company/careers/",
+      "status": "Forbidden (may require login/bot protection)",
+      "code": 403
+    },
+    {
+      "company": "CRED_Club",
+      "url": "https://cred.club/careers",
+      "status": "Not Found",
+      "code": 404
+    },
+    {
       "company": "MPL",
       "url": "https://mpl.live/careers",
       "status": "Not Found",
       "code": 404
     },
     {
-      "company": "Udaan_LinkedIn",
+      "company": "Udaan",
       "url": "https://careers.udaan.com/",
       "status": "HTTP 502",
       "code": 502
@@ -239,10 +283,46 @@
       "code": 0
     },
     {
+      "company": "Tata_1mg",
+      "url": "https://www.1mg.com/careers",
+      "status": "Not Found",
+      "code": 404
+    },
+    {
+      "company": "WebEngage",
+      "url": "https://webengage.com/jobs/",
+      "status": "Not Found",
+      "code": 404
+    },
+    {
+      "company": "Akamai",
+      "url": "https://www.akamai.com/careers/",
+      "status": "Unexpected: The read operation timed out",
+      "code": 0
+    },
+    {
       "company": "Confluent",
       "url": "https://careers.confluent.io/jobs",
       "status": "HTTP 429",
       "code": 429
+    },
+    {
+      "company": "Constructor",
+      "url": "https://constructor.io/careers/",
+      "status": "Not Found",
+      "code": 404
+    },
+    {
+      "company": "Bold",
+      "url": "https://bold.co/careers",
+      "status": "HTTP 502",
+      "code": 502
+    },
+    {
+      "company": "DealHub.io",
+      "url": "https://dealhub.io/careers",
+      "status": "Unexpected: The read operation timed out",
+      "code": 0
     },
     {
       "company": "Akamai Technologies",
@@ -255,6 +335,18 @@
       "url": "https://arkency.com/careers",
       "status": "Not Found",
       "code": 404
+    },
+    {
+      "company": "Deltek",
+      "url": "https://www.deltek.com/en-us/about-us/careers",
+      "status": "Not Found",
+      "code": 404
+    },
+    {
+      "company": "Cash App",
+      "url": "https://cash.app/careers",
+      "status": "Forbidden (may require login/bot protection)",
+      "code": 403
     },
     {
       "company": "Affordmate",
@@ -285,26 +377,14 @@
       "url": "https://goinstacare.com/careers",
       "status": "Not Found",
       "code": 404
-    },
-    {
-      "company": "Awesomemotive",
-      "url": "https://awesomemotive.com/careers",
-      "status": "Unexpected: The read operation timed out",
-      "code": 0
-    },
-    {
-      "company": "Jenius Bank",
-      "url": "https://jeniusbank.com/careers",
-      "status": "Connection Error",
-      "code": 0
     }
   ],
   "redirects": [],
   "summary": {
-    "working_count": 169,
-    "broken_count": 21,
+    "working_count": 159,
+    "broken_count": 36,
     "redirects_count": 0,
-    "working_percentage": 88.9,
-    "broken_percentage": 11.1
+    "working_percentage": 81.5,
+    "broken_percentage": 18.5
   }
 }
