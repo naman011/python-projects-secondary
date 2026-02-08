@@ -22,7 +22,8 @@ from utils.config import (
     APPLICATION_STATUS_SKIPPED,
     METHOD_API,
     METHOD_SELENIUM,
-    METHOD_MANUAL
+    METHOD_MANUAL,
+    ERROR_LOGIN_REQUIRED
 )
 
 logger = logging.getLogger(__name__)
@@ -201,7 +202,7 @@ class ApplicationManager:
             error_category = result.get('error_category', '')
             if error_category == 'Unsupported Source':
                 updates['status'] = APPLICATION_STATUS_SKIPPED
-            elif error_category == 'Needs Manual Check':
+            elif error_category == 'Needs Manual Check' or error_category == ERROR_LOGIN_REQUIRED:
                 updates['status'] = APPLICATION_STATUS_NEEDS_MANUAL_CHECK
             else:
                 updates['status'] = APPLICATION_STATUS_FAILED

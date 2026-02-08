@@ -21,7 +21,12 @@ from selenium.common.exceptions import (
 from webdriver_manager.chrome import ChromeDriverManager
 from auto_apply.profile_loader import ProfileLoader
 from auto_apply.utils import human_like_delay, get_random_user_agent
-from utils.config import SELENIUM_ENABLED, BROWSER_PAGE_LOAD_TIMEOUT
+from utils.config import (
+    SELENIUM_ENABLED, 
+    BROWSER_PAGE_LOAD_TIMEOUT,
+    ERROR_LOGIN_REQUIRED,
+    APPLICATION_STATUS_NEEDS_MANUAL_CHECK
+)
 
 logger = logging.getLogger(__name__)
 
@@ -316,6 +321,46 @@ class SeleniumFallback:
             # Wait for page to load
             time.sleep(2 + random.uniform(0, 2))
             
+            # Check for login requirement
+            page_source_lower = self.driver.page_source.lower()
+            login_indicators = ['sign in', 'log in', 'login', 'you must be logged in', 'please sign in']
+            requires_login = any(ind in page_source_lower for ind in login_indicators)
+            
+            if requires_login:
+                logger.warning("Page requires login - marking as Needs Manual Check")
+                screenshot_file = f"application_{job.get('company', 'unknown').replace(' ', '_')}_{int(time.time())}.png"
+                self._take_screenshot(screenshot_file)
+                return {
+                    'success': False,
+                    'method': 'Selenium',
+                    'error': 'Login required',
+                    'error_category': ERROR_LOGIN_REQUIRED,
+                    'message': 'Page requires login before application form is available',
+                    'screenshot': screenshot_file
+                }
+            
+            # Check for iframes (Indeed uses iframes for application forms)
+            iframes = self.driver.find_elements(By.TAG_NAME, 'iframe')
+            application_iframe = None
+            
+            for iframe in iframes:
+                iframe_src = iframe.get_attribute('src') or ''
+                # Indeed's application iframe
+                if 'smartapply.indeed.com' in iframe_src or 'indeedapply' in iframe_src:
+                    application_iframe = iframe
+                    logger.info(f"Found Indeed application iframe: {iframe_src}")
+                    break
+            
+            # Switch to iframe if found
+            if application_iframe:
+                try:
+                    self.driver.switch_to.frame(application_iframe)
+                    logger.info("Switched to application iframe")
+                    # Wait for iframe content to load
+                    time.sleep(3 + random.uniform(0, 2))
+                except Exception as e:
+                    logger.warning(f"Failed to switch to iframe: {e}")
+            
             # Take initial screenshot
             screenshot_file = f"application_{job.get('company', 'unknown').replace(' ', '_')}_{int(time.time())}.png"
             self._take_screenshot(screenshot_file)
@@ -411,6 +456,11 @@ class SeleniumFallback:
         finally:
             if self.driver:
                 try:
+                    # Switch back to default content before quitting
+                    try:
+                        self.driver.switch_to.default_content()
+                    except:
+                        pass
                     self.driver.quit()
                 except:
                     pass
