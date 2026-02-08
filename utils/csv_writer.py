@@ -88,6 +88,28 @@ class CSVWriter:
         
         return description
     
+    def _get_ready_to_apply_value(self, job: Dict) -> str:
+        """
+        Determine the "Ready to Apply" value for a job.
+        Automatically marks new scraped jobs as "Yes" unless explicitly set to "No".
+        
+        Args:
+            job: Job dictionary
+            
+        Returns:
+            "Yes" for new jobs, or preserved value if already set
+        """
+        # Check both possible field names (from job dict or from CSV)
+        ready_to_apply = job.get('ready_to_apply', '') or job.get('Ready to Apply', '')
+        ready_to_apply = ready_to_apply.strip() if ready_to_apply else ''
+        
+        # If empty or not explicitly set to "No", mark as "Yes" for new scraped jobs
+        # This ensures all newly scraped jobs are automatically ready to apply
+        if not ready_to_apply or ready_to_apply.lower() not in ['no', 'false', '0']:
+            return 'Yes'  # Auto-mark new jobs
+        else:
+            return 'No'  # Preserve explicit "No" if set
+    
     def _format_url(self, url: str) -> str:
         """
         Format URL to be clickable in CSV.
@@ -161,12 +183,7 @@ class CSVWriter:
                 skills_match_pct = job.get('skills_match_pct', '')
                 
                 # Automatically mark all new jobs as "Ready to Apply = Yes"
-                # Only preserve existing value if job already has it set
-                ready_to_apply = job.get('ready_to_apply', '')
-                if not ready_to_apply or ready_to_apply.strip() == '':
-                    ready_to_apply = 'Yes'  # Auto-mark new jobs
-                else:
-                    ready_to_apply = ready_to_apply.strip()  # Preserve existing value
+                ready_to_apply = self._get_ready_to_apply_value(job)
                 
                 row = {
                     'Job Title': self._sanitize_csv_value(job.get('title', '') or ''),
@@ -232,12 +249,7 @@ class CSVWriter:
                 skills_match_pct = job.get('skills_match_pct', '')
                 
                 # Automatically mark all new jobs as "Ready to Apply = Yes"
-                # Only preserve existing value if job already has it set
-                ready_to_apply = job.get('ready_to_apply', '')
-                if not ready_to_apply or ready_to_apply.strip() == '':
-                    ready_to_apply = 'Yes'  # Auto-mark new jobs
-                else:
-                    ready_to_apply = ready_to_apply.strip()  # Preserve existing value
+                ready_to_apply = self._get_ready_to_apply_value(job)
 
                 row = {
                     'Job Title': self._sanitize_csv_value(job.get('title', '') or ''),
