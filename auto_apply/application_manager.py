@@ -170,7 +170,7 @@ class ApplicationManager:
             self.stats['successful'] += 1
         elif result.get('error_category') == 'Unsupported Source':
             self.stats['skipped'] += 1
-        elif result.get('error_category') == 'Needs Manual Check':
+        elif result.get('error_category') == 'Needs Manual Check' or result.get('error_category') == ERROR_LOGIN_REQUIRED:
             self.stats['needs_manual'] += 1
         else:
             self.stats['failed'] += 1
