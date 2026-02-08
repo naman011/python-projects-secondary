@@ -176,8 +176,11 @@ class CSVWriter:
                     'Deadline': self._sanitize_csv_value(str(deadline) if deadline else ''),
                     'Days Until Deadline': self._sanitize_csv_value(str(days_until_deadline) if days_until_deadline is not None else ''),
                     'Skills Match %': self._sanitize_csv_value(str(skills_match_pct) if skills_match_pct != '' else ''),
+                    'Ready to Apply': self._sanitize_csv_value(job.get('ready_to_apply', '') or ''),
                     'Applied': self._sanitize_csv_value(job.get('applied', 'No') or 'No'),
                     'Applied Date': self._sanitize_csv_value(job.get('applied_date', '') or ''),
+                    'Application Method': self._sanitize_csv_value(job.get('application_method', '') or ''),
+                    'Application Error': self._sanitize_csv_value(job.get('application_error', '') or ''),
                     'Status': self._sanitize_csv_value(job.get('status', 'Not Applied') or 'Not Applied'),
                     'Notes': self._sanitize_csv_value(job.get('notes', '') or '')
                 }
