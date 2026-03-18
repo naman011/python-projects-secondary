@@ -1,9 +1,63 @@
 Job Title,Company,Location,Experience Required,Job URL,Posted Date,Source,Description,Priority Score,Days Since Posted,Freshness,Salary,Deadline,Days Until Deadline,Skills Match %,Ready to Apply,Applied,Applied Date,Application Method,Application Error,Status,Notes
 Software Engineer III,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=3e09234960611d78,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
-Software Engineer II,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=551c356360f7dd11,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
+Software Engineer II,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=551c356360f7dd11,,Indeed,,,,,,,,,Yes,No,,Selenium,"Message: timeout: Timed out receiving message from renderer: 39.941
+  (Session info: chrome=145.0.7632.159)
+Stacktrace:
+#0 0x55652efe5b6a <unknown>
+#1 0x55652e9f8a32 <unknown>
+#2 0x55652e9e0007 <unknown>
+#3 0x55652e9dfc16 <unknown>
+#4 0x55652e9dd731 <unknown>
+#5 0x55652e9de0bf <unknown>
+#6 0x55652e9ed560 <unknown>
+#7 0x55652ea07707 <unknown>
+#8 0x55652ea0e8db <unknown>
+#9 0x55652e9de829 <unknown>
+#10 0x55652ea0749c <unknown>
+#11 0x55652ea966e1 <unknown>
+#12 0x55652ea3fc0f <unknown>
+#13 0x55652ea409d1 <unknown>
+#14 0x55652efaa6b9 <unknown>
+#15 0x55652efad5c1 <unknown>
+#16 0x55652ef96e29 <unknown>
+#17 0x55652efae17e <unknown>
+#18 0x55652ef7d4b0 <unknown>
+#19 0x55652efd2578 <unknown>
+#20 0x55652efd274b <unknown>
+#21 0x55652efe41a3 <unknown>
+#22 0x7fa01009caa4 <unknown>
+#23 0x7fa010129c6c <unknown>
+",Failed,
 "Software Development Engineer 2, Finance Automation","ADCI - MaharashtraPune, Maharashtra","ADCI - MaharashtraPune, Maharashtra",,https://in.indeed.com/viewjob?jk=1f2d838e3dad1f69,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 Software Engineer lll,Dynatron SoftwareRemote,Dynatron SoftwareRemote,,https://in.indeed.com/viewjob?jk=33f445667f17b1b0,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
-"Python Backend Engineer, Associate","BlackRock InvestmentsHybrid remote in Gurugram, Haryana","BlackRock InvestmentsHybrid remote in Gurugram, Haryana",,https://in.indeed.com/viewjob?jk=55c8b2003a4b983c,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
+"Python Backend Engineer, Associate","BlackRock InvestmentsHybrid remote in Gurugram, Haryana","BlackRock InvestmentsHybrid remote in Gurugram, Haryana",,https://in.indeed.com/viewjob?jk=55c8b2003a4b983c,,Indeed,,,,,,,,,Yes,No,,Selenium,"Message: timeout: Timed out receiving message from renderer: 40.000
+  (Session info: chrome=145.0.7632.159)
+Stacktrace:
+#0 0x5560f4bceb6a <unknown>
+#1 0x5560f45e1a32 <unknown>
+#2 0x5560f45c9007 <unknown>
+#3 0x5560f45c8c16 <unknown>
+#4 0x5560f45c6731 <unknown>
+#5 0x5560f45c70bf <unknown>
+#6 0x5560f45d6560 <unknown>
+#7 0x5560f45f0707 <unknown>
+#8 0x5560f45f78db <unknown>
+#9 0x5560f45c7829 <unknown>
+#10 0x5560f45f049c <unknown>
+#11 0x5560f467f22b <unknown>
+#12 0x5560f4628c0f <unknown>
+#13 0x5560f46299d1 <unknown>
+#14 0x5560f4b936b9 <unknown>
+#15 0x5560f4b965c1 <unknown>
+#16 0x5560f4b7fe29 <unknown>
+#17 0x5560f4b9717e <unknown>
+#18 0x5560f4b664b0 <unknown>
+#19 0x5560f4bbb578 <unknown>
+#20 0x5560f4bbb74b <unknown>
+#21 0x5560f4bcd1a3 <unknown>
+#22 0x7f39fa29caa4 <unknown>
+#23 0x7f39fa329c6c <unknown>
+",Failed,
 SDE II,"Amazon Dev Center India - HyderabadDelhi, Delhi","Amazon Dev Center India - HyderabadDelhi, Delhi",,https://in.indeed.com/viewjob?jk=0c85d5945fffc548,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 SDE 3 – Senior Spring boot Developer,"RIA AdvisoryRemote in Pune, Maharashtra","RIA AdvisoryRemote in Pune, Maharashtra",,https://in.indeed.com/viewjob?jk=f504b54acbb122e5,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 "SDE II (iOS), Amazon","ADCI - KarnatakaBengaluru, Karnataka","ADCI - KarnatakaBengaluru, Karnataka",,https://in.indeed.com/viewjob?jk=f8fd43d5da006db5,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
