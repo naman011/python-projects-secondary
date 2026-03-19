@@ -1,91 +1,10 @@
 Job Title,Company,Location,Experience Required,Job URL,Posted Date,Source,Description,Priority Score,Days Since Posted,Freshness,Salary,Deadline,Days Until Deadline,Skills Match %,Ready to Apply,Applied,Applied Date,Application Method,Application Error,Status,Notes
-Software Engineer III,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=3e09234960611d78,,Indeed,,,,,,,,,Yes,No,,Selenium,"Message: timeout: Timed out receiving message from renderer: 39.915
-  (Session info: chrome=145.0.7632.159)
-Stacktrace:
-#0 0x561dc13adb6a <unknown>
-#1 0x561dc0dc0a32 <unknown>
-#2 0x561dc0da8007 <unknown>
-#3 0x561dc0da7c16 <unknown>
-#4 0x561dc0da5731 <unknown>
-#5 0x561dc0da60bf <unknown>
-#6 0x561dc0db5560 <unknown>
-#7 0x561dc0dcf707 <unknown>
-#8 0x561dc0dd68db <unknown>
-#9 0x561dc0da6829 <unknown>
-#10 0x561dc0dcf49c <unknown>
-#11 0x561dc0e5e6e1 <unknown>
-#12 0x561dc0e07c0f <unknown>
-#13 0x561dc0e089d1 <unknown>
-#14 0x561dc13726b9 <unknown>
-#15 0x561dc13755c1 <unknown>
-#16 0x561dc135ee29 <unknown>
-#17 0x561dc137617e <unknown>
-#18 0x561dc13454b0 <unknown>
-#19 0x561dc139a578 <unknown>
-#20 0x561dc139a74b <unknown>
-#21 0x561dc13ac1a3 <unknown>
-#22 0x7eff7ea9caa4 <unknown>
-#23 0x7eff7eb29c6c <unknown>
-",Failed,
+Software Engineer III,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=3e09234960611d78,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 Software Engineer II,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=551c356360f7dd11,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 "Software Development Engineer 2, Finance Automation","ADCI - MaharashtraPune, Maharashtra","ADCI - MaharashtraPune, Maharashtra",,https://in.indeed.com/viewjob?jk=1f2d838e3dad1f69,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 Software Engineer lll,Dynatron SoftwareRemote,Dynatron SoftwareRemote,,https://in.indeed.com/viewjob?jk=33f445667f17b1b0,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
-"Python Backend Engineer, Associate","BlackRock InvestmentsHybrid remote in Gurugram, Haryana","BlackRock InvestmentsHybrid remote in Gurugram, Haryana",,https://in.indeed.com/viewjob?jk=55c8b2003a4b983c,,Indeed,,,,,,,,,Yes,No,,Selenium,"Message: timeout: Timed out receiving message from renderer: 39.944
-  (Session info: chrome=145.0.7632.159)
-Stacktrace:
-#0 0x5630b7f9db6a <unknown>
-#1 0x5630b79b0a32 <unknown>
-#2 0x5630b7998007 <unknown>
-#3 0x5630b7997c16 <unknown>
-#4 0x5630b7995731 <unknown>
-#5 0x5630b79960bf <unknown>
-#6 0x5630b79a5560 <unknown>
-#7 0x5630b79bf707 <unknown>
-#8 0x5630b79c68db <unknown>
-#9 0x5630b7996829 <unknown>
-#10 0x5630b79bf49c <unknown>
-#11 0x5630b7a4e6e1 <unknown>
-#12 0x5630b79f7c0f <unknown>
-#13 0x5630b79f89d1 <unknown>
-#14 0x5630b7f626b9 <unknown>
-#15 0x5630b7f655c1 <unknown>
-#16 0x5630b7f4ee29 <unknown>
-#17 0x5630b7f6617e <unknown>
-#18 0x5630b7f354b0 <unknown>
-#19 0x5630b7f8a578 <unknown>
-#20 0x5630b7f8a74b <unknown>
-#21 0x5630b7f9c1a3 <unknown>
-#22 0x7f090ce9caa4 <unknown>
-#23 0x7f090cf29c6c <unknown>
-",Failed,
-SDE II,"Amazon Dev Center India - HyderabadDelhi, Delhi","Amazon Dev Center India - HyderabadDelhi, Delhi",,https://in.indeed.com/viewjob?jk=0c85d5945fffc548,,Indeed,,,,,,,,,Yes,No,,Selenium,"Message: timeout: Timed out receiving message from renderer: 39.939
-  (Session info: chrome=145.0.7632.159)
-Stacktrace:
-#0 0x55f9bc30eb6a <unknown>
-#1 0x55f9bbd21a32 <unknown>
-#2 0x55f9bbd09007 <unknown>
-#3 0x55f9bbd08c16 <unknown>
-#4 0x55f9bbd06731 <unknown>
-#5 0x55f9bbd070bf <unknown>
-#6 0x55f9bbd16560 <unknown>
-#7 0x55f9bbd30707 <unknown>
-#8 0x55f9bbd378db <unknown>
-#9 0x55f9bbd07829 <unknown>
-#10 0x55f9bbd3049c <unknown>
-#11 0x55f9bbdbf6e1 <unknown>
-#12 0x55f9bbd68c0f <unknown>
-#13 0x55f9bbd699d1 <unknown>
-#14 0x55f9bc2d36b9 <unknown>
-#15 0x55f9bc2d65c1 <unknown>
-#16 0x55f9bc2bfe29 <unknown>
-#17 0x55f9bc2d717e <unknown>
-#18 0x55f9bc2a64b0 <unknown>
-#19 0x55f9bc2fb578 <unknown>
-#20 0x55f9bc2fb74b <unknown>
-#21 0x55f9bc30d1a3 <unknown>
-#22 0x7fb910a9caa4 <unknown>
-#23 0x7fb910b29c6c <unknown>
-",Failed,
+"Python Backend Engineer, Associate","BlackRock InvestmentsHybrid remote in Gurugram, Haryana","BlackRock InvestmentsHybrid remote in Gurugram, Haryana",,https://in.indeed.com/viewjob?jk=55c8b2003a4b983c,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
+SDE II,"Amazon Dev Center India - HyderabadDelhi, Delhi","Amazon Dev Center India - HyderabadDelhi, Delhi",,https://in.indeed.com/viewjob?jk=0c85d5945fffc548,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 SDE 3 – Senior Spring boot Developer,"RIA AdvisoryRemote in Pune, Maharashtra","RIA AdvisoryRemote in Pune, Maharashtra",,https://in.indeed.com/viewjob?jk=f504b54acbb122e5,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 "SDE II (iOS), Amazon","ADCI - KarnatakaBengaluru, Karnataka","ADCI - KarnatakaBengaluru, Karnataka",,https://in.indeed.com/viewjob?jk=f8fd43d5da006db5,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 Software Development Engineer,"ADCI - KarnatakaChennai, Tamil Nadu","ADCI - KarnatakaChennai, Tamil Nadu",,https://in.indeed.com/viewjob?jk=0519b5e6cfeb3da5,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
@@ -629,25 +548,25 @@ Senior Independent AI Engineer / Architect,A.Team,"Americas, Europe, Israel",,ht
 "Backend Engineer, Payments and Risk",Stripe,,,https://stripe.com/jobs/listing/backend-engineer-payments-and-risk/7232592,,Stripe,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Backend Engineer/API, Payments and Risk",Stripe,,,https://stripe.com/jobs/listing/backend-engineer-api-payments-and-risk/6692166,,Stripe,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Backend Engineer/API, Payments and Risk",Stripe,,,https://stripe.com/jobs/listing/backend-engineer-api-payments-and-risk/4921361,,Stripe,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Développeur(-euse) principal d’application mobile − Android / Senior Mobile Developer – Android,Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-euse-principal-d-application-mobile-android-senior-mobile-developer-android/montreal-quebec/R-103195/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Développeur(-euse) de logiciels III, Connectivité des partenaires / Software Developer III, Partner Connectivity",Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-euse-de-logiciels-iii-connectivit-des-partenaires-software-developer-iii-partner-connectivity/montreal-quebec/R-99482/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Développeur(-euse) d’application mobile III − Android /Mobile Developer III- Android,Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-euse-d-application-mobile-iii-android-mobile-developer-iii-android/montreal-quebec/R-101713/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 iOS Engineer III - Design System,Expedia,,,https://careers.expediagroup.com/job/ios-engineer-iii-design-system/chicago-il/R-99287/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Senior Software Development Engineer, Advertising Technology",Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer-advertising-technology/chicago-il/R-101285/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Android Engineer II - Inspire & Plan,Expedia,,,https://careers.expediagroup.com/job/android-engineer-ii-inspire-amp-plan/chicago-il/R-102531/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-iOS Engineer III - Package Shopping,Expedia,,,https://careers.expediagroup.com/job/ios-engineer-iii-package-shopping/chicago-il/R-102528/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 iOS Engineer II - Package Shopping,Expedia,,,https://careers.expediagroup.com/job/ios-engineer-ii-package-shopping/chicago-il/R-102527/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+iOS Engineer III - Package Shopping,Expedia,,,https://careers.expediagroup.com/job/ios-engineer-iii-package-shopping/chicago-il/R-102528/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Android Engineer II - Inspire & Plan,Expedia,,,https://careers.expediagroup.com/job/android-engineer-ii-inspire-amp-plan/chicago-il/R-102531/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Android Engineer III,Expedia,,,https://careers.expediagroup.com/job/android-engineer-iii/chicago-il/R-101649/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 iOS Engineer III,Expedia,,,https://careers.expediagroup.com/job/ios-engineer-iii/chicago-il/R-101648/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Software Development Engineer II,Expedia,,,https://careers.expediagroup.com/job/software-development-engineer-ii/chicago-il/R-101677/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Software Development Engineer II,Expedia,,,https://careers.expediagroup.com/job/software-development-engineer-ii/springfield-mo/R-102934/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Développeur(-euse) principal d’application mobile − Android / Senior Mobile Developer – Android,Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-euse-principal-d-application-mobile-android-senior-mobile-developer-android/montreal-quebec/R-103195/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+"Développeur(-euse) de logiciels III, Connectivité des partenaires / Software Developer III, Partner Connectivity",Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-euse-de-logiciels-iii-connectivit-des-partenaires-software-developer-iii-partner-connectivity/montreal-quebec/R-99482/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Développeur(-euse) d’application mobile III − Android /Mobile Developer III- Android,Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-euse-d-application-mobile-iii-android-mobile-developer-iii-android/montreal-quebec/R-101713/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Senior iOS Engineer, Design System",Expedia,,,https://careers.expediagroup.com/job/senior-ios-engineer-design-system/chicago-il/R-99605-1/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+"Senior iOS Engineer, Design System",Expedia,,,https://careers.expediagroup.com/job/senior-ios-engineer-design-system/austin-tx/R-99605/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Senior Android Engineer, Design System",Expedia,,,https://careers.expediagroup.com/job/senior-android-engineer-design-system/austin-tx/R-99604/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Senior Android Engineer, Design System",Expedia,,,https://careers.expediagroup.com/job/senior-android-engineer-design-system/chicago-il/R-99604-1/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Software Development Engineer III - Web Developer,Expedia,,,https://careers.expediagroup.com/job/software-development-engineer-iii-web-developer/austin-tx/R-101665/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Android Engineer III, Design System",Expedia,,,https://careers.expediagroup.com/job/android-engineer-iii-design-system/austin-tx/R-99606/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Android Engineer III, Design System",Expedia,,,https://careers.expediagroup.com/job/android-engineer-iii-design-system/chicago-il/R-99606-1/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior iOS Engineer, Design System",Expedia,,,https://careers.expediagroup.com/job/senior-ios-engineer-design-system/austin-tx/R-99605/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "(Contract) Senior Data Scientist, Platform Inference – MarTech DS Measurement",Airbnb,,,https://careers.airbnb.com/positions/7732569/,,Airbnb,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Backend Engineer, Guest & Host",Airbnb,,,https://careers.airbnb.com/positions/7620339/,,Airbnb,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Senior Financial Analyst - Multiple RolesRemote - Americas,Shopify,Remote - Americas,,https://www.shopify.com/careers/senior-financial-analyst-multiple-roles_40ef1cb0-5c56-4963-84fe-946708e5d74a,,Shopify,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
@@ -700,8 +619,8 @@ Staff DevOps Engineer,Life360,Remote,,https://remoteOK.com/remote-jobs/remote-st
 ...",0,None,Unknown,,,,1.2,Yes,No,,,,Not Applied,
 Full Stack Developer,ELECTE S.R.L,Remote,,https://remoteOK.com/remote-jobs/remote-full-stack-developer-electe-s-r-l-1130760,,RemoteOK,"<p>We are looking for a strong Full-Stack Developer to execute product features and contribute to our core platform development. Your focus will be clean, scalable implementation and high-quality execution. This role is ideal for a developer who enjoys building real product features end-to-end in a focused, no-bureaucracy environment.</p><p><strong>Responsibilities</strong></p><ul><li>Implement frontend features using TypeScript</li><li>Develop backend services and APIs using Supabase / PostgreS...",0,None,Unknown,,,,7.2,Yes,No,,,,Not Applied,
 BPM LLP AI ML Engineer,BPM LLP,Remote,,https://remoteOK.com/remote-jobs/remote-bpm-llp-ai-ml-engineer-bpm-llp-1130744,,RemoteOK,"About the role: We are seeking an AI/ML Engineer to join BPM's Enterprise Technology Solutions team. This role is for a builder â someone who doesn't just experiment with AI but makes it work inside the firm at scale. You'll take AI tools and models and embed them into BPM's day-to-day operations, ensuring they deliver real business value. In this role, you'll design and develop AI-powered applications â from chatbots and copilots to workflow automations â that streamline processes across ...",0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Senior Software Engineer Karpenter,Cast AI,Remote,,https://remoteOK.com/remote-jobs/remote-senior-software-engineer-karpenter-cast-ai-1130741,,RemoteOK,"Remote - Why Cast AI?Cast AI is an automation platform that operates cloud-native and AI infrastructure at scale. By embedding autonomous decision-making directly into Kubernetes and cloud environments, Cast AI continuously optimizes performance, reliability, and efficiency in...<br/><br/>Please mention the word **SAVIOR** and tag RMTYyLjIyMC4yMzQuNDM= when applying to show you read the job post completely (#RMTYyLjIyMC4yMzQuNDM=). This is a beta feature to avoid spam applicants. Companies can s...",0,None,Unknown,,,,1.2,Yes,No,,,,Not Applied,
-Senior Software Engineer Reporting,Cast AI,Remote,,https://remoteOK.com/remote-jobs/remote-senior-software-engineer-reporting-cast-ai-1130742,,RemoteOK,"Remote - Why Cast AI?Cast AI is an automation platform that operates cloud-native and AI infrastructure at scale. By embedding autonomous decision-making directly into Kubernetes and cloud environments, Cast AI continuously optimizes performance, reliability, and efficiency in...<br/><br/>Please mention the word **SMARTLY** and tag RMTYyLjIyMC4yMzQuNDM= when applying to show you read the job post completely (#RMTYyLjIyMC4yMzQuNDM=). This is a beta feature to avoid spam applicants. Companies can ...",0,None,Unknown,,,,1.2,Yes,No,,,,Not Applied,
+Senior Software Engineer Karpenter,Cast AI,Remote,,https://remoteOK.com/remote-jobs/remote-senior-software-engineer-karpenter-cast-ai-1130741,,RemoteOK,"Remote - Why Cast AI?Cast AI is an automation platform that operates cloud-native and AI infrastructure at scale. By embedding autonomous decision-making directly into Kubernetes and cloud environments, Cast AI continuously optimizes performance, reliability, and efficiency in...<br/><br/>Please mention the word **SAVIOR** and tag RMjYwMToyNDA6YzUwMDoxYTMwOjdjOGQ6MTI4ODpmNTg5OjVmNzk= when applying to show you read the job post completely (#RMjYwMToyNDA6YzUwMDoxYTMwOjdjOGQ6MTI4ODpmNTg5OjVmNzk=). ...",0,None,Unknown,,,,1.2,Yes,No,,,,Not Applied,
+Senior Software Engineer Reporting,Cast AI,Remote,,https://remoteOK.com/remote-jobs/remote-senior-software-engineer-reporting-cast-ai-1130742,,RemoteOK,"Remote - Why Cast AI?Cast AI is an automation platform that operates cloud-native and AI infrastructure at scale. By embedding autonomous decision-making directly into Kubernetes and cloud environments, Cast AI continuously optimizes performance, reliability, and efficiency in...<br/><br/>Please mention the word **SMARTLY** and tag RMjYwMToyNDA6YzUwMDoxYTMwOjdjOGQ6MTI4ODpmNTg5OjVmNzk= when applying to show you read the job post completely (#RMjYwMToyNDA6YzUwMDoxYTMwOjdjOGQ6MTI4ODpmNTg5OjVmNzk=)....",0,None,Unknown,,,,1.2,Yes,No,,,,Not Applied,
 Senior Backend Engineer,Pavago,Remote,,https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-pavago-1130738,,RemoteOK,"<p>Job Title: Senior Backend Engineer (.NET / AI Systems)r</p><p>Position Type: Full-Time, Remote</p><p>Working Hours: U.S. Business Hours</p><p></p><p>About the Role</p><p>We are hiring a Senior Backend Engineer (.NET / AI Systems) to own the entire technical function of an early-stage SaaS platform. This is a hands-on leadership role where you will write production code daily while making architecture, infrastructure, and AI system decisions for a platform operating at scale.</p><p>You will be...",0,None,Unknown,,,,7.2,Yes,No,,,,Not Applied,
 Contract Data Architect,The Motley Fool,Remote,,https://remoteOK.com/remote-jobs/remote-contract-data-architect-the-motley-fool-1130730,,RemoteOK,"The Motley Fool is looking for a highly skilled Freelance Data Architect specializing in Snowflake to join our team on an independent contract basis, 40 hours per week. This is a mid to senior level position and requires 5+ years of relevant experience. 
 
