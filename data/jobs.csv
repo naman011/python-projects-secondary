@@ -1,6 +1,33 @@
 Job Title,Company,Location,Experience Required,Job URL,Posted Date,Source,Description,Priority Score,Days Since Posted,Freshness,Salary,Deadline,Days Until Deadline,Skills Match %,Ready to Apply,Applied,Applied Date,Application Method,Application Error,Status,Notes
 Software Engineer III,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=3e09234960611d78,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
-Software Engineer II,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=551c356360f7dd11,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
+Software Engineer II,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=551c356360f7dd11,,Indeed,,,,,,,,,Yes,No,,Selenium,"Message: timeout: Timed out receiving message from renderer: 40.000
+  (Session info: chrome=147.0.7727.55)
+Stacktrace:
+#0 0x5578d6c8579a <unknown>
+#1 0x5578d6681215 <unknown>
+#2 0x5578d6668abb <unknown>
+#3 0x5578d66687a4 <unknown>
+#4 0x5578d66664e1 <unknown>
+#5 0x5578d6666e6f <unknown>
+#6 0x5578d6675e90 <unknown>
+#7 0x5578d668fc07 <unknown>
+#8 0x5578d669673b <unknown>
+#9 0x5578d66675bf <unknown>
+#10 0x5578d668f99d <unknown>
+#11 0x5578d671c693 <unknown>
+#12 0x5578d66c755f <unknown>
+#13 0x5578d66c8321 <unknown>
+#14 0x5578d6c4906b <unknown>
+#15 0x5578d6c4c01d <unknown>
+#16 0x5578d6c35718 <unknown>
+#17 0x5578d6c4cbb0 <unknown>
+#18 0x5578d6c1c150 <unknown>
+#19 0x5578d6c725e8 <unknown>
+#20 0x5578d6c727b8 <unknown>
+#21 0x5578d6c841de <unknown>
+#22 0x7f0c2d29caa4 <unknown>
+#23 0x7f0c2d329c6c <unknown>
+",Failed,
 "Software Development Engineer 2, Finance Automation","ADCI - MaharashtraPune, Maharashtra","ADCI - MaharashtraPune, Maharashtra",,https://in.indeed.com/viewjob?jk=1f2d838e3dad1f69,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 Software Engineer lll,Dynatron SoftwareRemote,Dynatron SoftwareRemote,,https://in.indeed.com/viewjob?jk=33f445667f17b1b0,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 "Python Backend Engineer, Associate","BlackRock InvestmentsHybrid remote in Gurugram, Haryana","BlackRock InvestmentsHybrid remote in Gurugram, Haryana",,https://in.indeed.com/viewjob?jk=55c8b2003a4b983c,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
@@ -548,23 +575,16 @@ Analytics Engineer,Stripe,,,https://stripe.com/jobs/listing/analytics-engineer/7
 "Backend Engineer, Payments and Risk",Stripe,,,https://stripe.com/jobs/listing/backend-engineer-payments-and-risk/7232592,,Stripe,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Backend Engineer, Privy",Stripe,,,https://stripe.com/jobs/listing/backend-engineer-privy/7235875,,Stripe,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Backend Engineer/API, Payments and Risk",Stripe,,,https://stripe.com/jobs/listing/backend-engineer-api-payments-and-risk/4921361,,Stripe,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Data Engineer III,Expedia,,,https://careers.expediagroup.com/job/data-engineer-iii/chicago-il/R-105845/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-iOS Engineer III - Package Shopping,Expedia,,,https://careers.expediagroup.com/job/ios-engineer-iii-package-shopping/chicago-il/R-102528/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-iOS Engineer II - Package Shopping,Expedia,,,https://careers.expediagroup.com/job/ios-engineer-ii-package-shopping/chicago-il/R-102527/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Android Engineer III,Expedia,,,https://careers.expediagroup.com/job/android-engineer-iii/chicago-il/R-101649/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Principal Software Development Engineer - Developer Productivity & Insights,Expedia,,,https://careers.expediagroup.com/job/principal-software-development-engineer-developer-productivity-amp-insights/seattle-wa/R-105467-3/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Principal Software Development Engineer - Developer Productivity & Insights,Expedia,,,https://careers.expediagroup.com/job/principal-software-development-engineer-developer-productivity-amp-insights/austin-tx/R-105467-1/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Principal Software Development Engineer - Developer Productivity & Insights,Expedia,,,https://careers.expediagroup.com/job/principal-software-development-engineer-developer-productivity-amp-insights/san-jose-ca/R-105467-2/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Principal Software Development Engineer - Developer Productivity & Insights,Expedia,,,https://careers.expediagroup.com/job/principal-software-development-engineer-developer-productivity-amp-insights/chicago-il/R-105467/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Development Engineer, Advertising Technology",Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer-advertising-technology/chicago-il/R-100032/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-iOS Engineer III,Expedia,,,https://careers.expediagroup.com/job/ios-engineer-iii/chicago-il/R-101648/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Development Engineer, Advertising Technology",Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer-advertising-technology/chicago-il/R-101285/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Software Development Engineer III - Back End, GenAI Platform",Expedia,,,https://careers.expediagroup.com/job/software-development-engineer-iii-back-end-genai-platform/chicago-il/R-104201/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Senior Software Development Engineer - GenAI Platform,Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer-genai-platform/chicago-il/R-104200/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Android Engineer II - Inspire & Plan,Expedia,,,https://careers.expediagroup.com/job/android-engineer-ii-inspire-amp-plan/chicago-il/R-102531/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Développeur(-euse) d’application mobile III − Android /Mobile Developer III- Android,Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-euse-d-application-mobile-iii-android-mobile-developer-iii-android/montreal-quebec/R-101713/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Développeur(-euse) principal d’application mobile − Android / Senior Mobile Developer – Android,Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-euse-principal-d-application-mobile-android-senior-mobile-developer-android/montreal-quebec/R-103195/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Software Development Engineer II,Expedia,,,https://careers.expediagroup.com/job/software-development-engineer-ii/springfield-mo/R-102934/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Principal Software Development Engineer - Loyalty,Expedia,,,https://careers.expediagroup.com/job/principal-software-development-engineer-loyalty/san-jose-ca/R-101805/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+"Senior Software Development Engineer, Loyalty - Full Stack",Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer-loyalty-full-stack/san-jose-ca/R-103344/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+"Senior Software Development Engineer, Loyalty - Back End",Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer-loyalty-back-end/san-jose-ca/R-103343/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Senior Mobile Engineer,Expedia,,,https://careers.expediagroup.com/job/senior-mobile-engineer/san-jose-ca/R-105873/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Principal Software Development Engineer - Cloud Platform,Expedia,,,https://careers.expediagroup.com/job/principal-software-development-engineer-cloud-platform/san-jose-ca/R-102791/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Senior Software Development Engineer,Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer/san-jose-ca/R-101606/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Principal Software Development Engineer — Platform & Infrastructure,Expedia,,,https://careers.expediagroup.com/job/principal-software-development-engineer-platform-amp-infrastructure/san-jose-ca/R-98122/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+"Principal Software Development Engineer (Kubernetes, AWS)",Expedia,,,https://careers.expediagroup.com/job/principal-software-development-engineer-kubernetes-aws/san-jose-ca/R-99477/,,Expedia,,25,None,Unknown,,,,2.4,Yes,No,,,,Not Applied,
+Mobile Engineer II-Android,Expedia,,,https://careers.expediagroup.com/job/mobile-engineer-ii-android/san-jose-ca/R-103044/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Senior Software Development Engineer,Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer/san-jose-ca/R-101964/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Android Software Engineer, Quality Platform",Airbnb,,,https://careers.airbnb.com/positions/7744247/,,Airbnb,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Backend Software Engineer – Guest & Host,Airbnb,,,https://careers.airbnb.com/positions/7907839/,,Airbnb,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Senior Financial Analyst - Multiple RolesRemote - Americas,Shopify,Remote - Americas,,https://www.shopify.com/careers/senior-financial-analyst-multiple-roles_40ef1cb0-5c56-4963-84fe-946708e5d74a,,Shopify,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
@@ -578,10 +598,12 @@ Senior Platform Engineer,saas.group,Remote,,https://remoteOK.com/remote-jobs/rem
 ScraperAPI is an enterprise-scale web scraping solution, trusted by businesses across a wide range of industries to extract crucial data at scale. From e-commerce, travel to real estate and market research, we support companies in turning the web into actionable insights. We're currently on an exciting growth journey, scaling rapidly as demand for reliable, high-performance web scraping and data keeps rising.
 
 <s...",20,None,Unknown,$3-6,,,1.2,Yes,No,,,,Not Applied,
+Lead Data Scientist (Dispatch),Grab,,,https://grab.careers/en/jobs/744000125606149/lead-data-scientist-dispatch/,,Grab,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Senior Software Engineer, Perception (Robotics)",Grab,,,https://grab.careers/en/jobs/744000125450399/senior-software-engineer-perception-robotics/,,Grab,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Senior Software Engineer, Decision & Planning Algorithm (Robotics)",Grab,,,https://grab.careers/en/jobs/744000125450249/senior-software-engineer-decision-planning-algorithm-robotics/,,Grab,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Software Engineer in Test - Insurance,Grab,,,https://grab.careers/en/jobs/744000125249401/software-engineer-in-test-insurance/,,Grab,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Senior Data Scientist,Grab,,,https://grab.careers/en/jobs/744000125053361/senior-data-scientist/,,Grab,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Lead Data Scientist (Dispatch),Grab,,,https://grab.careers/jobs#content,,Grab,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Staff Machine Learning Engineer,ServiceNow,,,https://careers.servicenow.com/jobs/744000125365783/staff-machine-learning-engineer/,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Sr. Software Engineer, Frontend/Fullstack - Moveworks",ServiceNow,,,https://careers.servicenow.com/jobs/744000125226734/sr-software-engineer-frontendfullstack-moveworks/,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Senior Software Engineer, Agentic Systems - Moveworks",ServiceNow,,,https://careers.servicenow.com/jobs/744000125214274/senior-software-engineer-agentic-systems-moveworks/,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
@@ -646,7 +668,7 @@ What do we do?ð¥
 We empower governments to deliver exceptional citizen experiences. Check out our âAbout Usâ page for a deep dive into our product and what makes us exceptional.
 
 As a Senior Software Engineer at Clariti, youâll work at the intersection of Salesforce, distributed SaaS architecture, and off-platform services. Our product is delivered as managed packages int...",0,None,Unknown,,,,1.2,Yes,No,,,,Not Applied,
-Senior Software Engineer,Cast AI,Remote,,https://remoteOK.com/remote-jobs/remote-senior-software-engineer-cast-ai-1131507,,RemoteOK,"Remote - We are hiring across multiple teams!As a Senior Software Engineer, you will have the opportunity to work on different key features of our product. We are currently hiring Senior Software Engineers for the following teams:â Workload Optimization â Automates work...<br/><br/>Please mention the word **STURDY** and tag RMzQuMTgyLjIzMy43NQ== when applying to show you read the job post completely (#RMzQuMTgyLjIzMy43NQ==). This is a beta feature to avoid spam applicants. Companies can sear...",0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Senior Software Engineer,Cast AI,Remote,,https://remoteOK.com/remote-jobs/remote-senior-software-engineer-cast-ai-1131507,,RemoteOK,"Remote - We are hiring across multiple teams!As a Senior Software Engineer, you will have the opportunity to work on different key features of our product. We are currently hiring Senior Software Engineers for the following teams:â Workload Optimization â Automates work...<br/><br/>Please mention the word **STURDY** and tag RMTQ0LjIwOC42OC4xNTM= when applying to show you read the job post completely (#RMTQ0LjIwOC42OC4xNTM=). This is a beta feature to avoid spam applicants. Companies can sear...",0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Senior Data Engineer,Valon Mortgage,Remote,,https://remoteOK.com/remote-jobs/remote-senior-data-engineer-valon-mortgage-1131504,,RemoteOK,"<h2><strong>About the Company</strong></h2><p style=""min-height:1.5em""> Valon is transforming both mortgage servicing and consumer direct lending with a technology-first approach. Backed by Andreessen Horowitz (a16z) and managing over $130 billion in loans, weâve built our platforms from the ground upânot on outdated legacy systemsâso homeowners, lenders, and investors experience greater transparency, efficiency, and care. By unifying processes into a modern, AI-native operating system, we...",0,None,Unknown,,,,2.4,Yes,No,,,,Not Applied,
 Cloud Enablement Engineer US,Quanata,Remote,,https://remoteOK.com/remote-jobs/remote-cloud-enablement-engineer-us-quanata-1131488,,RemoteOK,"To help keep everyone safe, we encourage all applicants to pay close attention to protect themselves during their job search. When applying for a position online you are at risk of being targeted by malicious actors looking for personal data. Please be aware we will only reach out via email using the domain quanata.com. Anything that does not match those domains should be ignored and considered a security risk.
 
