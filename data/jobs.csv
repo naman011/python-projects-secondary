@@ -1,32 +1,5 @@
 Job Title,Company,Location,Experience Required,Job URL,Posted Date,Source,Description,Priority Score,Days Since Posted,Freshness,Salary,Deadline,Days Until Deadline,Skills Match %,Ready to Apply,Applied,Applied Date,Application Method,Application Error,Status,Notes
-Software Engineer III,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=3e09234960611d78,,Indeed,,,,,,,,,Yes,No,,Selenium,"Message: timeout: Timed out receiving message from renderer: 39.959
-  (Session info: chrome=148.0.7778.167)
-Stacktrace:
-#0 0x55740b41e22a <unknown>
-#1 0x55740ae1cab9 <unknown>
-#2 0x55740ae0410b <unknown>
-#3 0x55740ae03d86 <unknown>
-#4 0x55740ae018ab <unknown>
-#5 0x55740ae0222f <unknown>
-#6 0x55740ae116e0 <unknown>
-#7 0x55740ae2b847 <unknown>
-#8 0x55740ae3307b <unknown>
-#9 0x55740ae02999 <unknown>
-#10 0x55740ae2b5d2 <unknown>
-#11 0x55740aeb942a <unknown>
-#12 0x55740ae64662 <unknown>
-#13 0x55740ae65451 <unknown>
-#14 0x55740b3e1d8b <unknown>
-#15 0x55740b3e4c65 <unknown>
-#16 0x55740b3ce458 <unknown>
-#17 0x55740b3e57f0 <unknown>
-#18 0x55740b3b51c0 <unknown>
-#19 0x55740b40b168 <unknown>
-#20 0x55740b40b305 <unknown>
-#21 0x55740b41cc5e <unknown>
-#22 0x7f683e69caa4 <unknown>
-#23 0x7f683e729c6c <unknown>
-",Failed,
+Software Engineer III,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=3e09234960611d78,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 Software Engineer II,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=551c356360f7dd11,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 "Software Development Engineer 2, Finance Automation","ADCI - MaharashtraPune, Maharashtra","ADCI - MaharashtraPune, Maharashtra",,https://in.indeed.com/viewjob?jk=1f2d838e3dad1f69,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 Software Engineer lll,Dynatron SoftwareRemote,Dynatron SoftwareRemote,,https://in.indeed.com/viewjob?jk=33f445667f17b1b0,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
@@ -575,20 +548,14 @@ Analytics Engineer,Stripe,,,https://stripe.com/jobs/listing/analytics-engineer/7
 "Backend Engineer, Forward Deployed Engineering",Stripe,,,https://stripe.com/jobs/listing/backend-engineer-forward-deployed-engineering/7249744,,Stripe,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Backend Engineer, Privy",Stripe,,,https://stripe.com/jobs/listing/backend-engineer-privy/7235875,,Stripe,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Backend Engineer/API, Payments and Risk",Stripe,,,https://stripe.com/jobs/listing/backend-engineer-api-payments-and-risk/4921361,,Stripe,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Android Engineer III,Expedia,,,https://careers.expediagroup.com/job/android-engineer-iii/chicago-il/R-101649/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-iOS Engineer II - Package Shopping,Expedia,,,https://careers.expediagroup.com/job/ios-engineer-ii-package-shopping/chicago-il/R-102527/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-iOS Engineer III - Package Shopping,Expedia,,,https://careers.expediagroup.com/job/ios-engineer-iii-package-shopping/chicago-il/R-102528/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Principal Software Development Engineer - Developer Productivity & Insights,Expedia,,,https://careers.expediagroup.com/job/principal-software-development-engineer-developer-productivity-amp-insights/chicago-il/R-105467/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Principal Software Development Engineer - Developer Productivity & Insights,Expedia,,,https://careers.expediagroup.com/job/principal-software-development-engineer-developer-productivity-amp-insights/seattle-wa/R-105467-3/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Principal Software Development Engineer - Developer Productivity & Insights,Expedia,,,https://careers.expediagroup.com/job/principal-software-development-engineer-developer-productivity-amp-insights/san-jose-ca/R-105467-2/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Principal Software Development Engineer - Developer Productivity & Insights,Expedia,,,https://careers.expediagroup.com/job/principal-software-development-engineer-developer-productivity-amp-insights/austin-tx/R-105467-1/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Development Engineer, Advertising Technology",Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer-advertising-technology/chicago-il/R-100032/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-iOS Engineer III,Expedia,,,https://careers.expediagroup.com/job/ios-engineer-iii/chicago-il/R-101648/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Development Engineer, Advertising Technology",Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer-advertising-technology/chicago-il/R-101285/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Software Development Engineer II,Expedia,,,https://careers.expediagroup.com/job/software-development-engineer-ii/springfield-mo/R-102934/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Développeur(-euse) principal d’application mobile − Android / Senior Mobile Developer – Android,Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-euse-principal-d-application-mobile-android-senior-mobile-developer-android/montreal-quebec/R-103195/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Software Development Engineer II, Android",Expedia,,,https://careers.expediagroup.com/job/software-development-engineer-ii-android/austin-tx/R-104072/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Software Development Engineer III - Web Developer,Expedia,,,https://careers.expediagroup.com/job/software-development-engineer-iii-web-developer/austin-tx/R-101665/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+"Senior Manager, Software Development Engineering - Search & Recommendations Platform",Expedia,,,https://careers.expediagroup.com/job/senior-manager-software-development-engineering-search-amp-recommendations-platform/austin-tx/R-101647/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Android Engineer II,Expedia,,,https://careers.expediagroup.com/job/android-engineer-ii/austin-tx/R-102646/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+iOS Engineer III - VR Differentiators,Expedia,,,https://careers.expediagroup.com/job/ios-engineer-iii-vr-differentiators/austin-tx/R-101707/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+"Senior iOS Engineer, Design System",Expedia,,,https://careers.expediagroup.com/job/senior-ios-engineer-design-system/austin-tx/R-99605/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+"Senior iOS Engineer, Design System",Expedia,,,https://careers.expediagroup.com/job/senior-ios-engineer-design-system/chicago-il/R-99605-1/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Android Software Engineer, Quality Platform",Airbnb,,,https://careers.airbnb.com/positions/7744247/,,Airbnb,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Backend Software Engineer – Guest & Host,Airbnb,,,https://careers.airbnb.com/positions/7907839/,,Airbnb,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Senior Financial Analyst - Multiple RolesRemote - Americas,Shopify,Remote - Americas,,https://www.shopify.com/careers/senior-financial-analyst-multiple-roles_40ef1cb0-5c56-4963-84fe-946708e5d74a,,Shopify,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
@@ -644,7 +611,6 @@ Senior Software Engineer - Workflow Orchestration,Bloomberg,,,https://bloomberg.
 "Staff Software Engineer, Gameplay Meta - Unpublished R&D ProductSoftware Engineering GroupRiot DiscoveryMercer Island, USA",Riot_Games,,,https://www.riotgames.com/en/j/7773543,,Riot_Games,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Staff Software Engineer, Platform Services (Anti-Cheat) - Game Tech GroupSoftware Engineering GroupRiot Operations & SupportLos Angeles, USA",Riot_Games,,,https://www.riotgames.com/en/j/7656595,,Riot_Games,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Software Development Engineer IIILocation:Bengaluru, Karnataka, India17 hours ago",Rupeek,,,https://www.linkedin.com/jobs/view/software-development-engineer-iii-at-rupeek-4403927365,,Rupeek,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"SDE II (AI/ML)On-site —Full-TimePune, Maharashtra / Bengaluru, Karnataka",Mindtickle,On-site —,,https://jobs.lever.co/mindtickle/8b726b19-56ac-4243-ba67-117f12dbfb8e,,Mindtickle,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Back End Lead Software Engineer – Accommodation/Flights/Supply/FinTech(Bangkok based – Relocation provided)IT EngineeringBangkok, Thailand",Agoda,,,https://careersatagoda.com/job/7881015-back-end-lead-software-engineer-accommodation-flights-supply-fintechbangkok-based-relocation-provided/,,Agoda,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Lead Software Engineer, Back End – L5 (Bangkok based – Relocation provided)IT EngineeringBangkok, Thailand",Agoda,,,https://careersatagoda.com/job/6603735-lead-software-engineer-back-end-l5-bangkok-based-relocation-provided/,,Agoda,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Senior Lead/Lead Software Engineer, Back End (Bangkok based – Relocation provided)IT EngineeringBangkok, Thailand",Agoda,,,https://careersatagoda.com/job/7880990-senior-lead-lead-software-engineer-back-end-bangkok-based-relocation-provided/,,Agoda,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
