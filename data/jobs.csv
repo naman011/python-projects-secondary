@@ -1,5 +1,32 @@
 Job Title,Company,Location,Experience Required,Job URL,Posted Date,Source,Description,Priority Score,Days Since Posted,Freshness,Salary,Deadline,Days Until Deadline,Skills Match %,Ready to Apply,Applied,Applied Date,Application Method,Application Error,Status,Notes
-Software Engineer III,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=3e09234960611d78,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
+Software Engineer III,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=3e09234960611d78,,Indeed,,,,,,,,,Yes,No,,Selenium,"Message: timeout: Timed out receiving message from renderer: 39.820
+  (Session info: chrome=150.0.7871.128)
+Stacktrace:
+#0 0x55c11ba1544a <unknown>
+#1 0x55c11b3ed8c9 <unknown>
+#2 0x55c11b3d535a <unknown>
+#3 0x55c11b3d4fd6 <unknown>
+#4 0x55c11b3d2bbe <unknown>
+#5 0x55c11b3d353f <unknown>
+#6 0x55c11b3e2710 <unknown>
+#7 0x55c11b3fc617 <unknown>
+#8 0x55c11b403e8b <unknown>
+#9 0x55c11b3d3c99 <unknown>
+#10 0x55c11b3fc372 <unknown>
+#11 0x55c11b48b8b0 <unknown>
+#12 0x55c11b4363ff <unknown>
+#13 0x55c11b437261 <unknown>
+#14 0x55c11b9dacc7 <unknown>
+#15 0x55c11b9d94a8 <unknown>
+#16 0x55c11b9c4196 <unknown>
+#17 0x55c11b9da06a <unknown>
+#18 0x55c11b9ac020 <unknown>
+#19 0x55c11ba00b98 <unknown>
+#20 0x55c11ba00d35 <unknown>
+#21 0x55c11ba13ffe <unknown>
+#22 0x7fc68dc9caa4 <unknown>
+#23 0x7fc68dd29c6c <unknown>
+",Failed,
 Software Engineer II,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=551c356360f7dd11,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 "Software Development Engineer 2, Finance Automation","ADCI - MaharashtraPune, Maharashtra","ADCI - MaharashtraPune, Maharashtra",,https://in.indeed.com/viewjob?jk=1f2d838e3dad1f69,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 Software Engineer lll,Dynatron SoftwareRemote,Dynatron SoftwareRemote,,https://in.indeed.com/viewjob?jk=33f445667f17b1b0,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
@@ -545,21 +572,6 @@ Senior Independent AI Engineer / Architect,A.Team,"Americas, Europe, Israel",,ht
 "Backend Engineer, Payments Experiences",Stripe,,,https://stripe.com/jobs/listing/backend-engineer-payments-experiences/7895287,,Stripe,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Backend Engineer, Privy",Stripe,,,https://stripe.com/jobs/listing/backend-engineer-privy/7235875,,Stripe,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Backend Engineer/API, Payments and Risk",Stripe,,,https://stripe.com/jobs/listing/backend-engineer-api-payments-and-risk/4921361,,Stripe,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Développeur logiciel III (généraliste – Contenu) - Software Developer III (Full Stack - Content),Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-logiciel-iii-g-n-raliste-contenu-software-developer-iii-full-stack-content/montreal-quebec/R-106556/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Développeur(-euse) de logiciels II (contenu) / Software Developer II (Content),Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-euse-de-logiciels-ii-contenu-software-developer-ii-content/montreal-quebec/R-106559/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Développeur logiciel III (Connectivité des partenaires) / Software Developer III (Partner Connectivity),Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-logiciel-iii-connectivit-des-partenaires-software-developer-iii-partner-connectivity/montreal-quebec/R-106668/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Développeur(-euse) principal(e) de logiciels (contenu) /Principal Software Development Engineer,Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-euse-principal-e-de-logiciels-contenu-principal-software-development-engineer/montreal-quebec/R-107278/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Développeur(-euse) principal d’application mobile − Android / Senior Mobile Developer – Android,Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-euse-principal-d-application-mobile-android-senior-mobile-developer-android/montreal-quebec/R-103195/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Développeur(-euse) de logiciels sénior(e) (contenu) / Senior Software Development Engineer,Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-euse-de-logiciels-s-nior-e-contenu-senior-software-development-engineer/montreal-quebec/R-106558/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Développeur logiciel II (généraliste – Contenu) / Software Developer II (Full Stack - Content),Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-logiciel-ii-g-n-raliste-contenu-software-developer-ii-full-stack-content/montreal-quebec/R-106551/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Développeur(-euse) de logiciels III (contenu) / Software Developer III (Content),Expedia,,,https://careers.expediagroup.com/job/d-veloppeur-euse-de-logiciels-iii-contenu-software-developer-iii-content/montreal-quebec/R-106560/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Development Engineer, Advertising Technology",Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer-advertising-technology/chicago-il/R-100032/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Senior Software Development Engineer - GenAI Platform,Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer-genai-platform/chicago-il/R-104200/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Software Development Engineer II,Expedia,,,https://careers.expediagroup.com/job/software-development-engineer-ii/austin-tx/R-107380/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Software Development Engineer II - (Full Stack - Frontend Focus),Expedia,,,https://careers.expediagroup.com/job/software-development-engineer-ii-full-stack-frontend-focus/austin-tx/R-106200/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Software Development Engineer III - AI,Expedia,,,https://careers.expediagroup.com/job/software-development-engineer-iii-ai/austin-tx/R-108181/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Software Development Engineer II - Full Stack,Expedia,,,https://careers.expediagroup.com/job/software-development-engineer-ii-full-stack/austin-tx/R-106825/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Software Development Engineer III - AI Engineer,Expedia,,,https://careers.expediagroup.com/job/software-development-engineer-iii-ai-engineer/austin-tx/R-102785/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "(Contract) Senior Data Scientist, Platform Inference – MarTech DS Measurement",Airbnb,,,https://careers.airbnb.com/positions/7732569/,,Airbnb,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Analytics Engineer, GFCO Analytics",Coinbase,,,https://www.coinbase.com/careers/positions/8024880,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Senior Analytics Engineer (Platform - Financial Analytics),Coinbase,,,https://www.coinbase.com/careers/positions/7736521,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
@@ -630,10 +642,6 @@ Senior Data Scientist,ServiceNow,,,https://careers.servicenow.com/jobs/744000139
 "Staff Machine Learning Engineer, Agentic App Platform - Moveworks",ServiceNow,,,https://careers.servicenow.com/jobs/744000139371699/staff-machine-learning-engineer-agentic-app-platform-moveworks/,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Staff Machine Learning Engineer, Agentic App Platform",ServiceNow,,,https://careers.servicenow.com/jobs/744000139371520/staff-machine-learning-engineer-agentic-app-platform/,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Staff Machine Learning Engineer, Agentic Application",ServiceNow,,,https://careers.servicenow.com/jobs/744000139371409/staff-machine-learning-engineer-agentic-application/,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Staff Machine Learning Engineer, Agentic Application",ServiceNow,,,https://careers.servicenow.com/jobs/744000139369857/senior-staff-machine-learning-engineer-agentic-application/,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, Agentic AI Systems - Moveworks",ServiceNow,,,https://careers.servicenow.com/jobs/744000139370730/senior-software-engineer-agentic-ai-systems-moveworks/,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Senior Staff Software Engineer,ServiceNow,,,https://careers.servicenow.com/careers/jobs#content,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Senior Staff Software Engineer,ServiceNow,,,https://careers.servicenow.com/jobs/#results,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Software Developer - SAP Concur Spend (Quality Engineer),SAP_Concur,,,https://jobs.sap.com/job/S%C3%A3o-Leopoldo-Software-Developer-SAP-Concur-Spend-%28Quality-Engineer%29-93022-718/1398393033/,,SAP_Concur,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Software Engineering Manager - SAP Concur Travel,SAP_Concur,,,https://jobs.sap.com/job/S%C3%A3o-Leopoldo-Software-Engineering-Manager-SAP-Concur-Travel-93022-718/1410551833/,,SAP_Concur,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Full Stack Senior Software Developer - SAP Concur Travel,SAP_Concur,,,https://jobs.sap.com/job/S%C3%A3o-Leopoldo-Full-Stack-Senior-Software-Developer-SAP-Concur-Travel-93022-718/1380111433/,,SAP_Concur,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
@@ -678,7 +686,7 @@ Principal Software Engineer - ML Platform EngineerSoftware Engineering GroupDeve
 "Staff Software Engineer, Platform Services - Game Tech Group, Anti-CheatSoftware Engineering GroupRiot Operations & SupportLos Angeles, USA",Riot_Games,,,https://www.riotgames.com/en/j/8003927,,Riot_Games,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Staff Software Engineer, Services - Unpublished R&D ProductSoftware Engineering GroupRiot Operations & SupportGuangzhou, China",Riot_Games,,,https://www.riotgames.com/en/j/7922945,,Riot_Games,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Staff Software Engineer, Unreal Ecosystem (Australia-Based; Relocation Provided)Software Engineering GroupRiot Operations & SupportSydney, Australia",Riot_Games,,,https://www.riotgames.com/en/j/7981543,,Riot_Games,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Software Development Engineer IIILocation:Bengaluru, Karnataka, India3 hours ago",Rupeek,,,https://www.linkedin.com/jobs/view/software-development-engineer-iii-at-rupeek-4403927365,,Rupeek,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+"Software Development Engineer IIILocation:Bengaluru, Karnataka, India4 hours ago",Rupeek,,,https://www.linkedin.com/jobs/view/software-development-engineer-iii-at-rupeek-4403927365,,Rupeek,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Full Stack Engineers,Uplers,,,https://www.uplers.com/hire-full-stack-developers/,,Uplers,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 ML Engineer,Uplers,,,https://www.uplers.com/careers/,,Uplers,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 All locationsIndiaPoland (Remote)Puerto RicoUnited States (Relocate)United States (Remote)All locationsIndiaPoland (Remote)Puerto RicoUnited States (Relocate)United States (Remote)All departmentsBrand & Visual DesignBusiness DevelopmentBusiness IntelligenceBusiness OperationsContent & WritingCorporate CommunicationsCustomer SupportData Engineering & AnalyticsEngineering & DevelopmentFinance & LegalGeneral and Administrative (G&A)Information TechnologiesLocalizationMarketingPeople & CultureProductProduct DesignProduct TechnologyQuality AssuranceUniversityUser ResearchAll DepartmentsBrand & Visual DesignBusiness DevelopmentBusiness IntelligenceBusiness OperationsContent & WritingCorporate CommunicationsCustomer SupportData Engineering & AnalyticsEngineering & DevelopmentFinance & LegalGeneral and Administrative (G&A)Information TechnologiesLocalizationMarketingPeople & CultureProductProduct DesignProduct TechnologyQuality AssuranceUniversityUser ResearchSearch,Bold,Puerto Rico,,https://www.bold.com/bold-jobs/,,Bold,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
