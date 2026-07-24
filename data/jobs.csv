@@ -1,32 +1,5 @@
 Job Title,Company,Location,Experience Required,Job URL,Posted Date,Source,Description,Priority Score,Days Since Posted,Freshness,Salary,Deadline,Days Until Deadline,Skills Match %,Ready to Apply,Applied,Applied Date,Application Method,Application Error,Status,Notes
-Software Engineer III,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=3e09234960611d78,,Indeed,,,,,,,,,Yes,No,,Selenium,"Message: timeout: Timed out receiving message from renderer: 39.820
-  (Session info: chrome=150.0.7871.128)
-Stacktrace:
-#0 0x55c11ba1544a <unknown>
-#1 0x55c11b3ed8c9 <unknown>
-#2 0x55c11b3d535a <unknown>
-#3 0x55c11b3d4fd6 <unknown>
-#4 0x55c11b3d2bbe <unknown>
-#5 0x55c11b3d353f <unknown>
-#6 0x55c11b3e2710 <unknown>
-#7 0x55c11b3fc617 <unknown>
-#8 0x55c11b403e8b <unknown>
-#9 0x55c11b3d3c99 <unknown>
-#10 0x55c11b3fc372 <unknown>
-#11 0x55c11b48b8b0 <unknown>
-#12 0x55c11b4363ff <unknown>
-#13 0x55c11b437261 <unknown>
-#14 0x55c11b9dacc7 <unknown>
-#15 0x55c11b9d94a8 <unknown>
-#16 0x55c11b9c4196 <unknown>
-#17 0x55c11b9da06a <unknown>
-#18 0x55c11b9ac020 <unknown>
-#19 0x55c11ba00b98 <unknown>
-#20 0x55c11ba00d35 <unknown>
-#21 0x55c11ba13ffe <unknown>
-#22 0x7fc68dc9caa4 <unknown>
-#23 0x7fc68dd29c6c <unknown>
-",Failed,
+Software Engineer III,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=3e09234960611d78,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 Software Engineer II,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=551c356360f7dd11,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 "Software Development Engineer 2, Finance Automation","ADCI - MaharashtraPune, Maharashtra","ADCI - MaharashtraPune, Maharashtra",,https://in.indeed.com/viewjob?jk=1f2d838e3dad1f69,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 Software Engineer lll,Dynatron SoftwareRemote,Dynatron SoftwareRemote,,https://in.indeed.com/viewjob?jk=33f445667f17b1b0,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
