@@ -1,6 +1,33 @@
 Job Title,Company,Location,Experience Required,Job URL,Posted Date,Source,Description,Priority Score,Days Since Posted,Freshness,Salary,Deadline,Days Until Deadline,Skills Match %,Ready to Apply,Applied,Applied Date,Application Method,Application Error,Status,Notes
 Software Engineer III,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=3e09234960611d78,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
-Software Engineer II,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=551c356360f7dd11,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
+Software Engineer II,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=551c356360f7dd11,,Indeed,,,,,,,,,Yes,No,,Selenium,"Message: timeout: Timed out receiving message from renderer: 39.941
+  (Session info: chrome=150.0.7871.128)
+Stacktrace:
+#0 0x55c040ca644a <unknown>
+#1 0x55c04067e8c9 <unknown>
+#2 0x55c04066635a <unknown>
+#3 0x55c040665fd6 <unknown>
+#4 0x55c040663bbe <unknown>
+#5 0x55c04066453f <unknown>
+#6 0x55c040673710 <unknown>
+#7 0x55c04068d617 <unknown>
+#8 0x55c040694e8b <unknown>
+#9 0x55c040664c99 <unknown>
+#10 0x55c04068d372 <unknown>
+#11 0x55c04071c8b0 <unknown>
+#12 0x55c0406c73ff <unknown>
+#13 0x55c0406c8261 <unknown>
+#14 0x55c040c6bcc7 <unknown>
+#15 0x55c040c6a4a8 <unknown>
+#16 0x55c040c55196 <unknown>
+#17 0x55c040c6b06a <unknown>
+#18 0x55c040c3d020 <unknown>
+#19 0x55c040c91b98 <unknown>
+#20 0x55c040c91d35 <unknown>
+#21 0x55c040ca4ffe <unknown>
+#22 0x7f4f07c9caa4 <unknown>
+#23 0x7f4f07d29c6c <unknown>
+",Failed,
 "Software Development Engineer 2, Finance Automation","ADCI - MaharashtraPune, Maharashtra","ADCI - MaharashtraPune, Maharashtra",,https://in.indeed.com/viewjob?jk=1f2d838e3dad1f69,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 Software Engineer lll,Dynatron SoftwareRemote,Dynatron SoftwareRemote,,https://in.indeed.com/viewjob?jk=33f445667f17b1b0,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 "Python Backend Engineer, Associate","BlackRock InvestmentsHybrid remote in Gurugram, Haryana","BlackRock InvestmentsHybrid remote in Gurugram, Haryana",,https://in.indeed.com/viewjob?jk=55c8b2003a4b983c,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
@@ -536,7 +563,6 @@ Senior Independent AI Engineer / Architect,A.Team,"Americas, Europe, Israel",,ht
 <p style=""line-height: 24px; margin-top: 8px; padding: 0px; color: #373e4d; min-height: 1.5em;"">Hey there! We are <a href=""http://jumpapp.com/"" rel=""nofollow"" style=""touch-action: manipulation; color: #00b56a;"" target=""_blank"">Jumpapp.com</a>, AI for Financial Advisors. Jump’s mission is to empower financial advisors, firms, and clients to thrive ...",,,,,,,,,No,,,,Not Applied,
 Software Engineer II - AV Labs Platform,Uber,,,https://www.uber.com/en/jobs/300522/,,Uber,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Sr Software Engineer - AV Performance - AV Labs,Uber,,,https://www.uber.com/en/jobs/300765/,,Uber,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Machine Learning Engineer,Uber,,,https://www.uber.com/en/jobs/159672/,,Uber,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Android Engineer, Dev Productivity",Stripe,,,https://stripe.com/jobs/listing/android-engineer-dev-productivity/8074127,,Stripe,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Android Engineer, Terminal",Stripe,,,https://stripe.com/jobs/listing/android-engineer-terminal/7543559,,Stripe,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Android Engineer, Terminal OS Platform",Stripe,,,https://stripe.com/jobs/listing/android-engineer-terminal-os-platform/7557403,,Stripe,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
@@ -619,8 +645,8 @@ Senior Data Scientist (Business Transaction Platform),Grab,,,https://grab.career
 "Senior Software Engineer, Backend",Grab,,,https://grab.careers/en/jobs/744000140061339/senior-software-engineer-backend/,,Grab,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Senior Software Engineer, Backend",Grab,,,https://grab.careers/en/jobs/744000139945419/senior-software-engineer-backend/,,Grab,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Lead Software Engineer, Mobile (Android)",Grab,,,https://grab.careers/en/jobs/744000139934899/lead-software-engineer-mobile-android/,,Grab,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Software Engineer, Backend",Grab,,,https://grab.careers/en/jobs/744000139915349/software-engineer-backend/,,Grab,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-AI Full Stack Developer - SAP Labs East Asia Singapore,SAP,,,https://jobs.sap.com/job/Singapore-AI-Full-Stack-Developer-SAP-Labs-East-Asia-Singapore-117440/1289714001/,,SAP,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+"DevOps Engineer for Business Technology Platform, Site Reliability Engineering team",SAP,,,https://jobs.sap.com/job/Budapest-DevOps-Engineer-for-Business-Technology-Platform%2C-Site-Reliability-Engineering-team-1031/1399232833/,,SAP,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Platform Engineering Expert - SAP's Big Data Fabric Services (BDFS),SAP,,,https://jobs.sap.com/job/S%C3%A3o-Leopoldo-Platform-Engineering-Expert-SAP&apos;s-Big-Data-Fabric-Services-%28BDFS%29-93022-718/1409997433/,,SAP,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Sr Software Engineer - Access Review- Veza,ServiceNow,,,https://careers.servicenow.com/jobs/744000140342215/sr-software-engineer-access-review-veza/,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Filter jobsSearchCorporate Development & StrategyCustomer Excellence Geo HQCustomer Excellence HQCustomer OutcomesCustomer Service and SupportDigital SalesDigital TechnologyEngineering, Infrastructure and OperationsFinance & AccountingHuman ResourcesMarketing, Communications, and BrandProductSalesSupport and Product SuccessUser Experience DesignDepartmentEarly CareerProfessionalJob Posting TypeAustraliaAustriaCanadaCosta RicaDenmarkFinlandFranceGermanyHong Kong SarIndiaIrelandIsraelItalyJapanKoreaMalaysiaNetherlandsNorwayPolandSaudi ArabiaSingaporeSouth AfricaSpainSwedenSwitzerlandUnited KingdomUnited StatesCountryArizonaArkansasCaliforniaCanadaColoradoConnecticutDistrict Of ColumbiaFloridaGeorgiaGreater LondonHaryanaHerediaIllinoisIllionoisKarnatakaMaharashtraMarylandMassachusettsMichiganMinnesotaNew HampshireNew South WalesNew YorkNorth CarolinaOhioOklahomaOntarioParisPennsylvaniaQuebecSingaporeTelanganaTexasTokyoVictoriaVirginiaWashingtonWisconsinStateAddisonAlbanyAlbertaAmsterdamAtlantaAustinBangaloreBentonvilleBostonBridgeportCauseway BayCharlotteChicagoChiyoda CityColumbusDallasDeerfieldDenverDetroitDistrict Of ColumbiaDublinDüsseldorfFort MeadeFrankfurtGurgaonHelsinkiHoustonHyderabadIssy Les MoulineauxJohannesburgKirklandKuala LumpurLondonMadisonMadridManchesterMelbourneMilanMinneapolisMontrealMountain ViewMumbaiMunichNew YorkNew York CityOklahoma CityOrlandoOsakaOsloOttowaPetah TikvaPhiladelphiaPhoenixRaleighRiyadhSacramentoSan DiegoSan FranciscoSan Francisco De HerediaSandy SpringsSanta ClaraSeoulSingaporeSoborgStainesStockholmSydneyTampa BayTokyoTorontoViennaWarsawWashington, D.C.West Palm BeachWienZurichCityRemote workApply Filters",ServiceNow,,,https://careers.servicenow.com/careers/jobs,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Software Developer - SAP Concur Spend (Quality Engineer),SAP_Concur,,,https://jobs.sap.com/job/S%C3%A3o-Leopoldo-Software-Developer-SAP-Concur-Spend-%28Quality-Engineer%29-93022-718/1398393033/,,SAP_Concur,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
@@ -675,7 +701,7 @@ All locationsIndiaPoland (Remote)Puerto RicoUnited States (Relocate)United State
 Backend Software Engineer,DealHub.io,,,https://dealhub.io/careers/8D.46A/backend-software-engineer/,,DealHub.io,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Java Software Engineer,DealHub.io,,,https://dealhub.io/careers/D2.A48/java-software-engineer/,,DealHub.io,,0,None,Unknown,,,,1.2,Yes,No,,,,Not Applied,
 "Backend Software EngineerR&DBangalure, India",DealHub.io,"Bangalure, India",,https://dealhub.io/careers/#,,DealHub.io,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-NootCode,Seekistry,Remote,,https://remoteOK.com/remote-jobs/remote-nootcode-seekistry-1135540,,RemoteOK,Software Engineering is more than algorithm quizzes! Practice non-algorithmic skills just like LeetCode!<br/><br/>Please mention the word **TIMELY** and tag RNTIuMTkwLjE0MS40MA== when applying to show you read the job post completely (#RNTIuMTkwLjE0MS40MA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+NootCode,Seekistry,Remote,,https://remoteOK.com/remote-jobs/remote-nootcode-seekistry-1135540,,RemoteOK,Software Engineering is more than algorithm quizzes! Practice non-algorithmic skills just like LeetCode!<br/><br/>Please mention the word **TIMELY** and tag RMTMuODMuMTYyLjY= when applying to show you read the job post completely (#RMTMuODMuMTYyLjY=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Android Developer,Bjak,Remote,,https://remoteOK.com/remote-jobs/remote-android-developer-bjak-1135486,,RemoteOK,"<h2><strong>About BJAK</strong></h2><p style=""min-height:1.5em"">The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name.<br /><br />Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia.<br /><br />Today, we are expanding ways to help people in the region â this include...",0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Software Developer Intermediate,Smile Digital Health,Remote,,https://remoteOK.com/remote-jobs/remote-software-developer-intermediate-smile-digital-health-1135459,,RemoteOK,<br/><br/>Please mention the word **AFFABLE** and tag RNTIuMTkwLjE0MS40MA== when applying to show you read the job post completely (#RNTIuMTkwLjE0MS40MA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Software Developer Intermediate,Smile Digital Health,Remote,,https://remoteOK.com/remote-jobs/remote-software-developer-intermediate-smile-digital-health-1135459,,RemoteOK,<br/><br/>Please mention the word **AFFABLE** and tag RMTMuODMuMTYyLjY= when applying to show you read the job post completely (#RMTMuODMuMTYyLjY=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Expertise Path and Manager Path,nidup,Remote,,https://remoteOK.com/remote-jobs/remote-expertise-path-and-manager-path-nidup-1135495,,RemoteOK,"30+ Engineering Career Ladders<br><br>Before jumping into the list, let's quickly discuss software engineering career ladders. We can extract common traits from those career ladders; understanding those characteristics allows us to connect the dots more easily and compare different career ladders efficiently.<br><br>What Is a Career Ladder?<br><br>A career ladder, or career path, is a progression framework. It allows an organization to describe the different job levels and the expectations for a...",0,None,Unknown,,,,1.2,Yes,No,,,,Not Applied,
