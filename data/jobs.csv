@@ -1,5 +1,32 @@
 Job Title,Company,Location,Experience Required,Job URL,Posted Date,Source,Description,Priority Score,Days Since Posted,Freshness,Salary,Deadline,Days Until Deadline,Skills Match %,Ready to Apply,Applied,Applied Date,Application Method,Application Error,Status,Notes
-Software Engineer III,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=3e09234960611d78,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
+Software Engineer III,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=3e09234960611d78,,Indeed,,,,,,,,,Yes,No,,Selenium,"Message: timeout: Timed out receiving message from renderer: 39.895
+  (Session info: chrome=151.0.7922.137)
+Stacktrace:
+#0 0x56406f8bc36a <unknown>
+#1 0x56406f22ff49 <unknown>
+#2 0x56406f21799b <unknown>
+#3 0x56406f217616 <unknown>
+#4 0x56406f2151fe <unknown>
+#5 0x56406f215b7f <unknown>
+#6 0x56406f224cf0 <unknown>
+#7 0x56406f23ecb7 <unknown>
+#8 0x56406f24668b <unknown>
+#9 0x56406f2162d9 <unknown>
+#10 0x56406f23ea12 <unknown>
+#11 0x56406f2ce416 <unknown>
+#12 0x56406f278c92 <unknown>
+#13 0x56406f279b11 <unknown>
+#14 0x56406f8818d0 <unknown>
+#15 0x56406f87ff3a <unknown>
+#16 0x56406f86a9b5 <unknown>
+#17 0x56406f880c0a <unknown>
+#18 0x56406f852740 <unknown>
+#19 0x56406f8a79a8 <unknown>
+#20 0x56406f8a7b45 <unknown>
+#21 0x56406f8baf1e <unknown>
+#22 0x7fe28789cb84 <unknown>
+#23 0x7fe287929d6c <unknown>
+",Failed,
 Software Engineer II,IndeedRemote,IndeedRemote,,https://in.indeed.com/viewjob?jk=551c356360f7dd11,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 "Software Development Engineer 2, Finance Automation","ADCI - MaharashtraPune, Maharashtra","ADCI - MaharashtraPune, Maharashtra",,https://in.indeed.com/viewjob?jk=1f2d838e3dad1f69,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
 Software Engineer lll,Dynatron SoftwareRemote,Dynatron SoftwareRemote,,https://in.indeed.com/viewjob?jk=33f445667f17b1b0,,Indeed,,,,,,,,,Yes,No,,Selenium,Login required,Needs Manual Check,
@@ -534,61 +561,12 @@ Senior Independent Software Developer,A.Team,"Americas, Europe, Israel",,https:/
 Senior Independent AI Engineer / Architect,A.Team,"Americas, Europe, Israel",,https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266,2026-01-16T10:16:03,Remotive,"<p class=""my-2 [&amp;+p]:mt-4 [&amp;_strong:has(+br)]:inline-block [&amp;_strong:has(+br)]:pb-2"" style=""border-color: oklch(0.3039 0.04 213.68 / 0.16); scrollbar-color: initial; scrollbar-width: initial; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(...",,,,,,,,,No,,,,Not Applied,
 "Senior Software Engineer, Global Contractor",Jump,Worldwide,,https://remotive.com/remote-jobs/software-development/senior-software-engineer-global-contractor-2088534,2026-01-13T09:27:49,Remotive,"<p style=""line-height: 24px; margin-top: 8px; padding: 0px; color: #373e4d; min-height: 1.5em;""><span style=""font-weight: 600;"">Who are we?</span></p>
 <p style=""line-height: 24px; margin-top: 8px; padding: 0px; color: #373e4d; min-height: 1.5em;"">Hey there! We are <a href=""http://jumpapp.com/"" rel=""nofollow"" style=""touch-action: manipulation; color: #00b56a;"" target=""_blank"">Jumpapp.com</a>, AI for Financial Advisors. Jump’s mission is to empower financial advisors, firms, and clients to thrive ...",,,,,,,,,No,,,,Not Applied,
+Principal Software Development Engineer — Platform & Infrastructure,Expedia,,,https://careers.expediagroup.com/job/principal-software-development-engineer-platform-amp-infrastructure/san-jose-ca/R-98122/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+"Senior Software Development Engineer, Loyalty - Full Stack",Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer-loyalty-full-stack/san-jose-ca/R-103344/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Principal Software Development Engineer - Cloud Platform,Expedia,,,https://careers.expediagroup.com/job/principal-software-development-engineer-cloud-platform/san-jose-ca/R-102791/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Senior Software Development Engineer - Agentic AI Experience,Expedia,,,https://careers.expediagroup.com/job/senior-software-development-engineer-agentic-ai-experience/austin-tx/R-106654/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Principal Software Development Engineer,Expedia,,,https://careers.expediagroup.com/job/principal-software-development-engineer/austin-tx/R-101767/,,Expedia,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "(Contract) Senior Data Scientist, Platform Inference – MarTech DS Measurement",Airbnb,,,https://careers.airbnb.com/positions/7732569/,,Airbnb,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Analytics Engineer, GFCO Analytics",Coinbase,,,https://www.coinbase.com/careers/positions/8024880,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Senior Analytics Engineer (Platform - Financial Analytics),Coinbase,,,https://www.coinbase.com/careers/positions/7736521,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Senior Data Scientist,Coinbase,,,https://www.coinbase.com/careers/positions/8147917,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Data Scientist, CX Analytics",Coinbase,,,https://www.coinbase.com/careers/positions/8009392,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Staff Analytics Engineer, Compliance Data",Coinbase,,,https://www.coinbase.com/careers/positions/8104148,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Staff Applied Data Scientist, Pricing",Coinbase,,,https://www.coinbase.com/careers/positions/8083051,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, Blockchain Platform Nodes",Coinbase,,,https://www.coinbase.com/careers/positions/8105437,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, CDP - Money Movement",Coinbase,,,https://www.coinbase.com/careers/positions/8013129,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, Consumer",Coinbase,,,https://www.coinbase.com/careers/positions/8067033,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, Simple Trade Experience",Coinbase,,,https://www.coinbase.com/careers/positions/8103569,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Staff Software Engineer, Data Platform",Coinbase,,,https://www.coinbase.com/careers/positions/7711287,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Staff Data Engineer, Market Data",Coinbase,,,https://www.coinbase.com/careers/positions/8144836,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Staff Software Engineer, Solana Staking Protocol",Coinbase,,,https://www.coinbase.com/careers/positions/7684298,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Senior Software Engineer - Blockchain Network,Coinbase,,,https://www.coinbase.com/careers/positions/7967649,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Senior Software Engineer - Trading,Coinbase,,,https://www.coinbase.com/careers/positions/7866674,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Senior Software Engineer (Platform - Access & Authorization),Coinbase,,,https://www.coinbase.com/careers/positions/8146039,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, Backend - Platform (Core AI Automation)",Coinbase,,,https://www.coinbase.com/careers/positions/8051871,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, Backend - Platform (Tokens & Wrapped Assets)",Coinbase,,,https://www.coinbase.com/careers/positions/8095252,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, Backend (Consumer - Growth Foundations)",Coinbase,,,https://www.coinbase.com/careers/positions/8092651,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, Backend (Consumer - Risk)",Coinbase,,,https://www.coinbase.com/careers/positions/7930686,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, Data Engineering Platform",Coinbase,,,https://www.coinbase.com/careers/positions/8082199,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, Data Layer",Coinbase,,,https://www.coinbase.com/careers/positions/8064873,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, Stablecoins",Coinbase,,,https://www.coinbase.com/careers/positions/8104873,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Senior Staff Software Engineer - Blockchain Platform,Coinbase,,,https://www.coinbase.com/careers/positions/7366208,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Staff Software Engineer, Payments",Coinbase,,,https://www.coinbase.com/careers/positions/8056068,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Staff Software Engineer, Payments",Coinbase,,,https://www.coinbase.com/careers/positions/8060842,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Software Engineer, CDP - Stablecoin",Coinbase,,,https://www.coinbase.com/careers/positions/8092485,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Software Engineer, Enterprise Apps",Coinbase,,,https://www.coinbase.com/careers/positions/8024814,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Staff Software Engineer (Platform - Access & Authorization),Coinbase,,,https://www.coinbase.com/careers/positions/8114877,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Staff Software Engineer (Platform - Identity IDV),Coinbase,,,https://www.coinbase.com/careers/positions/7773776,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Staff Software Engineer, Backend - FinHub (Ledger)",Coinbase,,,https://www.coinbase.com/careers/positions/8064916,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Staff Software Engineer, Backend - Platform (Core AI Automation)",Coinbase,,,https://www.coinbase.com/careers/positions/8154983,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Staff Software Engineer, Backend (Consumer - Prediction Markets)",Coinbase,,,https://www.coinbase.com/careers/positions/7997840,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Senior Software Engineer - Frontend - Coinbase Card team,Coinbase,,,https://www.coinbase.com/careers/positions/8088201,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, Frontend (Consumer - Payments)",Coinbase,,,https://www.coinbase.com/careers/positions/8029035,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Software Engineer, Frontend (Coinbase Advisor - Agentic Trading)",Coinbase,,,https://www.coinbase.com/careers/positions/8070574,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Staff Software Engineer, Frontend (Consumer - Advanced Trading)",Coinbase,,,https://www.coinbase.com/careers/positions/7629141,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, Compute Platform",Coinbase,,,https://www.coinbase.com/careers/positions/7701645,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, Core Reliability",Coinbase,,,https://www.coinbase.com/careers/positions/8097944,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Staff Software Engineer, Developer Infrastructure",Coinbase,,,https://www.coinbase.com/careers/positions/7964410,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Senior Software Engineer,Coinbase,,,https://www.coinbase.com/careers/positions/8021647,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Staff Software Engineer,Coinbase,,,https://www.coinbase.com/careers/positions/8021650,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Senior Machine Learning Engineer,Coinbase,,,https://www.coinbase.com/careers/positions/7739592,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Senior Software Engineer,Coinbase,,,https://www.coinbase.com/careers/positions/7961318,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Software Engineer,Coinbase,,,https://www.coinbase.com/careers/positions/8003605,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Software Engineer, EAA",Coinbase,,,https://www.coinbase.com/careers/positions/8100066,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Staff Software Engineer, Customer Administration",Coinbase,,,https://www.coinbase.com/careers/positions/8054153,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Staff Software Engineer, EAA CX",Coinbase,,,https://www.coinbase.com/careers/positions/6784618,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Software Engineer, Core AI Infrastructure",Coinbase,,,https://www.coinbase.com/careers/positions/7847431,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Staff Software Engineer, Core AI Infrastructure",Coinbase,,,https://www.coinbase.com/careers/positions/7991691,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Machine Learning Engineer,Coinbase,,,https://www.coinbase.com/careers/positions/7985187,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Machine Learning Engineer, CX Intelligence",Coinbase,,,https://www.coinbase.com/careers/positions/8031260,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-"Senior Machine Learning Engineer, CX Intelligence",Coinbase,,,https://www.coinbase.com/careers/positions/8008569,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Staff Machine Learning Engineer(Platform - Identity),Coinbase,,,https://www.coinbase.com/careers/positions/7891045,,Coinbase,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Head of Merch ProgramsRemote - Americas,Shopify,Remote - Americas,,https://www.shopify.com/careers/head-of-merch-programs_11a67059-84b1-406e-a5b9-11e509f3d52c,,Shopify,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Senior Financial Analyst - Multiple RolesRemote - Americas,Shopify,Remote - Americas,,https://www.shopify.com/careers/senior-financial-analyst-multiple-roles_40ef1cb0-5c56-4963-84fe-946708e5d74a,,Shopify,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Treasury Manager, PaymentsRemote - Americas",Shopify,Remote - Americas,,https://www.shopify.com/careers/treasury-manager-payments_b83d465d-45d0-444c-99a6-419de5a8b944,,Shopify,,25,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
@@ -601,14 +579,11 @@ Senior Data Scientist (GrabFin),Grab,,,https://grab.careers/en/jobs/744000145671
 "Senior Software Engineer, Backend",Grab,,,https://grab.careers/en/jobs/744000145437580/senior-software-engineer-backend/,,Grab,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Lead Software Engineer, Backend",Grab,,,https://grab.careers/en/jobs/744000145413959/lead-software-engineer-backend/,,Grab,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Senior Software Engineer, Fullstack",Grab,,,https://grab.careers/jobs#content,,Grab,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-SDET/Automation Test Lead,Cognizant,,,https://careers.cognizant.com/us-en/jobs/00070116391/sdetautomation-test-lead/,,Cognizant,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 AI Full Stack Developer - SAP Labs East Asia Singapore,SAP,,,https://jobs.sap.com/job/Singapore-AI-Full-Stack-Developer-SAP-Labs-East-Asia-Singapore-117440/1289714001/,,SAP,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Machine Learning Engineer Expert,SAP,,,https://jobs.sap.com/job/Bangalore-Machine-Learning-Engineer-Expert-560066/1430038033/,,SAP,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Staff Data Engineer,ServiceNow,,,https://careers.servicenow.com/jobs/744000145702469/staff-data-engineer/,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Senior Machine Learning Engineer,ServiceNow,,,https://careers.servicenow.com/jobs/744000145590319/senior-machine-learning-engineer/,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Senior Software Engineer, Core Infrastructure - Moveworks",ServiceNow,,,https://careers.servicenow.com/jobs/744000145579989/senior-software-engineer-core-infrastructure-moveworks/,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Staff Data Engineer,ServiceNow,,,https://careers.servicenow.com/careers/jobs#content,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
-Staff Data Engineer,ServiceNow,,,https://careers.servicenow.com/jobs/#results,,ServiceNow,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Software Developer - SAP Concur Spend (Quality Engineer),SAP_Concur,,,https://jobs.sap.com/job/S%C3%A3o-Leopoldo-Software-Developer-SAP-Concur-Spend-%28Quality-Engineer%29-93022-718/1398393033/,,SAP_Concur,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Senior Android Developer - SAP Concur,SAP_Concur,,,https://jobs.sap.com/job/S%C3%A3o-Leopoldo-Senior-Android-Developer-SAP-Concur-93022-718/1421367933/,,SAP_Concur,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 "Staff Software Engineer, Riot Client - Publishing PlatformSoftware Engineering GroupRiot Operations & SupportLos Angeles, USA",Riot_Games,,,https://www.riotgames.com/en/j/7844349,,Riot_Games,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
@@ -662,5 +637,5 @@ Full Stack Engineers,Uplers,,,https://www.uplers.com/hire-full-stack-developers/
 All locationsIndiaPoland (Remote)Puerto RicoUnited States (Relocate)United States (Remote)All locationsIndiaPoland (Remote)Puerto RicoUnited States (Relocate)United States (Remote)All departmentsBrand & Visual DesignBusiness DevelopmentBusiness IntelligenceBusiness OperationsContent & WritingCorporate CommunicationsCustomer SupportData Engineering & AnalyticsEngineering & DevelopmentFinance & LegalGeneral and Administrative (G&A)Information TechnologiesLocalizationMarketingPeople & CultureProductProduct DesignProduct TechnologyQuality AssuranceUniversityUser ResearchAll DepartmentsBrand & Visual DesignBusiness DevelopmentBusiness IntelligenceBusiness OperationsContent & WritingCorporate CommunicationsCustomer SupportData Engineering & AnalyticsEngineering & DevelopmentFinance & LegalGeneral and Administrative (G&A)Information TechnologiesLocalizationMarketingPeople & CultureProductProduct DesignProduct TechnologyQuality AssuranceUniversityUser ResearchSearch,Bold,Puerto Rico,,https://www.bold.com/bold-jobs/,,Bold,,0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 Java Software Engineer,DealHub.io,,,https://dealhub.io/careers/D2.A48/java-software-engineer/,,DealHub.io,,0,None,Unknown,,,,1.2,Yes,No,,,,Not Applied,
 "Java Software EngineerR&DHolon, Israel",DealHub.io,"Holon, Israel",,https://dealhub.io/careers/#,,DealHub.io,,0,None,Unknown,,,,1.2,Yes,No,,,,Not Applied,
-Senior Backend Engineer Build AI Agents,Salesforge,Remote,,https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114,,RemoteOK,"Remote - Most sales tools help you send emails. Weâre building something different.At Salesforge, weâre creating autonomous AI agents that can:Find the right prospectsGenerate highly personalized outreachRun conversationsAnd book meetingsAll without human invo...<br/><br/>Please mention the word **EMPATHY** and tag RNjQuMjM2LjE0MS4xODE= when applying to show you read the job post completely (#RNjQuMjM2LjE0MS4xODE=). This is a beta feature to avoid spam applicants. Companies can search these ...",0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
+Senior Backend Engineer Build AI Agents,Salesforge,Remote,,https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114,,RemoteOK,"Remote - Most sales tools help you send emails. Weâre building something different.At Salesforge, weâre creating autonomous AI agents that can:Find the right prospectsGenerate highly personalized outreachRun conversationsAnd book meetingsAll without human invo...<br/><br/>Please mention the word **EMPATHY** and tag RMjAuMTcxLjEyNy45Ng== when applying to show you read the job post completely (#RMjAuMTcxLjEyNy45Ng==). This is a beta feature to avoid spam applicants. Companies can search these ...",0,None,Unknown,,,,0.0,Yes,No,,,,Not Applied,
 DESARROLLADOR FULL STACK,Kruger NearShore LLC - Rekluti,Remote,,https://remoteOK.com/remote-jobs/remote-desarrollador-full-stack-kruger-nearshore-llc-rekluti-1137062,,RemoteOK,"<h3>Desarrollador/a Full Stack â Python / Angular / Go</h3><p class=""isSelectedEnd"">En <strong>Rekluti</strong>, consultora especializada en talento tecnolÃ³gico en LATAM, buscamos un/a <strong>Desarrollador/a Full Stack</strong> para integrarse a proyectos de alta complejidad y participar en el desarrollo de soluciones web escalables.</p><p class=""isSelectedEnd"">Buscamos un perfil con sÃ³lida experiencia en <strong>Python, Angular y Go</strong>, capaz de desenvolverse de manera autÃ³noma, apo...",0,None,Unknown,,,,4.8,Yes,No,,,,Not Applied,
